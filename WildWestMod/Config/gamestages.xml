@@ -1,0 +1,237 @@
+<wildwestmod>
+
+	<!-- A little customised but original by JaxTeller718 from JaxTeller718-BiggerWanderingHordes - https://ravenhearst.enjin.com/ -->
+	<!-- +10 for zombies entity hordes and +1 for animals -->
+	
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='01']/spawn[@group='wanderingHordeStageGS1' 	and @num='05']/@num">15</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='02']/spawn[@group='wanderingHordeStageGS2' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='03']/spawn[@group='FwanderingHordeStageGS1' 	and @num='04']/@num">05</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='04']/spawn[@group='FwanderingHordeStageGS1' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='05']/spawn[@group='FwanderingHordeStageGS1' 	and @num='04']/@num">14</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='06']/spawn[@group='FwanderingHordeStageGS2' 	and @num='07']/@num">17</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='07']/spawn[@group='FwanderingHordeStageGS4' 	and @num='08']/@num">18</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn[@group='wanderingHordeStageGS8' 	and @num='05']/@num">15</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='09']/spawn[@group='wanderingHordeStageGS8' 	and @num='06']/@num">16</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='10']/spawn[@group='wanderingHordeStageGS11' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='11']/spawn[@group='wanderingHordeStageGS14' 	and @num='06']/@num">16</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='12']/spawn[@group='wanderingHordeStageGS14' 	and	@num='03']/@num">13</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='13']/spawn[@group='FwanderingHordeStageGS7' 	and @num='07']/@num">17</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='14']/spawn[@group='FwanderingHordeStageGS10' 	and @num='06']/@num">16</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='15']/spawn[@group='ZombieBikerBarGroup' 		and @num='08']/@num">18</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='16']/spawn[@group='FwanderingHordeStageGS13' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='17']/spawn[@group='wanderingHordeStageGS18' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='18']/spawn[@group='wanderingHordeStageGS22' 	and @num='07']/@num">17</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='19']/spawn[@group='wanderingHordeStageGS27' 	and @num='08']/@num">18</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='20']/spawn[@group='ZombieDogGroup' 			and @num='06']/@num">07</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='21']/spawn[@group='FwanderingHordeStageGS16' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='22']/spawn[@group='FwanderingHordeStageGS19' 	and @num='08']/@num">18</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='23']/spawn[@group='FwanderingHordeStageGS23' 	and @num='07']/@num">17</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='24']/spawn[@group='ZombieGhostTownGroup' 		and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='25']/spawn[@group='wanderingHordeStageGS31' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='26']/spawn[@group='wanderingHordeStageGS36' 	and @num='07']/@num">17</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='27']/spawn[@group='VultureGroup' 				and @num='06']/@num">07</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='28']/spawn[@group='wanderingHordeStageGS41' 	and @num='09']/@num">19</set>
+	<!-- Mutant Rats Below for 29 -->
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='30']/spawn[@group='FwanderingHordeStageGS31' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='31']/spawn[@group='FwanderingHordeStageGS35' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='32']/spawn[@group='wanderingHordeStageGS46' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='33']/spawn[@group='wanderingHordeStageGS52' 	and @num='06']/@num">16</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn[@group='ZombieDogGroup' 			and @num='07']/@num">08</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='35']/spawn[@group='wanderingHordeStageGS58' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='36']/spawn[@group='wanderingHordeStageGS64' 	and @num='08']/@num">18</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='37']/spawn[@group='FwanderingHordeStageGS40' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='38']/spawn[@group='ZombieAnimalsGroup' 		and @num='05']/@num">06</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='39']/spawn[@group='FwanderingHordeStageGS44' 	and @num='05']/@num">15</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='40']/spawn[@group='FwanderingHordeStageGS49' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn[@group='WolfPack' 					and @num='05']/@num">06</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='42']/spawn[@group='wanderingHordeStageGS70' 	and @num='11']/@num">21</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='43']/spawn[@group='wanderingHordeStageGS76' 	and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='44']/spawn[@group='ZombieSoldierGroup' 		and @num='09']/@num">19</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='45']/spawn[@group='wanderingHordeStageGS82' 	and @num='10']/@num">20</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='46']/spawn[@group='FwanderingHordeStageGS54' 	and @num='11']/@num">21</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='47']/spawn[@group='VultureGroup' 				and @num='08']/@num">09</set>
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='48']/spawn[@group='FwanderingHordeStageGS59' 	and @num='10']/@num">20</set>
+	<!-- Mutant Rats Below for 49 -->
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']/spawn[@group='ZombieBearsGroup' 			and @num='02']/@num">03</set>
+
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='29']"/>
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']"/>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[28]">
+		<gamestage stage="29">
+			<spawn group="zombieTheRatGroup" num="17" maxAlive="30" duration="09"/>
+		</gamestage>
+	</insertAfter>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[48]">
+		<gamestage stage="49">
+			<spawn group="zombieTheRatGroup" num="18" maxAlive="30" duration="09"/>
+		</gamestage>
+	</insertAfter>
+
+	<append xpath="/gamestages">
+	
+	<!-- GROUPS -->
+	
+	<!-- Boss Group -->
+	<group name="Boss_Family" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="BossVariants" count="5,6" />
+	</group>
+	
+	<!-- Crater Bear although also added as a block type sleeper --> 
+	<group name="animalZombieWastelandCraterBear" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="animalZombieWastelandCraterBear" count="1"/>
+	</group>
+	
+	<!-- Guppy Vulture Group with Rats and Bats for complete Family -->
+	<group name="Crispy_Family" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="CripsyVariants" count="5,6" />
+	</group>
+	
+	<!-- Bat Swarm -->
+	<group name="Bat_Swarm" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="BatVariants" count="5,6" />
+	</group>
+	
+	<!-- Rat Pack -->
+	<group name="Rat_Pack" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="RatVariants" count="5,6" />
+	</group>
+	
+	<!-- Scorpion Nest -->
+	<group name="Scorpion_Nest" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="ScorpionVariants" count="5,6" />
+	</group>
+
+	<!-- Snow Bear Sleeper Group -->
+	<group name="animalWildWestSnowBear" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="animalWildWestSnowBear" count="1"/>
+	</group>
+	
+	<!-- SPAWNERS -->
+	
+	<!-- Boss Group with gradual feed from hard to deadly -->
+	<spawner name="BossVariants">
+		<gamestage stage="1">
+			<spawn group="BossVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="BossVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="BossVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="BossVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="BossVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="BossVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+
+	<!-- Crater Bear Spawner -->	
+	<spawner name="animalZombieWastelandCraterBear">
+		<gamestage stage="1">
+			<spawn group="animalZombieWastelandCraterBear" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+	
+	<!-- Guppy Vulture Group with Rats and Bats for complete GS attribute for the Family -->
+	<spawner name="CripsyVariants">
+		<gamestage stage="1">
+			<spawn group="CripsyVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="CripsyVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="CripsyVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="CripsyVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="CripsyVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="CripsyVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Bat Swarm for complete GS attribute -->
+	<spawner name="BatVariants">
+		<gamestage stage="1">
+			<spawn group="BatVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="BatVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="BatVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="BatVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="BatVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="BatVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Rat Pack for complete GS attribute -->
+	<spawner name="RatVariants">
+		<gamestage stage="1">
+			<spawn group="RatVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="RatVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="RatVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="RatVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="RatVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="RatVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Scorpion Nest for complete GS attribute -->
+	<spawner name="ScorpionVariants">
+		<gamestage stage="1">
+			<spawn group="ScorpionVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ScorpionVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ScorpionVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ScorpionVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ScorpionVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ScorpionVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Snow Bear Spawner -->	
+	<spawner name="animalWildWestSnowBear">
+		<gamestage stage="1">
+			<spawn group="animalWildWestSnowBear" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+	
+	</append>
+
+</wildwestmod>
