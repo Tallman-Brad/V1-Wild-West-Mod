@@ -1,10 +1,5 @@
 <wildwestmod>
 
-<set xpath="//@buy_markup">3</set>
-<set xpath="//@sell_markdown">0.2</set>
-<set xpath="//@quality_mod">0.4,8</set>
-<set xpath="//@currency_item">casinoCoin</set>
-<set xpath="//@quest_tier_mod">0,0.05,0.1,0.15,0.2,0.25,0.3</set>
 
 <set xpath="/traders">
 
@@ -28,62 +23,168 @@
 <!-- *** Trader_Stage_Templates -->
 	<!-- traderstage_template: Sets the min and/or max trader stage using the template that is assigned to each item/block in items.xml/blocks.xml -->
 	<traderstage_templates>
+	
+		<traderstage_template name="baseTier0"> <!-- Stone Tools|Pipe Weapons|Utility Tools -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="1" max="10" quality="2"/>
+			<entry min="5" max="15" quality="3"/>
+			<entry min="10" max="20" quality="4"/>
+			<entry min="15" max="20" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="baseTier1"> <!-- Iron Tools|T1 Weapons|T1 Explosives -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="15" max="40" quality="1"/>
+			<entry min="30" max="50" quality="2"/>
+			<entry min="40" max="60" quality="3"/>
+			<entry min="50" max="70" quality="4"/>
+			<entry min="60" max="70" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="baseTier2"> <!-- Steel Tools|T2 Weapons|T2 Explosives -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="50" max="999999" quality="1"/>
+			<entry min="50" max="999999" quality="2"/>
+			<entry min="50" max="999999" quality="3"/>
+			<entry min="50" max="999999" quality="4"/>
+			<entry min="50" max="999999" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="baseTier3"> <!-- Mech Tools|T3 Weapons -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="100" max="999999" quality="1"/>
+			<entry min="100" max="999999" quality="2"/>
+			<entry min="100" max="999999" quality="3"/>
+			<entry min="100" max="999999" quality="4"/>
+			<entry min="100" max="999999" quality="5"/>
+		</traderstage_template>
 
-		<traderstage_template name="baseTier0" min="1" max="20" /> <!-- Tools/Weapons -->
-		<traderstage_template name="baseTier1" min="15" max="40" /> <!-- Tools/Weapons -->
-		<traderstage_template name="baseTier2" min="50" max="999999" /> <!-- Tools/Weapons -->
-		<traderstage_template name="baseTier3" min="100" max="999999" /> <!-- Tools/Weapons -->
-		
 		<!-- Custom 10,20,30-->
-		<traderstage_template name="midTier0" min="10" max="999999" /> <!-- Mining Helmet,Forge -->
-		<traderstage_template name="midTier1" min="20" max="999999" /> <!-- Workbench,Mixer -->
-		<traderstage_template name="midTier2" min="30" max="999999" /> <!-- Chem Station -->
-		
-		<!-- 200/3 -->
-		<traderstage_template name="armorTier1" min="1" max="65" /> <!-- Cloth,Scrap -->
-		<traderstage_template name="armorTier2" min="45" max="135" /> <!-- Leather,Iron -->
-		<traderstage_template name="armorTier3" min="115" max="999999" /> <!-- Military,Steel -->
-		
+		<traderstage_template name="midTier0"> <!-- Forge|Dew Gatherer -->
+			<entry min="10" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="midTier1"> <!-- Workbench|Mixer|Concrete Mix|Vending Machine|Dew Tarp -->
+			<entry min="20" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="midTier2"> <!-- Chem Station|Dew Filter -->
+			<entry min="30" max="999999" quality="0"/>
+		</traderstage_template>
+
 		<!-- 100/3 -->
-		<traderstage_template name="ammoTier1" min="1" max="999999" /> <!-- Brass/Buckshot/Darts -->
-		<traderstage_template name="ammoTier2" min="25" max="999999" /> <!-- HP/Slug/HE -->
-		<traderstage_template name="ammoTier3" min="55" max="999999" /> <!-- AP/Breach/Frag -->
-		
+		<traderstage_template name="ammoTier1"> <!-- Brass|Buckshot|Darts -->
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="ammoTier2"> <!-- HP|Slug|HE -->
+			<entry min="25" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="ammoTier3"> <!-- AP|Breach|Frag -->
+			<entry min="55" max="999999" quality="0"/>
+		</traderstage_template>
+
 		<!-- 75/5 -->
-		<traderstage_template name="arrowsTier0" min="1" max="999999" /> <!-- Stone -->
-		<traderstage_template name="arrowsTier1" min="10" max="999999" /> <!-- Iron -->
-		<traderstage_template name="arrowsTier2" min="25" max="999999" /> <!-- Steel -->
-		<traderstage_template name="arrowsTier3" min="40" max="999999" /> <!-- Flaming -->
-		<traderstage_template name="arrowsTier4" min="55" max="999999" /> <!-- Explosive -->
-		
+		<traderstage_template name="arrowsTier0"> <!-- Stone -->
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="arrowsTier1"> <!-- Iron -->
+			<entry min="10" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="arrowsTier2"> <!-- Steel -->
+			<entry min="25" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="arrowsTier3"> <!-- Flaming -->
+			<entry min="40" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="arrowsTier4"> <!-- Explosive -->
+			<entry min="55" max="999999" quality="0"/>
+		</traderstage_template>
+
 		<!-- 75/4 -->
-		<traderstage_template name="bowsTier0" min="1" max="25" /> <!-- Primitive Bow -->
-		<traderstage_template name="bowsTier1" min="15" max="40" /> <!-- Wooden Bow -->
-		<traderstage_template name="bowsTier2" min="35" max="999999" /> <!-- Compound Bow, Iron Crossbow -->
-		<traderstage_template name="bowsTier3" min="50" max="999999" /> <!-- Compound Crossbow -->
-		
+		<traderstage_template name="bowsTier0"> <!-- Primitive Bow -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="1" max="10" quality="2"/>
+			<entry min="5" max="15" quality="3"/>
+			<entry min="10" max="25" quality="4"/>
+			<entry min="15" max="25" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="bowsTier1"> <!-- Wooden Bow -->
+			<entry min="15" max="25" quality="1"/>
+			<entry min="20" max="30" quality="2"/>
+			<entry min="25" max="35" quality="3"/>
+			<entry min="30" max="40" quality="4"/>
+			<entry min="35" max="50" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="bowsTier2"> <!-- Compound Bow, Iron Crossbow -->
+			<entry min="30" max="50" quality="1"/>
+			<entry min="40" max="60" quality="2"/>
+			<entry min="50" max="70" quality="3"/>
+			<entry min="60" max="999999" quality="4"/>
+			<entry min="70" max="999999" quality="5"/>
+		</traderstage_template>
+		<traderstage_template name="bowsTier3"> <!-- Compound Crossbow -->
+			<entry min="50" max="70" quality="1"/>
+			<entry min="60" max="80" quality="2"/>
+			<entry min="70" max="90" quality="3"/>
+			<entry min="80" max="999999" quality="4"/>
+			<entry min="90" max="999999" quality="5"/>
+		</traderstage_template>
+
 		<!-- 100/3 -->
-		<traderstage_template name="modsTier1" min="1" max="999999" />
-		<traderstage_template name="modsTier2" min="25" max="999999" />
-		<traderstage_template name="modsTier3" min="55" max="999999" />
-		
+		<traderstage_template name="modsTier1">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="modsTier2">
+			<entry min="25" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="modsTier3">
+			<entry min="55" max="999999" quality="0"/>
+		</traderstage_template>
+
 		<!-- 100/3 -->
-		<traderstage_template name="electricTier1" min="1" max="999999" />
-		<traderstage_template name="electricTier2" min="25" max="999999" />
-		<traderstage_template name="electricTier3" min="55" max="999999" />
-		
+		<traderstage_template name="electricTier1">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="electricTier2">
+			<entry min="25" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="electricTier3"> <!-- Solar Bank|Solar Cells|Blade Trap|Auto Turret -->
+			<entry min="55" max="999999" quality="0"/>
+			<entry min="45" max="999999" quality="1"/>
+			<entry min="55" max="999999" quality="2"/>
+			<entry min="65" max="999999" quality="3"/>
+			<entry min="75" max="999999" quality="4"/>
+			<entry min="85" max="999999" quality="5"/>
+			<entry min="100" max="999999" quality="5"/>
+		</traderstage_template>
+
 		<!-- 300/6 -->
-		<traderstage_template name="vehicleTier0" min="1" max="50" /> <!-- Bicycle Parts -->
-		<traderstage_template name="vehicleTier1" min="25" max="75" /> <!-- Bicycle Full - Minibike Parts -->
-		<traderstage_template name="vehicleTier2" min="50" max="100" /> <!-- Minibike Full - Motorcycle Parts -->
-		<traderstage_template name="vehicleTier3" min="75" max="999999" /> <!-- Motorcycle Full - 4x4 Parts -->
-		<traderstage_template name="vehicleTier4" min="100" max="999999" /> <!-- 4x4 Full - Gyro Parts -->
-		<traderstage_template name="vehicleTier5" min="150" max="999999" /> <!-- Gyro Full -->
+		<traderstage_template name="vehicleTier0"> <!-- Bicycle Parts -->
+			<entry min="1" max="50" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="vehicleTier1"> <!-- Bicycle Full - Minibike Parts -->
+			<entry min="25" max="75" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="vehicleTier2"> <!-- Minibike Full - Motorcycle Parts -->
+			<entry min="50" max="100" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="vehicleTier3"> <!-- Motorcycle Full - 4x4 Parts -->
+			<entry min="75" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="vehicleTier4"> <!-- 4x4 Full - Gyro Parts -->
+			<entry min="100" max="999999" quality="0"/>
+		</traderstage_template>
+		<traderstage_template name="vehicleTier5"> <!-- Gyro Full -->
+			<entry min="150" max="999999" quality="0"/>
+		</traderstage_template>
+
+		
+		<traderstage_template name="armorTier1"> <!-- All Armor -->
+			<entry min="999999" max="999999" quality="0"/>
+			<entry min="1" max="50" quality="1"/>
+			<entry min="10" max="75" quality="2"/>
+			<entry min="25" max="999999" quality="3"/>
+			<entry min="50" max="999999" quality="4"/>
+			<entry min="75" max="999999" quality="5"/>
+		</traderstage_template>
+
 	</traderstage_templates>
-
-<!-- *** Trader_Item_Groups -->
-
-	<trader_item_groups>
 
 <!-- *** Melee_Weapons -->
 		<trader_item_group name="groupMeleeAll">
@@ -115,44 +216,30 @@
 			<item name="gunHandgunT0PipePistol" quality="3,5"/>
 			<item name="gunShotgunT0PipeShotgun" quality="3,5"/>
 			<item name="gunRifleT0PipeRifle" quality="3,5"/>
-			<!--item name="gunMGT0PipeMachineGun" quality="3,5"/-->
-		<!-- *** Ranged_Weapons_T1 -->
 			<item name="gunBowT1WoodenBow" quality="2,5"/>
 			<item name="gunHandgunT1666Revolver" quality="2,5"/> <!-- Was Pistol -->
 			<item name="gunShotgunT1DoubleBarrel" quality="2,5"/>
 			<item name="gunRifleT1HuntingRifle" quality="2,5"/>
-			<!--item name="gunMGT1AK47" quality="2,5"/-->
-			<!--item name="gunBotT1JunkSledge" quality="2,5"/-->
 		<!-- *** Ranged_Weapons_T2 -->
 			<item name="gunBowT1IronCrossbow" quality="2,5"/>
-			<!--item name="gunBowT3CompoundBow" quality="2,5"/-->
 			<item name="gunHandgunT2RavenRevolver" quality="2,5"/> <!-- Was Magnum -->
 			<item name="gunShotgunT2PumpShotgun" quality="2,5"/>
 			<item name="gunRifleT2LeverActionRifle" quality="2,5"/>
 			<item name="gunRifleT2LeverActionRifleWinchester" quality="2,5"/> <!-- Wild West Mod -->
-			<!--item name="gunMGT2TacticalAR" quality="2,5"/-->
 			<item name="gunBotT2JunkTurretWildWest" quality="2,5"/> <!-- Was Junk Turret -->
 		<!-- *** Ranged_Weapons_T3 -->
-			<!--item name="gunBowT3CompoundCrossbow" quality="2,5"/-->
-			<!--item name="gunHandgunT3SMG5" quality="2,5"/-->
-			<!--item name="gunMGT3M60" quality="2,5"/-->
 			<item name="gunHandgunT2RavenRevolver" quality="3,6"/> <!-- Was Magnum at 2/5 max -->
 			<item name="gunHandgunT3SchofieldRevolver" quality="3,6"/> <!-- Was Desert Vulture at 2/5 max -->
 			<item name="gunShotgunT2PumpShotgun" quality="3,6"/> <!-- Was Auto Shotgun at 2/5 max -->
 			<item name="gunRifleT2LeverActionRifleLegendaryTribeWinchester" quality="3,6"/> <!-- Was Sniper at 2/5 max -->
-			<!--item name="gunExplosivesT3RocketLauncher" quality="2,5"/-->
 			<item name="gunBotT2JunkTurretWildWest" quality="3,6"/> <!-- Was Junk Drone at 2/5 max -->
 		</trader_item_group>
 		
 		<!-- *** Weapon_Parts -->
 		<trader_item_group name="weaponsGunParts">
-			<!--item name="gunHandgunT1PistolParts" count="1,5"/-->
 			<item name="gunShotgunT1DoubleBarrelParts" count="1,5"/>
-			<!--item name="gunMGT1AK47Parts" count="1,5"/-->
 			<item name="gunRifleT1HuntingRifleParts" count="1,5"/>
 			<item name="gunBowT1WoodenBowParts" count="1,5"/>
-			<!--item name="gunBotRoboticsParts" count="1,5"/-->
-			<!--item name="gunExplosivesT3RocketLauncherParts" count="1,5"/-->
 		</trader_item_group>
 
 <!-- *** Ammo -->
@@ -177,8 +264,6 @@
 			<item name="ammo762mmBulletAP" count="20,100"/>
 			<item name="ammo44MagnumBulletAP" count="15,60" prob="0.5"/>
 			<item name="ammoShotgunSlug" count="6,25" prob="0.2"/>
-			<!--item name="ammoRocketHE" count="1,4"/-->
-			<!--item name="ammoRocketFrag" count="1,4"/-->
 			<item name="ammoArrowSteelAP" count="20,60"/>
 			<item name="ammoArrowExploding" count="20,60"/>
 			<item name="ammoCrossbowBoltSteelAP" count="20,60"/>
@@ -211,14 +296,12 @@
 			<item name="ammo9mmBulletHP" count="40,150"/>
 			<item name="ammo762mmBulletHP" count="20,100"/>
 			<item name="ammo44MagnumBulletHP" count="15,60" prob="0.5"/>
-			<!--item name="ammoRocketHE" count="1,4"/-->
 		</trader_item_group>
 
 		<trader_item_group name="ammoAP">
 			<item name="ammo9mmBulletAP" count="40,150"/>
 			<item name="ammo762mmBulletAP" count="20,100"/>
 			<item name="ammo44MagnumBulletAP" count="15,60" prob="0.5"/>
-			<!--item name="ammoRocketFrag" count="1,4"/-->
 		</trader_item_group>
 
 		<!-- *** Thrown_Ammo -->
