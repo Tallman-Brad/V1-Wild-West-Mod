@@ -7,7 +7,7 @@
 Unfortunately auto-calc only seems to work on the first (top) ingredient in the list so ammo recipes have been re-ordered as a temp fix.
 -->
 <!-- * * * * * * * * * * * * basic scrap material recipes * * * * * * * * * * * * -->
-<recipe name="resourceMilitaryFiber" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+<!-- <recipe name="resourceMilitaryFiber" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe> -->
 <recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 <recipe name="resourceElectricParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 <recipe name="resourceMechanicalParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
@@ -65,8 +65,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="meleeWpnClubT3SteelClubParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 <recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 <recipe name="meleeToolAllSteelParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
-<recipe name="armorMilitarySetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
-<recipe name="armorSteelSetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+<!-- <recipe name="armorMilitarySetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe> -->
+<!-- <recipe name="armorSteelSetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe> -->
 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
@@ -456,7 +456,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRocketCasing" count="1"/>
 </recipe-->
 
-<recipe name="armorClothBoots" count="1" tags="perkLightArmor">
+<!--<recipe name="armorClothBoots" count="1" tags="perkLightArmor">
 	<ingredient name="resourceCloth" count="5"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 </recipe>
@@ -740,6 +740,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
+
 <recipe name="armorSteelHelmet" count="1" craft_area="workbench" tags="learnable,perkHeavyArmor">
 	<ingredient name="armorSteelSetParts" count="1"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
@@ -760,7 +761,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape"/>
 	</effect_group>
-</recipe>
+</recipe> -->
+
+
+
+
 
 <!--recipe name="autoTurret" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
 	<ingredient name="motionsensor" count="1"/>
@@ -778,13 +783,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<!-- <ingredient name="resourceCloth" count="10"/> -->
 <!-- </recipe> -->
 
-<recipe name="apparelBallCap" count="1" tags="workbenchCrafting">
+<!-- <recipe name="apparelBallCap" count="1" tags="workbenchCrafting">
 	<ingredient name="resourceCloth" count="40"/>
 </recipe>
 
 <recipe name="apparelBandana" count="1">
 	<ingredient name="resourceCloth" count="40"/>
-</recipe>
+</recipe> -->
 
 <!--recipe name="appliancesVariantHelper" count="1">
 	<ingredient name="resourceForgedIron" count="10"/>

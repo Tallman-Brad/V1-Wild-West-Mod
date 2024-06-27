@@ -446,8 +446,8 @@
 	<set xpath="/items/item[@name='questRewardT3RifleLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">gunRifleT2LeverActionRifleLegendaryTribeWinchester,ammo44MagnumBulletBall,riflesSkillMagazine</set><!-- Removing Sniper for Legendary -->
 	
 	<!-- Weather Durable Poncho -->
-	<!-- <set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">10.8,13.2</set><!-- 2.8,5.2 -->
-	<!-- <set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">14.5,18.3</set><!-- 10.5,14.3 -->
+	<!-- <set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">10.8,13.2</set>
+	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">14.5,18.3</set> -->
 	
 	<!-- Bicycle Tags -->
 	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Hopefully adding the seat tag -->

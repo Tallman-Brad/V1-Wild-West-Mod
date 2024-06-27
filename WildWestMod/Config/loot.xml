@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <wildwestmod>
 
 <set xpath="/lootcontainers">
 
-<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Table_of_Contents -->
 <!-- Search_Find_All_for *** -->
@@ -5425,7 +5426,7 @@
 	<item name="bookNightStalkerThiefAdrenaline"/>
 	<item name="bookNightStalkerTwilightThief"/>
 	
-<!--	<item name="qc_eliminatetoysoldiers"/> <!-- Wild West Mod --> -->
+<!--	<item name="qc_eliminatetoysoldiers"/>  Wild West Mod -->
 	
 </lootgroup>
 
@@ -9949,3 +9950,5 @@
 		<item name="foodCropBlueberries" count="1,5" prob="0.1"/>
 		<item name="foodCropPumpkin" count="1" prob="0.1"/>
 		<!-- <item name="apparelCowboyBoots" count="1" prob="0.05"/> -->
+	</lootcontainer>
+</lootcontainers>
