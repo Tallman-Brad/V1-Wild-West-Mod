@@ -38,9 +38,9 @@
 
 <!-- Gatling Prototype Mods are not visible as it gets tricky to position on an old format model -->
 
-	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='external attachment prefab (old way)']">
+<!--	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='external attachment prefab (old way)']">
 		<requirement name="!HoldingItemHasTags" tags="gunGatling"/>
-	</append>
+	</append> -->
 	
 <!-- Oakraven Kitchen Melee Weapons -->
 	
