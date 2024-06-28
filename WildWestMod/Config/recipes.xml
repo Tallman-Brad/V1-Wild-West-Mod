@@ -992,19 +992,19 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="5"/>
 </recipe>
 
-<recipe name="cntSecureStorageChest" count="1">
+<!-- <recipe name="cntSecureStorageChest" count="1">
 	<ingredient name="resourceWood" count="10"/>
-</recipe>
+</recipe> -->
 
-<recipe name="cntStorageGenericSigned" count="1">
+<!-- <recipe name="cntStorageGenericSigned" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="12"/>
-</recipe>
+</recipe> -->
 
-<recipe name="cntStorageGeneric" count="1">
+<!-- <recipe name="cntStorageGeneric" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="12"/>
-</recipe>
+</recipe> -->
 
 <recipe name="cntWoodFurnitureBlockVariantHelper" count="1">
 	<ingredient name="resourceNail" count="10"/>
@@ -1944,9 +1944,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="3"/>
 </recipe>
 
-<recipe name="apparelCoatLeatherPoncho" count="1" >
+<!-- <recipe name="apparelCoatLeatherPoncho" count="1" >
 	<ingredient name="resourceLeather" count="20"/>
-</recipe>
+</recipe> -->
 
 <recipe name="resourceLockPick" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="1"/>
@@ -2903,7 +2903,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <!-- Clothing = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-<recipe name="apparelPlantFiberGloves" count="1">
+<!-- <recipe name="apparelPlantFiberGloves" count="1">
 	<ingredient name="resourceYuccaFibers" count="5"/>
 </recipe>
 
@@ -3038,7 +3038,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="apparelGhillieSuitPants" count="1" tags="learnable">
 	<ingredient name="resourceYuccaFibers" count="50"/>
 	<ingredient name="resourceSewingKit" count="1"/>
-</recipe>
+</recipe> 
 
 <recipe name="modClothingStoragePocket" count="1">
 	<ingredient name="resourceLeather" count="2"/>
@@ -3058,7 +3058,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceYuccaFibers" count="250"/>
 	<ingredient name="resourcePaper" count="1"/>
 	<ingredient name="resourceTestosteroneExtract" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="pictureVariantHelper" count="1" craft_time="1">
 	<ingredient name="resourceCloth" count="5"/>
@@ -3288,12 +3288,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedIron" count="1"/>
 </recipe>
 
-<recipe name="resourceMilitaryFiber" count="10" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+<!-- <recipe name="resourceMilitaryFiber" count="10" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
 	<ingredient name="resourceYuccaFibers" count="100"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceDuctTape" count="5"/>
 	<ingredient name="resourceAcid" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="resourceNail" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
 	<ingredient name="unit_iron" count="1"/>
@@ -3804,9 +3804,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="woodFenceRailingTrellisSheetBlockVariantHelper" count="1">
+<!-- <recipe name="woodFenceRailingTrellisSheetBlockVariantHelper" count="1">
 	<ingredient name="resourceWood" count="2"/>
-</recipe>
+</recipe> -->
 
 <recipe name="woodHatch" count="1">
 	<ingredient name="resourceWood" count="10"/>

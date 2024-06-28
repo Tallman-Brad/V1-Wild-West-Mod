@@ -8,7 +8,7 @@
 	<remove xpath="/doc/tips/tip[@key='loadingTipEncumbrance']"/>
 	<remove xpath="/doc/tips/tip[@key='loadingTipArmor']"/>
 	<remove xpath="/doc/tips/tip[@key='loadingTipBandages']"/>
-	<remove xpath="/doc/tips/tip[@key='loadingTipJournalEntries']"/>
+	<!-- <remove xpath="/doc/tips/tip[@key='loadingTipJournalEntries']"/> -->
 	<remove xpath="/doc/tips/tip[@key='loadingTipQuestSharing']"/>
 	<remove xpath="/doc/tips/tip[@key='loadingTipWhatIsItGoodFor']"/>
 	<remove xpath="/doc/tips/tip[@key='loadingTipWorkstations']"/>
