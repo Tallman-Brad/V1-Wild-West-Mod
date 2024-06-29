@@ -1,6 +1,5 @@
 <wildwestmod>
 
-	<remove xpath="//window[@name='newsWindow']"/>
 	<remove xpath="//window[@name='mainMenuLogo']"/>
 	
 	<set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder(A21-WildWestMod):Textures/background.png</set>
