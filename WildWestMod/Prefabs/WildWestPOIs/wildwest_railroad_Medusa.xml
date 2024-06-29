@@ -23,15 +23,15 @@
   <property name="QuestTags" value="clear, fetch, infested" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="936071" />
-    <property name="TotalTriangles" value="576312" />
+    <property name="TotalVertices" value="908999" />
+    <property name="TotalTriangles" value="520271" />
     <property class="BlockEntities">
-      <property name="Vertices" value="800712" />
-      <property name="Triangles" value="489120" />
+      <property name="Vertices" value="773658" />
+      <property name="Triangles" value="433087" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="125751" />
-      <property name="Triangles" value="76512" />
+      <property name="Vertices" value="125677" />
+      <property name="Triangles" value="76476" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -46,8 +46,8 @@
       <property name="Triangles" value="3040" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="112" />
-      <property name="Triangles" value="56" />
+      <property name="Vertices" value="168" />
+      <property name="Triangles" value="84" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />

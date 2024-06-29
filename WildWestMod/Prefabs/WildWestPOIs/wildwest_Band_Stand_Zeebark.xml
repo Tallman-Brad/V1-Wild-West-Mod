@@ -7,7 +7,7 @@
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="QuestTags" value="clear,fetch" />
+  <property name="QuestTags" value="clear, fetch" />
   <property name="Tags" value="snow,desert,oldwest,pine_forest" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 7, 25" />
@@ -21,16 +21,17 @@
   <property name="SleeperIsLootVolume" value="False,False" />
   <property name="SleeperIsQuestExclude" value="False,False" />
   <property name="SleeperVolumeFlags" value="2,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # " />
   <property class="Stats">
-    <property name="TotalVertices" value="478980" />
-    <property name="TotalTriangles" value="633498" />
+    <property name="TotalVertices" value="456145" />
+    <property name="TotalTriangles" value="515109" />
     <property class="BlockEntities">
-      <property name="Vertices" value="441110" />
-      <property name="Triangles" value="611580" />
+      <property name="Vertices" value="419012" />
+      <property name="Triangles" value="493790" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="35469" />
-      <property name="Triangles" value="18347" />
+      <property name="Vertices" value="35425" />
+      <property name="Triangles" value="18343" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -45,33 +46,24 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="693" />
-      <property name="Triangles" value="595" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes6">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
-    <property class="ChunkMeshes7">
       <property name="Vertices" value="1708" />
       <property name="Triangles" value="2976" />
-    </property>
-    <property class="ChunkMeshes8">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
-    <property class="ChunkMeshes9">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
       <property name="0" value="11, 3, 2" />
+    </property>
+    <property class="quest_wood_trees">
+      <property name="0" value="3, 2, 23" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="11, 1, 21" />
