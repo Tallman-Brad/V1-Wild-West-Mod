@@ -9,8 +9,11 @@
 
 <remove xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']"/>
 
-  <append xpath="/Sounds">
+<!-- Horse Turbo sound removal -->
 
+<set xpath="/Sounds/SoundDataNode[@name='vehicle_turbo']/AudioClip/@ClipName">Sounds/Misc/silencefiller</set>
+
+  <append xpath="/Sounds">
 
 <!-- New Pump Shotgun Model -->  
 	<SoundDataNode name="oakfire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>

@@ -737,26 +737,25 @@
 
 	<vehicle name="vehicleWWMHorseT1">
 
-		<property name="cameraDistance" value="4, 5"/>
-			<property name="cameraTurnRate" value=".2, .35"/>
-			<property name="motorTorque" value="2000, 900"/>
-			<property name="turboScale" value="1.5, 1.3"/>
-			<property name="velocityMax" value="13, 12"/>
-			<property name="brakeTorque" value="4000"/>
-			<property name="upAngleMax" value="90"/>
-			<property name="upForce" value="5"/>
-			<property name="steerRate" value="150"/>
-			<property name="steerCenteringRate" value="110"/>
-			<property name="tiltAngleMax" value="15"/>
-			<property name="tiltThreshold" value="3"/>
-			<property name="tiltDampening" value="1.22"/>
-			<property name="tiltDampenThreshold" value="8"/>
-			<property name="tiltUpForce" value="5"/>
-			<property name="hopForce" value="1, 1"/>
-			<property name="unstickForce" value="1"/>
-			<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .1"/>
-			<property name="wheelPtlScale" value="1"/>
-		
+<property name="cameraDistance" value="5.5, 7"/>
+        <property name="cameraTurnRate" value=".2, .35"/>
+        <property name="upAngleMax" value="70"/>
+        <property name="upForce" value="1"/>
+        <property name="steerAngleMax" value="32"/>
+        <property name="steerRate" value="130"/>
+        <property name="steerCenteringRate" value="90"/>
+        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltThreshold" value="3"/>
+        <property name="tiltDampening" value=".22"/>
+        <property name="tiltDampenThreshold" value="8"/>
+        <property name="tiltUpForce" value="0"/>
+
+        <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
+        <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
+        <property name="brakeTorque" value="6000"/>
+        <property name="unstickForce" value="1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+        <property name="wheelPtlScale" value="1"/>		
 		<property name="hornSound" value="horseHorn"/>
 		
 		<property class="chassis">
@@ -870,26 +869,25 @@
 
 	<vehicle name="vehicleWWMHorseT2">
 
-		<property name="cameraDistance" value="5.5, 7"/>
-		<property name="cameraTurnRate" value=".2, .35"/>
-		<property name="motorTorque" value="5000, 5000"/>
-		<property name="brakeTorque" value="5000"/>
-		<property name="upAngleMax" value="70"/>
-		<property name="upForce" value="1"/>
-		<property name="steerRate" value="130"/>
-		<property name="steerCenteringRate" value="90"/>
-		<property name="tiltAngleMax" value="5"/>		
-		<property name="tiltThreshold" value="3"/>
-		<property name="tiltDampening" value=".22"/>
-		<property name="tiltDampenThreshold" value="8"/>
-		<property name="tiltUpForce" value="1"/>
-		<property name="hopForce" value="9.0, .005"/>		
-		<property name="unstickForce" value="1"/>
-		<property name="turboScale" value="1.5, 1.3"/>
-		<property name="velocityMax" value="10.33, 6"/>
-		<property name="waterDrag_y_velScale_velMaxScale" value="1.7, 0.9, .15"/> <!-- 1.8, .9, .1 -->  <!-- previous ww values 1.0, 0.5, .25 -->
-		<property name="wheelPtlScale" value="1"/>
-		
+<property name="cameraDistance" value="5.5, 7"/>
+        <property name="cameraTurnRate" value=".2, .35"/>
+        <property name="upAngleMax" value="70"/>
+        <property name="upForce" value="1"/>
+        <property name="steerAngleMax" value="32"/>
+        <property name="steerRate" value="130"/>
+        <property name="steerCenteringRate" value="90"/>
+        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltThreshold" value="3"/>
+        <property name="tiltDampening" value=".22"/>
+        <property name="tiltDampenThreshold" value="8"/>
+        <property name="tiltUpForce" value="0"/>
+
+        <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
+        <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
+        <property name="brakeTorque" value="6000"/>
+        <property name="unstickForce" value="1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+        <property name="wheelPtlScale" value="1"/>		
 		<property name="hornSound" value="horseHorn"/>
 
 		<property class="chassis">
@@ -1018,26 +1016,25 @@
 
 	<vehicle name="vehicleWWMHorseT3">
 
-		<property name="cameraDistance" value="5.5, 7"/>
-		<property name="cameraTurnRate" value=".2, .35"/>
-		<property name="motorTorque" value="5000, 5000"/> <!-- 5000, 5000 -->
-		<property name="brakeTorque" value="5000"/>   <!-- 5000 -->
-		<property name="upAngleMax" value="110"/>  <!-- 70 -->
-		<property name="upForce" value="1"/>
-		<property name="steerRate" value="130"/>
-		<property name="steerCenteringRate" value="110"/>
-		<property name="tiltAngleMax" value="50"/>	<!-- 5 -->	
-		<property name="tiltThreshold" value="3"/>
-		<property name="tiltDampening" value=".22"/>
-		<property name="tiltDampenThreshold" value="8"/>
-		<property name="tiltUpForce" value="0"/> <!-- 0 -->
-		<property name="hopForce" value="9.0, .005"/>		
-		<property name="unstickForce" value="1"/>
-		<property name="turboScale" value="1.5, 1.3"/>
-		<property name="velocityMax" value="11.33, 6"/>  <!-- 11.33, 6 -->
-		<property name="waterDrag_y_velScale_velMaxScale" value="1.7, 0.9, .15"/> <!-- 1.8, .9, .1 -->  <!-- previous ww values 1.0, 0.5, .25 -->
-		<property name="wheelPtlScale" value="1"/>
-		
+<property name="cameraDistance" value="5.5, 7"/>
+        <property name="cameraTurnRate" value=".2, .35"/>
+        <property name="upAngleMax" value="70"/>
+        <property name="upForce" value="1"/>
+        <property name="steerAngleMax" value="32"/>
+        <property name="steerRate" value="130"/>
+        <property name="steerCenteringRate" value="90"/>
+        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltThreshold" value="3"/>
+        <property name="tiltDampening" value=".22"/>
+        <property name="tiltDampenThreshold" value="8"/>
+        <property name="tiltUpForce" value="0"/>
+
+        <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
+        <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
+        <property name="brakeTorque" value="6000"/>
+        <property name="unstickForce" value="1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+        <property name="wheelPtlScale" value="1"/>		
 		<property name="hornSound" value="horseHorn"/>
 
 		<property class="chassis">
