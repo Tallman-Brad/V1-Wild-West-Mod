@@ -3418,7 +3418,7 @@
 	</item>
 
 	<item name="ammoProjectileZombieMolotovFeral">
-		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Molotov/molotov_thrownPrefab.prefab"/>
+		<property name="Meshfile" value="#@modfolder:Resources/oakflame.unity3d?oakflame"/>
 		<property name="Material" value="Morganic"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action1">
@@ -3491,7 +3491,7 @@
 			</effect_group>
 		</item>
 		<item name="ammoProjectilezombieSpiderFeralFireGlider">
-			<property name="Meshfile" value="particleeffects/p_fire_small"/>
+			<property name="Meshfile" value="#@modfolder:Resources/oakflame.unity3d?oakflame"/>
 			<property name="Material" value="Morganic"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action1">
@@ -3562,7 +3562,7 @@
 	</item>
 
 	<item name="ammoProjectileZombieFire">
-		<property name="Meshfile" value="particleeffects/p_fire_small"/>
+		<property name="Meshfile" value="#@modfolder:Resources/oakflame.unity3d?oakflame"/>
 		<property name="Material" value="Morganic"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action1">
