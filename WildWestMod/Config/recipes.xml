@@ -67,6 +67,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="meleeToolAllSteelParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 <!-- <recipe name="armorMilitarySetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe> -->
 <!-- <recipe name="armorSteelSetParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe> -->
+<recipe name="armorParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
