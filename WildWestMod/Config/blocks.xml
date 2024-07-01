@@ -18,6 +18,8 @@
 	<!-- Removing movement collision from Drift wood as it can stop a custom vehicle instantly -->
 	<set xpath="/blocks/block[@name='driftwood']/property[@name='Collide']/@value">melee,bullet,arrow,rocket</set>
 
+
+
 		<!-- Vanilla Tweaks for Road Replacement Car/Asset Models. -->
 <!-- Master -->
 
@@ -405,6 +407,74 @@
 <!-- Price to remove sell exploit for trader door -->
 
 	<append xpath="/blocks">
+
+<!-- Wild West Shop Signs -->
+<block name="SkamsonsStoreSmall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?SkamsonsSmall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="SkamsonsStoreWall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?SkamsonsWall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="5,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+
+<block name="colesbooksSmall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?colesbooksSmall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="colesbooksWall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?colesbooksWall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="-1.5,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
 	
 <block name="LogWallsVariantHelper">
 	<property name="Extends" value="logWallLeft"/>		
