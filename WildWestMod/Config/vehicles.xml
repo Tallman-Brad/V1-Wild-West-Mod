@@ -743,17 +743,17 @@
         <property name="steerAngleMax" value="32"/>
         <property name="steerRate" value="130"/>
         <property name="steerCenteringRate" value="90"/>
-        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltAngleMax" value="5"/>
         <property name="tiltThreshold" value="3"/>
         <property name="tiltDampening" value=".22"/>
         <property name="tiltDampenThreshold" value="8"/>
-        <property name="tiltUpForce" value="0"/>
-
-        <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
-        <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
+        <property name="tiltUpForce" value="1"/>
+		<property name="hopForce" value="9.0, .005"/>
+        <property name="motorTorque_turbo" value="2000, 500, 3000, 1000"/>
+        <property name="velocityMax_turbo" value="8, 6, 12, 8"/>
         <property name="brakeTorque" value="6000"/>
         <property name="unstickForce" value="1"/>
-        <property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .15"/>
         <property name="wheelPtlScale" value="1"/>		
 		<property name="hornSound" value="horseHorn"/>
 		
@@ -822,8 +822,8 @@
 
             <property name="IKFootLPosition" value="-.4, .18, -0.7"/>
             <property name="IKFootRPosition" value=".4, .18, -0.7"/>            
-            <property name="IKFootLRotation" value="22, 0, 0"/>
-            <property name="IKFootRRotation" value="22, 0, 0"/>                        
+            <property name="IKFootLRotation" value="22, -20, 0"/>
+            <property name="IKFootRRotation" value="22, 20, 0"/>                        
         </property>
 
 		<property class="wheel0">
@@ -873,17 +873,17 @@
         <property name="steerAngleMax" value="32"/>
         <property name="steerRate" value="130"/>
         <property name="steerCenteringRate" value="90"/>
-        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltAngleMax" value="5"/>
         <property name="tiltThreshold" value="3"/>
         <property name="tiltDampening" value=".22"/>
         <property name="tiltDampenThreshold" value="8"/>
         <property name="tiltUpForce" value="0"/>
-
-        <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
-        <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
+		<property name="hopForce" value="9.0, .005"/>
+        <property name="motorTorque_turbo" value="3000, 1000, 3750, 1500"/>
+        <property name="velocityMax_turbo" value="9, 7, 13, 9"/>
         <property name="brakeTorque" value="6000"/>
         <property name="unstickForce" value="1"/>
-        <property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .15"/>
         <property name="wheelPtlScale" value="1"/>		
 		<property name="hornSound" value="horseHorn"/>
 
@@ -1018,12 +1018,12 @@
         <property name="steerAngleMax" value="32"/>
         <property name="steerRate" value="130"/>
         <property name="steerCenteringRate" value="90"/>
-        <property name="tiltAngleMax" value="80"/>
+        <property name="tiltAngleMax" value="5"/>
         <property name="tiltThreshold" value="3"/>
         <property name="tiltDampening" value=".22"/>
         <property name="tiltDampenThreshold" value="8"/>
         <property name="tiltUpForce" value="0"/>
-
+		<property name="hopForce" value="9.0, .005"/>
         <property name="motorTorque_turbo" value="3500, 1500, 4500, 2000"/>
         <property name="velocityMax_turbo" value="10, 8, 14, 10"/>
         <property name="brakeTorque" value="6000"/>
