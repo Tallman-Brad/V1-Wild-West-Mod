@@ -475,6 +475,113 @@
 	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 </block>
+
+<block name="BJWeldingSmall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?BJWeldingSmall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="BJWeldingWall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?BJWeldingWall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="5,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+
+<block name="BJWeldingSmallBracket">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?BJWeldingSmallBracket"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,1,1"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="SpitzSeedsSmall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?SpitzSeedsSmall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="SpitzSeedsWall">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?SpitzSeedsWall"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="5,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="CannonOak">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/SignsCannon.unity3d?CannonOak"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="2,1,2"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapBrass" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="2,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="5,10" tag="oreWoodHarvest,lumberjackHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
 	
 <block name="LogWallsVariantHelper">
 	<property name="Extends" value="logWallLeft"/>		
