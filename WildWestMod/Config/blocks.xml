@@ -245,8 +245,9 @@
 	<set xpath="/blocks/block[@name='cntVendingMachineSnacksEmptyBroken']/property[@name='ModelOffset']/@value">0,0.5,0</set>
 	
 	<set xpath="/blocks/block[@name='cntCoffeeMaker']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder3</set>
+	<set xpath="/blocks/block[@name='cntCoffeeMaker']/property[@name='ModelOffset']/@value">0,0.5,0</set>
     <set xpath="/blocks/block[@name='cntCoffeeMakerCommercial']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder2</set>
-
+	<set xpath="/blocks/block[@name='cntCoffeeMakerCommercial']/property[@name='ModelOffset']/@value">0,0.5,0</set>
     <set xpath="/blocks/block[@name='questGeneratorSmall']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
     <set xpath="/blocks/block[@name='generatorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
     <set xpath="/blocks/block[@name='cntCollapsedGeneratorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>	

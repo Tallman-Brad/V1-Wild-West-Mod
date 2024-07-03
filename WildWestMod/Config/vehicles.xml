@@ -93,20 +93,21 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="mesh" value="handlebar"/>
 			<property name="transform" value="Origin/handlebar_joint"/>
-			<property name="IKHandLPosition" value="-.5, .2552, -.158"/>
-			<property name="IKHandLRotation" value="27.30321, -15.59375, 8.961643"/>
-			<property name="IKHandRPosition" value=".5, .2552, -.158"/>
-			<property name="IKHandRRotation" value="27.30321, 15.59375, -8.961643"/>
+			<property name="IKHandLPosition" value="-.35, .375, -.158"/>
+			<property name="IKHandLRotation" value="27.30321, 40, 10"/>
+			<property name="IKHandRPosition" value=".375, .375, -.158"/>
+			<property name="IKHandRRotation" value="27, 150.6533, -158.7339"/>
 		</property>
 
 		<property class="seat0">
 			<property name="class" value="Seat"/>
-			<property name="position" value="0, 0.25, -.3"/>
+			<property name="pose" value="30"/>
+			<property name="position" value="0, 0.25, 0.2"/>
 			<property name="rotation" value="0, 0, 0"/>
 			<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
-			<property name="IKFootLPosition" value="-.20, .18, .10"/>
+			<property name="IKFootLPosition" value="-.20, .18, -.30"/>
 			<property name="IKFootLRotation" value="-30, 0, 0"/>
-			<property name="IKFootRPosition" value=".20, .18, .10"/>
+			<property name="IKFootRPosition" value=".20, .18, -.30"/>
 			<property name="IKFootRRotation" value="-30, 0, 0"/>
 		</property>
 
@@ -805,24 +806,22 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
 			<property name="steerMaxAngle" value="60"/>
-			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
-			<property name="IKHandRPosition" value=".154, .1256, .0265"/>			
-			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
-			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
+			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
+			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
+			<property name="IKHandRRotation" value="0.5, 90, -150"/>
 		</property>
 
 		<property class="seat0">     <!-- Single seat for T1 -->
             <property name="class" value="Seat"/>        
-            <property name="position" value=".0, .9, .45"/> <!-- Left/Right, Down/Up, Back/Front --> 
+			<property name="pose" value="30"/>     
+			<property name="position" value=".0, 1.2, .8"/> <!-- Left/Right, Down/Up, Back/Front --> 
             <property name="rotation" value="-25, 0, 0"/>
             <property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
-            <property name="IKHandLPosition" value="-.17, 1, .19"/>
-            <property name="IKHandRPosition" value=".17, 1, .19"/>            
-            <property name="IKHandLRotation" value="0, -0, 50"/>
-            <property name="IKHandRRotation" value="0, 0, -50"/>
 
-            <property name="IKFootLPosition" value="-.43, .32, -.3"/>
-            <property name="IKFootRPosition" value=".43, .32, -.3"/>            
+
+            <property name="IKFootLPosition" value="-.4, .18, -0.7"/>
+            <property name="IKFootRPosition" value=".4, .18, -0.7"/>            
             <property name="IKFootLRotation" value="22, 0, 0"/>
             <property name="IKFootRRotation" value="22, 0, 0"/>                        
         </property>
@@ -937,28 +936,26 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
 			<property name="steerMaxAngle" value="60"/>
-			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
-			<property name="IKHandRPosition" value=".154, .1256, .0265"/>			
-			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
-			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
+			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
+			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
+			<property name="IKHandRRotation" value="0.5, 90, -150"/>
 		</property>
 
-		<property class="seat0">		<!-- 2 seats for T2 -->
-            <property name="class" value="Seat"/>
-            <property name="position" value=".0, 1, .45"/> <!-- Left/Right, Down/Up, Back/Front --> 
+		<property class="seat0">     <!-- Single seat for T1 -->
+            <property name="class" value="Seat"/>        
+			<property name="pose" value="30"/>     
+			<property name="position" value=".0, 1.2, .8"/> <!-- Left/Right, Down/Up, Back/Front --> 
             <property name="rotation" value="-25, 0, 0"/>
             <property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
-            <property name="IKHandLPosition" value="-.17, 0.85, .19"/>
-            <property name="IKHandRPosition" value=".17, 0.85, .19"/>
-            <property name="IKHandLRotation" value="0, -0, 50"/>
-            <property name="IKHandRRotation" value="0, 0, -50"/>
 
-            <property name="IKFootLPosition" value="-.43, .32, -.3"/>
-            <property name="IKFootRPosition" value=".43, .32, -.3"/>
+
+            <property name="IKFootLPosition" value="-.4, .18, -0.7"/>
+            <property name="IKFootRPosition" value=".4, .18, -0.7"/>            
             <property name="IKFootLRotation" value="22, 0, 0"/>
-            <property name="IKFootRRotation" value="22, 0, 0"/>
+            <property name="IKFootRRotation" value="22, 0, 0"/>                        
         </property>
-
+		
         <property class="seat1">
             <property name="class" value="Seat"/>
             <property name="position" value=".0, 1.1, -.06"/>
@@ -1084,43 +1081,26 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
 			<property name="steerMaxAngle" value="60"/>
-			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
-			<property name="IKHandRPosition" value=".154, .1256, .0265"/>			
-			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
-			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
+			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
+			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
+			<property name="IKHandRRotation" value="0.5, 90, -150"/>
 		</property>
 
-		<property class="seat0">   <!-- 2 seats for T3 -->
-            <property name="class" value="Seat"/>
-            <property name="position" value=".0, 1, .45"/> <!-- Left/Right, Down/Up, Back/Front --> 
+		<property class="seat0">     <!-- Single seat for T1 -->
+            <property name="class" value="Seat"/>        
+			<property name="pose" value="30"/>     
+			<property name="position" value=".0, 1.2, .8"/> <!-- Left/Right, Down/Up, Back/Front --> 
             <property name="rotation" value="-25, 0, 0"/>
             <property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
-            <property name="IKHandLPosition" value="-.17, 0.9, .19"/>
-            <property name="IKHandRPosition" value=".17, 0.9, .19"/>
-            <property name="IKHandLRotation" value="0, -0, 50"/>
-            <property name="IKHandRRotation" value="0, 0, -50"/>
 
-            <property name="IKFootLPosition" value="-.43, .32, -.3"/>
-            <property name="IKFootRPosition" value=".43, .32, -.3"/>
+
+            <property name="IKFootLPosition" value="-.4, .18, -0.7"/>
+            <property name="IKFootRPosition" value=".4, .18, -0.7"/>            
             <property name="IKFootLRotation" value="22, 0, 0"/>
-            <property name="IKFootRRotation" value="22, 0, 0"/>
+            <property name="IKFootRRotation" value="22, 0, 0"/>                        
         </property>
-
-        <property class="seat1">
-            <property name="class" value="Seat"/>
-            <property name="position" value=".0, 1.1, -.06"/>
-            <property name="rotation" value="-27, 0, 0"/>
-            <property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
-            <property name="IKHandLPosition" value="-.27, .87, .14"/>
-            <property name="IKHandLRotation" value="41, -30, 18"/>
-            <property name="IKHandRPosition" value=".27, .87, .14"/>
-            <property name="IKHandRRotation" value="41, 30, -18"/>
-            <property name="IKFootLPosition" value="-.35, .31, .25"/>
-            <property name="IKFootLRotation" value="-15, 0, 0"/>
-            <property name="IKFootRPosition" value=".35, .31, .25"/>
-            <property name="IKFootRRotation" value="-15, 0, 0"/>
-        </property>
-
+		
 		<property class="wheel0">
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
