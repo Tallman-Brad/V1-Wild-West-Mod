@@ -2463,8 +2463,7 @@
 		<property name="extra_tags" value="tiercomplete"/>
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
-
-		<reward type="LootItem" id="vehicleWWMHorseT1" ischosen="true" isfixed="true" value="1"/>
+		<reward type="Item" id="vehicleWWMHorseT1Placeable" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="toolDewGatherer" ischosen="true" isfixed="true" value="1"/>
 		<reward type="LootItem" id="groupQuestcasinoCoinT1" ischosen="true" value="2"/>
 <!--		<reward type="LootItem" id="groupQuestHelmetLightSchematic" ischosen="true" value="2"/> -->
@@ -2494,7 +2493,7 @@
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
 
-		<reward type="LootItem" id="vehicleWWMHorseT2" ischosen="true" value="3"/>
+		<reward type="Item" id="vehicleWWMHorseT2Placeable" ischosen="true" isfixed="true" value="1"/>
 		<reward type="LootItem" id="groupQuestcasinoCoinT2" ischosen="true" value="3"/>
 <!--		<reward type="LootItem" id="groupQuestMiningHelmet" ischosen="true" value="3"/> -->
 		<reward type="LootItem" id="groupQuestFarmPlotsT2" ischosen="true" value="3"/>
@@ -2524,7 +2523,7 @@
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
 
-		<reward type="LootItem" id="vehicleWWMHorseT3" ischosen="true" value="4"/>
+		<reward type="Item" id="vehicleWWMHorseT3Placeable" ischosen="true" isfixed="true" value="1"/>
 		<reward type="LootItem" id="groupQuestcasinoCoinT3" ischosen="true" value="4"/>
 <!--		<reward type="LootItem" id="groupQuestNightVisionGoggles" ischosen="true" value="4"/> -->
 		<reward type="LootItem" id="groupQuestFarmPlotsT3" ischosen="true" value="4"/>
