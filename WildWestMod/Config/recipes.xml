@@ -4844,9 +4844,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <!-- Oakraven Wild West Storage -->
 	
 	<recipe name="WildWestStorageVariantHelper" count="1">
-		<ingredient name="resourceNail" count="10"/>
+<!--		<ingredient name="resourceNail" count="10"/> -->
 		<ingredient name="resourceWood" count="12"/>
-		<ingredient name="resourceForgedIron" count="3"/>
+<!--		<ingredient name="resourceForgedIron" count="3"/> --> <!-- recipe simplified until alternative a22 storage identified -->
 	</recipe>
 	
 <!-- Flags -->
