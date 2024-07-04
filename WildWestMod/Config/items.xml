@@ -4366,7 +4366,18 @@
 	</effect_group>
 		</item>
 	
-
+<item name="questRewardOakBundle">
+    <property name="Extends" value="questRewardBundleMaster"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="CustomIcon" value="leatheroakpack"/>
+    <property name="CustomIconTint" value="139,69,19"/>
+    <property name="ItemTypeIcon" value="bundle"/>
+    <property name="DescriptionKey" value="questRewardOakBundleDesc"/>
+    <property class="Action0">
+        <property name="Create_item" value="meleeWpnBladeT3MacheteMini,foodWildWestAcornHardtack,foodWildWestPineConeJam,foodWildWestAcornFlour,medicalFirstAidBandage,drinkJarBoiledWater"/>
+        <property name="Create_item_count" value="2-3,5,4,10,8,6"/>
+    </property>
+</item>
 
 	
 	</append>		
