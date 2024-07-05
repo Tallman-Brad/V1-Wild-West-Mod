@@ -2910,7 +2910,7 @@
 	<item name="modArmorAgility"/>
 	<item name="modArmorIntellect"/>
 	<item name="modArmorTreasureHunter"/>
-	<item name="modArmorNightVision"/>
+<!--	<item name="modArmorNightVision"/> -->
 	<item name="modArmorCigar"/>
 </lootgroup>
 <lootgroup name="groupModAllScaled">
