@@ -745,7 +745,7 @@
 
 		<trader_item_group name="books">
 			<item group="perkBooks" prob="1"/>
-			<item group="rareBooks" prob="0.3"/>
+<!--			<item group="rareBooks" prob="0.3"/> -->
 			<item group="commonBooks"/>
 		</trader_item_group>
 

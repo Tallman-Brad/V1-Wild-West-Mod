@@ -1528,7 +1528,7 @@
 		<reward type="Item" id="questRewardPipePistolBundle" ischosen="true" value="1"/>
 		<reward type="Item" id="questRewardPipeShotgunBundle" ischosen="true" value="1"/>
 		<reward type="Item" id="questRewardPipeRifleBundle" ischosen="true" value="1"/>
-		<reward type="Item" id="armorRangerHelmet" ischosen="true" value="1"/> -->
+		<reward type="Item" id="armorRangerHelmet" ischosen="true" value="1"/>
 <!--		<reward type="Item" id="questRewardPipeBatonBundle" ischosen="true" value="1"/> -->
 	</quest>
 
@@ -2237,7 +2237,7 @@
 
 		<objective type="Goto" value="5" phase="1">
 			<property name="location_tag" value="TraderJen" param1="trader_tag" />
-			<property name="location_name" value="trader_jen" />
+			<property name="location_name" value="trader_JenWW_arramus" />
 			<property name="nav_object" value="go_to_trader"/>
 			<property name="biome_filter_type" value="AnyBiome" param1="biome_filter_type"/>
 		</objective>
@@ -2286,7 +2286,7 @@
 
 		<objective type="Goto" value="5" phase="1">
 			<property name="location_tag" value="TraderBob" param1="trader_tag" />
-			<property name="location_name" value="trader_bob" />
+			<property name="location_name" value="trader_bobWW" />
 			<property name="nav_object" value="go_to_trader"/>
 			<property name="biome_filter_type" value="AnyBiome" param1="biome_filter_type"/>
 		</objective>
@@ -2429,7 +2429,7 @@
 
 		<objective type="Goto" value="5" phase="1">
 			<property name="location_tag" value="TraderJen" param1="trader_tag" />
-			<property name="location_name" value="trader_jen" />
+			<property name="location_name" value="trader_JenWW_arramus" />
 			<property name="nav_object" value="go_to_trader"/>
 			<property name="biome_filter_type" value="AnyBiome" param1="biome_filter_type"/>
 		</objective>
