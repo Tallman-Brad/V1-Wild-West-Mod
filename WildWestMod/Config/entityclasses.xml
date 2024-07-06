@@ -1939,14 +1939,17 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".25"/>
 	<property name="HandItem" value="meleeHandzombieBusinessManRadiatedGunslinger"/>
-	
-	<property name="AITask-1" value="BreakBlock"/>
-	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-	<property name="AITask-4" value="ApproachSpot"/>
-	<property name="AITask-5" value="Look"/>
-	<property name="AITask-6" value="Wander"/>
-	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+
+	<!-- from a22 (arramus)-->
+    <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 
 	<effect_group name="Base Effects">
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBusinessManRadiatedGunslingerDeco"/>	
@@ -1993,13 +1996,15 @@
 	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
 	<property name="LootDropProb" value=".03"/> <!-- Feral -->
 	
-	<property name="AITask-1" value="BreakBlock"/>
-	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-	<property name="AITask-4" value="ApproachSpot"/>
-	<property name="AITask-5" value="Look"/>
-	<property name="AITask-6" value="Wander"/>
-	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>><!-- Marks end, so we don't inheirit -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -2020,12 +2025,15 @@
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="HandItem" value="meleeHandzombieSpiderFeralFireGlider"/>
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
-			<property name="AITask-2" value="BreakBlock"/>
-			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
-			<property name="AITask-4" value="ApproachSpot"/>
-			<property name="AITask-5" value="Wander"/>
-			<property name="AITask-6" value=""/>
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="DismemberMultiplierHead" value=".2"/>
@@ -2082,11 +2090,15 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
-			<property name="AITask-2" value="ApproachSpot"/>
-			<property name="AITask-3" value="Look"/>
-			<property name="AITask-4" value="Wander"/>
-			<property name="AITask-5" value=""/>
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
@@ -2139,11 +2151,15 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
-			<property name="AITask-2" value="ApproachSpot"/>
-			<property name="AITask-3" value="Look"/>
-			<property name="AITask-4" value="Wander"/>
-			<property name="AITask-5" value=""/>
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
@@ -2196,11 +2212,15 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
-			<property name="AITask-2" value="ApproachSpot"/>
-			<property name="AITask-3" value="Look"/>
-			<property name="AITask-4" value="Wander"/>
-			<property name="AITask-5" value=""/>
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
@@ -2255,13 +2275,15 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-			<property name="AITask-1" value="BreakBlock"/>
-			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-			<property name="AITask-4" value="ApproachSpot"/>
-			<property name="AITask-5" value="Look"/>
-			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->			
+   <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/><!-- Marks end, so we don't inheirit -->			
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="HandItem" value="meleeHandZombieFire"/>			

@@ -2807,7 +2807,7 @@
 <item name="CaughtChick">
 <property name="DescriptionKey" value="CaughtChickDesc"/>
 <property name="CustomIcon" value="chickchick"/>
-	<property name="Meshfile" value="#@modfolder:Resources/ChickenCoop.unity3d?chickchick" />
+	<property name="Meshfile" value="#@modfolder:Resources/ChickenCoops.unity3d?chickchick" />
 	<property name="Material" value="Morganic" />
 	<property name="HoldType" value="21" />
 	<property name="CraftingIngredientTime" value="8" />

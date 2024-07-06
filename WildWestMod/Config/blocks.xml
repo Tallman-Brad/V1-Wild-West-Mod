@@ -1544,13 +1544,13 @@
 	
 <!-- Oakraven's Chicken Coops -->
 
-	<block name="birdnestEmpty">
+<block name="birdnestEmpty">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Material" value="MclothStable"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestPrefab" />
+		<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?birdnestPrefab" />
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="GndAlign" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
@@ -1572,7 +1572,7 @@
 		<property name="Material" value="MclothStable"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestEggs" />
+		<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?birdnestEggs" />
 		<property name="LootList" value="birdNest"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="GndAlign" value="1"/>
@@ -1593,13 +1593,13 @@
 <block name="WoodCoopEmpty">
 	<property name="DescriptionKey" value="WoodCoopEmptyDesc"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="CustomIcon" value="woodcoop"/>
+	<property name="CustomIcon" value="housecoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenShed1A"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?StoneCoopEmpty"/>	
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
@@ -1621,7 +1621,7 @@
 	<property name="Extends" value="WoodCoopEmpty"/>		
 	<property name="CreativeMode" value="Player"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
-	<property name="CustomIcon" value="woodcoop"/>
+	<property name="CustomIcon" value="housecoop"/>
 	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true"/>
@@ -1631,7 +1631,7 @@
 <block name="WoodCoopChicks">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="woodcoop"/>	
+	<property name="CustomIcon" value="housecoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
@@ -1639,7 +1639,7 @@
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenShed2A"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?StoneCoopChicks"/>	
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45.0"/>
@@ -1653,14 +1653,14 @@
 		<block name="WoodCoopLaying">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="woodcoop"/>	
+	<property name="CustomIcon" value="housecoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenShed3A"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?StoneCoopLaying"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="60.0"/> <!-- Once a day for 60 minute days --> 
@@ -1673,7 +1673,7 @@
 
 <block name="WoodCoopWithEggs">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="woodcoop"/>	
+	<property name="CustomIcon" value="housecoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
@@ -1687,7 +1687,7 @@
 	<property name="Class" value="Loot"/>	
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenShed4A"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?StoneCoopEggs"/>
 	<property name="LootList" value="EggsReady"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="WoodCoopLaying"/>
@@ -1696,14 +1696,14 @@
 	<block name="ChickenCoopEmpty">
 	<property name="DescriptionKey" value="WoodCoopEmptyDesc"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="CustomIcon" value="chickencoop"/>
+	<property name="CustomIcon" value="tincoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Group" value="Decor/Miscellaneous"/>	
 	<property name="Material" value="Mwood_weak"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?OaksChickenCoop"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?BarrelCoopEmpty"/>		
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
@@ -1723,14 +1723,14 @@
 <block name="ChickenCoopChicks">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="chickencoop"/>	
+	<property name="CustomIcon" value="tincoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?OaksChickenCoop1"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?BarrelCoopChicks"/>	
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45.0"/>
@@ -1744,14 +1744,14 @@
 		<block name="ChickenCoopLaying">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="chickencoop"/>	
+	<property name="CustomIcon" value="tincoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?OaksChickenCoop2"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?BarrelCoopLaying"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="60.0"/> <!-- Once a day for 60 minute days -->
@@ -1764,7 +1764,7 @@
 
 <block name="ChickenCoopWithEggs">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="chickencoop"/>	
+	<property name="CustomIcon" value="tincoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
@@ -1778,7 +1778,7 @@
 	<property name="Class" value="Loot"/>	
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?OaksChickenCoop3"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?BarrelCoopEggs"/>
 	<property name="LootList" value="EggsReady"/>
 	<property name="CreativeMode" value="Player"/>
 	<drop event="Destroy" count="0" />
@@ -1791,7 +1791,7 @@
 	<property name="MaxDamage" value="80"/>
 	<property name="CustomIcon" value="chickengrown"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chickenchop2"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?Chickenchop2"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -1814,14 +1814,14 @@
 <block name="TinCoopEmpty">
 	<property name="DescriptionKey" value="WoodCoopEmptyDesc"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="CustomIcon" value="tincoop"/>
+	<property name="CustomIcon" value="woodcoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Group" value="Decor/Miscellaneous"/>	
 	<property name="Material" value="Mwood_weak"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chicken_CoopA"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?TinCoopEmpty"/>	
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
@@ -1841,14 +1841,14 @@
 <block name="TinCoopChicks">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="tincoop"/>	
+	<property name="CustomIcon" value="woodcoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chicken_CoopChicksA"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?TinCoopChicks"/>	
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45.0"/>
@@ -1863,13 +1863,13 @@
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="tincoop"/>	
-	<property name="DisplayType" value="blockMulti"/>
+	<property name="DisplayType" value="woodcoop"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chicken_CoopNestingA"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?TinCoopLaying"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="60.0"/> <!-- Once a day for 60 minute days --> 
@@ -1882,7 +1882,7 @@
 
 <block name="TinCoopWithEggs">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="tincoop"/>	
+	<property name="CustomIcon" value="woodcoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
@@ -1896,7 +1896,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chicken_CoopWoodTakeA"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?TinCoopEggs"/>
 	<property name="LootList" value="EggsReady"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="TinCoopLaying"/>
@@ -1905,14 +1905,14 @@
 <block name="HouseCoopEmpty">
 	<property name="DescriptionKey" value="WoodCoopEmptyDesc"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="CustomIcon" value="housecoop"/>
+	<property name="CustomIcon" value="chickencoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Group" value="Decor/Miscellaneous"/>	
 	<property name="Material" value="Mwood_weak"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?AChickenHouse"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?GovCoopEmpty"/>	
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
@@ -1932,14 +1932,14 @@
 <block name="HouseCoopChicks">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="housecoop"/>	
+	<property name="CustomIcon" value="chickencoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?AChickenHouse1"/>	
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?GovCoopChicks"/>	
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45.0"/>
@@ -1953,14 +1953,14 @@
 		<block name="HouseCoopLaying">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="housecoop"/>	
+	<property name="CustomIcon" value="chickencoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?AChickenHouse2"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?GovCoopLaying"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="60.0"/> <!-- Once a day for 60 minute days -->
@@ -1973,7 +1973,7 @@
 
 <block name="HouseCoopWithEggs">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="housecoop"/>	
+	<property name="CustomIcon" value="chickencoop"/>	
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="ModelOffset" value="-0.5,0.5,0"/>
@@ -1987,7 +1987,7 @@
 	<property name="Class" value="Loot"/>	
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?AChickenHouse3"/>
+	<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?GovCoopEggs"/>
 	<property name="LootList" value="EggsReady"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="HouseCoopLaying"/>
