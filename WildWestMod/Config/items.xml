@@ -4374,8 +4374,8 @@
     <property name="ItemTypeIcon" value="bundle"/>
     <property name="DescriptionKey" value="questRewardOakBundleDesc"/>
     <property class="Action0">
-        <property name="Create_item" value="meleeWpnBladeT3MacheteMini,foodWildWestAcornHardtack,foodWildWestPineConeJam,foodWildWestAcornFlour,medicalFirstAidBandage,drinkJarBoiledWater"/>
-        <property name="Create_item_count" value="2-3,5,4,10,8,6"/>
+        <property name="Create_item" value="meleeWpnBladeT3MacheteMini, armorRangerHelmet, foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
+        <property name="Create_item_count" value="2-3,1-2,2,2,2"/>
     </property>
 </item>
 
