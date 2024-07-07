@@ -4248,6 +4248,12 @@
 	<item name="drinkJarBoiledWater" count="10"/>
 </lootgroup>
 
+<lootgroup name="groupQuestArmorResources">
+	<item name="resourceArmorCraftingKit" count="5" loot_prob_template="high"/>
+	<item name="armorParts" count="5" loot_prob_template="med"/>
+	<item name="resourceLegendaryParts" count="1" loot_prob_template="low"/>
+</lootgroup>
+
 <lootgroup name="groupQuestMods">
 	<item group="groupModAllT1" loot_prob_template="QuestT1Prob"/>
 	<item group="groupModAllT1" loot_prob_template="QuestT1Prob"/>
@@ -4368,6 +4374,38 @@
 
 <lootgroup name="groupQuestFarmPlotsT3" count="all">
 	<item name="questRewardFarmT3Bundle"/>
+</lootgroup>
+
+<lootgroup name="groupQuestMeleeCrafting">
+	<item name="questRewardSteelKnuckleCraftingBundle"/>
+	<item name="questRewardMacheteCraftingBundle"/>
+	<item name="questRewardSteelClubCraftingBundle"/>
+	<item name="questRewardBatonCraftingBundle"/>
+	<item name="questRewardSteelSpearCraftingBundle"/>
+	<item name="questRewardSteelSledgehammerCraftingBundle"/>
+	<item name="questRewardSteelToolsCraftingBundle"/>
+	<item name="questRewardMotorToolsCraftingBundle"/>
+</lootgroup>
+
+<!-- <lootgroup name="groupQuestLegendaryMeleeCrafting">
+	<item name="questRewardLegendarySteelKnuckleCraftingBundle"/>
+	<item name="questRewardLegendaryMacheteCraftingBundle"/>
+	<item name="questRewardLegendarySteelClubCraftingBundle"/>
+	<item name="questRewardLegendaryBatonCraftingBundle"/>
+	<item name="questRewardLegendarySteelSpearCraftingBundle"/>
+	<item name="questRewardLegendarySteelSledgehammerCraftingBundle"/>
+	<item name="questRewardLegendarySteelToolsCraftingBundle"/>
+	<item name="questRewardLegendaryMotorToolsCraftingBundle"/>
+</lootgroup> -->
+
+<lootgroup name="groupQuestRangedCrafting">
+	<item name="questRewardBowCraftingBundle"/>
+	<item name="questRewardHandgunCraftingBundle"/>
+	<item name="questRewardShotgunCraftingBundle"/>
+	<item name="questRewardRifleCraftingBundle"/>
+<!--	<item name="questRewardMachineGunCraftingBundle"/>
+	<item name="questRewardRoboticsCraftingBundle"/>
+	<item name="questRewardRocketLauncherCraftingBundle"/> -->
 </lootgroup>
 
 <lootgroup name="groupQuestT0Firearms">
