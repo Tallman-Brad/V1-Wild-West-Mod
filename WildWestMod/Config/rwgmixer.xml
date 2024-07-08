@@ -75,10 +75,10 @@
 		</property>
 
 		<property class="oldwest">
-			<property name="count" value="1, 2, 3"/>
-			<property name="tiles" value="7, 14"/>
+			<property name="count" value="2, 2, 3"/>
+			<property name="tiles" value="5, 6"/>
 		</property>
-
+<!--
 		<property class="forest_countrytown">
 			<property name="count" value="1, 2, 3"/>
 			<property name="tiles" value="7, 14"/>
@@ -128,7 +128,7 @@
 
 		<property class="wilderness">
 			<property name="count" value="40, 80, 120"/>
-		</property>
+		</property> -->
 	</world>
 	
 	<world name="small">
@@ -203,11 +203,11 @@
 		</property>
 
 		<property class="oldwest">
-			<property name="count" value="0, 1, 2"/>
-			<property name="tiles" value="1, 2"/>
+			<property name="count" value="2, 2, 3"/>
+			<property name="tiles" value="5, 6"/>
 		</property>
 
-		<property class="forest_countrytown">
+<!--		<property class="forest_countrytown">
 			<property name="count" value="2, 4, 6"/>
 			<property name="tiles" value="6, 6"/>
 			<property name="distance" value="4"/>
@@ -256,7 +256,7 @@
 
 		<property class="wilderness">
 			<property name="count" value="90, 180, 270"/>
-		</property>
+		</property> -->
 	</world>
 
 	<world name="medium">
@@ -331,11 +331,12 @@
 		</property>
 
 		<property class="oldwest">
-			<property name="count" value="0, 1, 2"/>
-			<property name="tiles" value="2, 2"/>
+			<property name="count" value="2, 4, 6"/>
+			<property name="tiles" value="5, 6"/>
+			<property name="distance" value="4"/>
 		</property>
 
-		<property class="forest_countrytown">
+<!--		<property class="forest_countrytown">
 			<property name="count" value="2, 4, 6"/>
 			<property name="tiles" value="6, 6"/>
 			<property name="distance" value="4"/>
@@ -384,7 +385,7 @@
 
 		<property class="wilderness">
 			<property name="count" value="150, 300, 450"/>
-		</property>
+		</property> -->
 	</world>
 
 	<world name="large">
@@ -459,11 +460,12 @@
 		</property>
 
 		<property class="oldwest">
-			<property name="count" value="1, 2, 3"/>
-			<property name="tiles" value="2, 3"/>
+			<property name="count" value="3, 5, 7"/>
+			<property name="tiles" value="6, 6"/>
+			<property name="distance" value="4"/>
 		</property>
 
-		<property class="forest_countrytown">
+<!--		<property class="forest_countrytown">
 			<property name="count" value="3, 5, 7"/>
 			<property name="tiles" value="6, 6"/>
 		</property>
@@ -509,7 +511,7 @@
 
 		<property class="wilderness">
 			<property name="count" value="250, 500, 750"/>
-		</property>
+		</property> -->
 	</world>
 
 
@@ -658,11 +660,11 @@
 	<prefab_spawn_adjust partial_name="downtown_filler_park" bias="1"/>
 	<prefab_spawn_adjust partial_name="downtown_filler_plaza" bias="1"/>
 	<prefab_spawn_adjust partial_name="rubble_downtown_filler" bias="1"/> 
-	-->
+
 	
 	<prefab_spawn_adjust partial_name="lot_rural_filler" bias="5"/>
 	<prefab_spawn_adjust partial_name="gas_station" min_count="5"/> 
-	<prefab_spawn_adjust partial_name="rural_outdoor_wedding_01" min_count="1" max_count="1" bias="10"/>
+	<prefab_spawn_adjust partial_name="rural_outdoor_wedding_01" min_count="1" max_count="1" bias="10"/> -->
 
 	</append>	
 

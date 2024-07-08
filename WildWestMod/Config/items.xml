@@ -836,7 +836,7 @@
 
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,ammo44MagnumBulletSilver"/>
 		<property name="Sound_start" value="44magnum_fire"/>
 		<property name="Sound_loop" value="44magnum_fire"/>
 		<property name="Sound_end" value=""/>
@@ -4379,8 +4379,8 @@
     <property name="ItemTypeIcon" value="bundle"/>
     <property name="DescriptionKey" value="questRewardOakBundleDesc"/>
     <property class="Action0">
-        <property name="Create_item" value="meleeWpnBladeT3MacheteMini,foodWildWestAcornHardtack,foodWildWestPineConeJam,foodWildWestAcornFlour,medicalFirstAidBandage,drinkJarBoiledWater"/>
-        <property name="Create_item_count" value="2-3,5,4,10,8,6"/>
+        <property name="Create_item" value="meleeWpnBladeT3MacheteMini, armorRangerHelmet, foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
+        <property name="Create_item_count" value="2-3,1-2,2,2,2"/>
     </property>
 </item>
 

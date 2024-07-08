@@ -1528,7 +1528,6 @@
 		<reward type="Item" id="questRewardPipePistolBundle" ischosen="true" value="1"/>
 		<reward type="Item" id="questRewardPipeShotgunBundle" ischosen="true" value="1"/>
 		<reward type="Item" id="questRewardPipeRifleBundle" ischosen="true" value="1"/>
-		<reward type="Item" id="armorRangerHelmet" ischosen="true" value="1"/>
 <!--		<reward type="Item" id="questRewardPipeBatonBundle" ischosen="true" value="1"/> -->
 	</quest>
 
