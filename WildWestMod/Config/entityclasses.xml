@@ -71,7 +71,7 @@
 
 	<!-- Default Entities wearing Decorative Hats by Buff -->
 	<append xpath="/entity_classes/entity_class[@name='zombieBoe']/effect_group">
-			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBoeHat1WildWestDeco"/>
+<!--			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBoeHat1WildWestDeco"/> -->
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group">
@@ -2078,7 +2078,7 @@
             <property name="Mesh" value="#@modfolder:Resources/a20burntvulture.unity3d?gupBurnedVultureTeeth"/>
             <property name="ExperienceGain" value="300"/>
             <property name="DeadBodyHitPoints" value="200"/>
-			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
             <property name="Mass" value="35"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2139,7 +2139,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".35"/>
-			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2200,7 +2200,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2263,7 +2263,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2316,6 +2316,7 @@
 	        <property name="Mesh" value="#@modfolder:Resources/Rat3.unity3d?Rat3Screamer"/>
 	        <property name="ModelType" value="Standard"/>
 	        <property name="WalkType" value="22"/>
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
 	        <property name="Mass" value="130"/>
 			<property name="LookAtAngle" value="0"/>
 	        <property name="RootMotion" value="true"/>
@@ -2378,6 +2379,7 @@
 	        <property name="Mesh" value="#@modfolder:Resources/Rat3.unity3d?Rat3ScreamerFed"/>
 	        <property name="ModelType" value="Standard"/>
 	        <property name="WalkType" value="22"/>
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
 	        <property name="Mass" value="130"/>
 			<property name="LookAtAngle" value="0"/>
 	        <property name="RootMotion" value="true"/>
@@ -2440,6 +2442,7 @@
 	        <property name="Mesh" value="#@modfolder:Resources/Rat3.unity3d?Rat3ScreamerRad"/>
 	        <property name="ModelType" value="Standard"/>
 	        <property name="WalkType" value="22"/>
+			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
 	        <property name="Mass" value="130"/>
 			<property name="LookAtAngle" value="0"/>
 	        <property name="RootMotion" value="true"/>

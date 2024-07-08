@@ -793,17 +793,6 @@
 	<remove xpath="/blocks/block[@name='cntBirdnest']" />
 	<remove xpath="/blocks/block[@name='cntBirdnestCorner']" />
 	
-	<append xpath="/blocks/block[@name='treeMaster']" >
-		<drop event="Destroy" name="QueenBee" prob=".05" count="1"/>
-		<drop event="Destroy" name="CaughtChick" prob=".05" count="1"/>
-	</append>
-	<append xpath="/blocks/block[@name='treeStump']" >
-		<drop event="Destroy" name="QueenBee" prob=".05" count="1"/>
-	</append>
-	<append xpath="/blocks/block[@name='treeStumpPOI']" >
-		<drop event="Destroy" name="QueenBee" prob=".05" count="1"/>
-	</append>
-	
 	<append xpath="/blocks">
 	
 <!-- Zombie Crater Bear Sleeper -->	
@@ -1358,7 +1347,7 @@
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?squareBeeHiveGold1"/>	
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?squareBeeHiveGold1"/>	
 	<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property class="UpgradeBlock">
@@ -1390,7 +1379,7 @@
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?squareBeeHiveGold2"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?squareBeeHiveGold2"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45"/>  <!-- Needs changing to 45 when happy -->
@@ -1414,7 +1403,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?squareBeeHiveGold3"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?squareBeeHiveGold3"/>
 	<property name="LootList" value="Honey"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="SquareBeeHiveQueen"/>
@@ -1430,7 +1419,7 @@
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?OaksBeeHiveGOLD1"/>	
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?OaksBeeHiveGOLD1"/>	
 	<property name="CreativeMode" value="Player"/>
 	<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
 	<property class="UpgradeBlock">
@@ -1451,7 +1440,7 @@
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?OaksBeeHiveGold2"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?OaksBeeHiveGold2"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45"/>  <!-- Needs changing to 45 when happy -->
@@ -1475,7 +1464,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?OaksBeeHiveGold3"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?OaksBeeHiveGold3"/>
 	<property name="LootList" value="Honey"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="BeeHiveQueen"/>
@@ -1491,7 +1480,7 @@
 	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?BeeHiveWood_A"/>	
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?BeeHiveWood_A"/>	
 	<property name="CreativeMode" value="Player"/>
 	<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
 	<property class="UpgradeBlock">
@@ -1512,7 +1501,7 @@
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?BeeHiveWood_B"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?BeeHiveWood_B"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.GrowthRate" value="45"/>   <!-- Needs changing to 45 when happy -->
@@ -1536,11 +1525,75 @@
 	<property name="Class" value="Loot"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?BeeHiveWood_C"/>
+	<property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?BeeHiveWood_C"/>
 	<property name="LootList" value="Honey"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="WoodBeeHiveQueen"/>
 </block>	
+
+<!-- Bee Stumps -->
+<block name="BeeStumpBees">
+	    <property name="AllowAllRotations" value="true"/>
+        <property name="CustomIcon" value="stumps" />
+		<property name="DescriptionKey" value=""/>		
+        <property name="Material" value="Mwood_weak"/>
+        <property name="IsTerrainDecoration" value="true"/>
+        <property name="Shape" value="ModelEntity"/>
+        <property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?LogBees"/>
+		<property name="ModelOffset" value="0,0.5,0"/>
+		<property name="GndAlign" value="1"/>
+        <property name="Collide" value="movement,melee"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Building,Building2"/>
+        <property name="EconomicValue" value="10"/>
+        <property name="FilterTags" value="fdecor"/>
+        <property name="SortOrder2" value="0050"/>
+        <property name="MaxDamage" value="600"/>
+		<property name="Place" value="TowardsPlacer"/>
+		<drop event="Destroy" count="0"/>
+		<property name="DowngradeBlock" value="Stump"/>
+		<drop event="Harvest" name="resourceWood" count="4,20" tag="allHarvest"/>
+		<drop event="Harvest" name="foodHoneyComb" count="2,4" tag="allHarvest"/>
+		<drop event="Destroy" name="QueenBee" prob=".8" count="1"/>
+	</block>
+	
+	<block name="Stump">
+	   <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
+	     <property name="CreativeMode" value="Player"/>
+	     <property name="Material" value="Mwood_weak"/>
+	     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	     <property name="Shape" value="ModelEntity"/>
+	     <property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?LogNoBees"/>
+		 <property name="ModelOffset" value="0,0.5,0"/>
+		 <property name="GndAlign" value="1"/>
+	     <property name="PlantGrowing.FertileLevel" value="0"/>
+		 <property name="PlantGrowing.LightLevelGrow" value="0"/>
+		 <property name="PlantGrowing.GrowthRate" value="2"/>  <!-- stump respawn rate in real time minutes (2 for testing)	-->
+		 <property name="PlantGrowing.IsRandom" value="false"/>
+		 <property name="PlantGrowing.LightLevelStay" value="0"/>
+	     <property name="PlantGrowing.Next" value="BeeStumpBees"/>
+	     <property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" count="0"/>
+		<property name="DowngradeBlock" value="BeeStumpRespawner"/>
+		 <drop event="Harvest" name="resourceWood" count="4,20" tag="allHarvest"/>
+	</block>
+
+    <block name="BeeStumpRespawner">
+         <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
+	     <property name="CreativeMode" value="Player"/>
+	     <property name="Material" value="Mwood_weak"/>
+	     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	     <property name="Shape" value="ModelEntity"/>
+	     <property name="Model" value="#@modfolder:Resources/BeeHivesV1.unity3d?BeeStumpspawner"/>
+	     <property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="2"/>  <!-- stump respawn rate in real time minutes (2 for testing)	-->
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+	     <property name="PlantGrowing.Next" value="BeeStumpBees"/>
+	     <property name="Group" value="Food/Cooking"/>
+    </block>
 	
 <!-- Oakraven's Chicken Coops -->
 

@@ -263,5 +263,18 @@
 			<decoration type="prefab" name="deco_wildwest_prospector_dig_02_TMB"  onslopes="false" prob=".002" rotatemax="3"/> <!-- Duplicates in all sub biomes as well -->
 			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>	
+
+<!-- Bee Stumnps -->	
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations">
+            <decoration type="block" blockname="BeeStumpBees" prob="0.0002" rotatemax="7"/>
+    </append>
+
+    <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+            <decoration type="block" blockname="BeeStumpBees" prob="0.0002" rotatemax="7"/>
+    </append>
+
+    <append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
+            <decoration type="block" blockname="BeeStumpBees" prob="0.0002" rotatemax="7"/>
+    </append>
 	
 </wildwestmod>

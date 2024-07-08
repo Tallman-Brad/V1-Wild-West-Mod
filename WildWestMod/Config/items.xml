@@ -2675,7 +2675,7 @@
 <item name="QueenBee">
 <property name="DescriptionKey" value="QueenBeeDesc"/>
 <property name="CustomIcon" value="queenbee"/>
-	<property name="Meshfile" value="#@modfolder:Resources/BeeHivesA20.unity3d?QueenBee" />
+	<property name="Meshfile" value="#@modfolder:Resources/BeeHivesV1.unity3d?QueenBee" />
 	<property name="Material" value="Morganic" />
 	<property name="HoldType" value="21" />
 	<property name="CraftingIngredientTime" value="8" />
