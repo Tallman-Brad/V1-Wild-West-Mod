@@ -2450,8 +2450,8 @@
 		</effect_group>
 	</perk>
 
-		<!-- *** LIGHT_ARMOR -->
-	<perk name="perkLightArmor" max_level="4" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
+		<!-- *** MEDIUM_ARMOR -->
+	<perk name="perkMediumArmor" max_level="4" parent="skillAgilityAthletics" name_key="perkMediumArmorName" desc_key="perkMediumArmorDesc" icon="ui_game_symbol_light_armor2">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
@@ -2484,11 +2484,11 @@
 				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadComplete" operation="Equals" value="1"/>
 			</passive_effect>
 
-			<effect_description level="1" desc_key="perkLightArmorRank1Desc" long_desc_key="perkLightArmorRank1LongDesc"/>
-			<effect_description level="2" desc_key="perkLightArmorRank2Desc" long_desc_key="perkLightArmorRank2LongDesc"/>
-			<effect_description level="3" desc_key="perkLightArmorRank3Desc" long_desc_key="perkLightArmorRank3LongDesc"/>
-			<effect_description level="4" desc_key="perkLightArmorRank4Desc" long_desc_key="perkLightArmorRank4LongDesc"/>
-			<!-- <effect_description level="5" desc_key="perkLightArmorRank5Desc" long_desc_key="perkLightArmorRank5LongDesc"/> -->
+			<effect_description level="1" desc_key="perkMediumArmorRank1Desc" long_desc_key="perkMediumArmorRank1LongDesc"/>
+			<effect_description level="2" desc_key="perkMediumArmorRank2Desc" long_desc_key="perkMediumArmorRank2LongDesc"/>
+			<effect_description level="3" desc_key="perkMediumArmorRank3Desc" long_desc_key="perkMediumArmorRank3LongDesc"/>
+			<effect_description level="4" desc_key="perkMediumArmorRank4Desc" long_desc_key="perkMediumArmorRank4LongDesc"/>
+			<!-- <effect_description level="5" desc_key="perkMediumArmorRank5Desc" long_desc_key="perkMediumArmorRank5LongDesc"/> -->
 		</effect_group>
 	</perk>
 

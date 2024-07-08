@@ -84,6 +84,14 @@
     <property class="POILight">
       <property name="0" value="44, 4, 51" />
     </property>
+    <property class="challenge_polymers">
+      <property name="0" value="48, 1, 50" />
+      <property name="1" value="53, 12, 54" />
+      <property name="2" value="55, 12, 54" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="52, 3, 45" />
+    </property>
     <property class="Rally">
       <property name="0" value="37, 5, 37" />
     </property>
@@ -98,6 +106,9 @@
       <property name="2" value="53, 11, 51" />
       <property name="3" value="55, 6, 52" />
       <property name="4" value="50, 11, 53" />
+    </property>
+    <property class="challenge_leather">
+      <property name="0" value="46, 11, 49" />
     </property>
   </property>
 </prefab>
