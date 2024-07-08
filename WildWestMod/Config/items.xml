@@ -1562,18 +1562,20 @@
 	<property name="Group" value="Ammo/Weapons,Basics,Melee Weapons"/>
 	<property name="Meshfile" value="#@modfolder:Resources/pan.unity3d?Ladle"/>
 	<property name="DropMeshfile" value="#@modfolder:Resources/pan.unity3d?Ladle"/>
-	<property name="HoldType" value="12"/>
+	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="EconomicValue" value="175"/>
+	<property name="EconomicValue" value="220"/>
 	<property name="TraderStageTemplate" value="baseTier0"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
 	<property name="SoundHolster" value="weapon_holster"/>
+	<property name="SoundPickup" value="club_metal_grab"/>
+	<property name="SoundPlace" value="club_metal_place"/>
 
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -1612,18 +1614,18 @@
 		</property>
 	</property>
 	<effect_group name="meleeWpnClubT0Ladle">
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkPummelPete,perkFlurryOfStrength"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="17.4" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="150,250" tier="1,6" tags="perkPummelPete"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="60" tags="perkPummelPete,perkFlurryOfStrength"/><!-- Default 55 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="15.7" tags="primary"/><!-- Default 17.4 -->
+		<passive_effect name="DegradationMax" operation="base_set" value="200,350" tier="1,6" tags="perkPummelPete"/><!-- Default 100, 200 but metal ladle -->
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,1,2,2,3" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="15.2"/> <!-- meleeWpnClubT0WoodenClub -->
+		<passive_effect name="EntityDamage" operation="base_set" value="13.2"/> <!-- meleeWpnClubT0WoodenClub --> <!-- Default 12 -->
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="base_set" value="12.75"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="12.1"/> <!-- Default 11 -->
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
@@ -1635,8 +1637,7 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="26.1" tags="secondary"/>
-		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddJournalEntry" journal="powerAttackTip"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="23.5" tags="secondary"/> <!-- Default 26.1 -->
 	</effect_group>
 </item>
 
@@ -1646,18 +1647,20 @@
 	<property name="Group" value="Ammo/Weapons,Melee Weapons"/>
 	<property name="Meshfile" value="#@modfolder:Resources/pan.unity3d?pan"/>
 	<property name="DropMeshfile" value="#@modfolder:Resources/pan.unity3d?pan"/>
-	<property name="HoldType" value="12"/>
+	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="EconomicValue" value="350"/>
+	<property name="EconomicValue" value="550"/> <!-- Default 500 -->
 	<property name="TraderStageTemplate" value="baseTier1"/>
 	<property name="UnlockedBy" value="craftingClubs"/><!-- perkPummelPete,meleeWpnClubT1BaseballBatSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
 	<property name="SoundHolster" value="weapon_holster"/>
+	<property name="SoundPickup" value="club_metal_grab"/>
+	<property name="SoundPlace" value="club_metal_place"/>
 
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -1696,19 +1699,19 @@
 		</property>
 	</property>
 	<effect_group name="meleeWpnClubT1OldPan">
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="52" tags="perkPummelPete,perkFlurryOfStrength"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="20.9" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="220,550" tier="1,6" tags="perkPummelPete"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="57" tags="perkPummelPete,perkFlurryOfStrength"/> <!-- Default 52 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="23" tags="primary"/> <!-- Default 20.9 -->
+		<passive_effect name="DegradationMax" operation="base_set" value="420,550" tier="1,6" tags="perkPummelPete"/> <!-- Default 200,500 -->
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
 		<passive_effect name="ModSlots" operation="base_set" value="2,2,2,3,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="22" tags="perkPummelPete"/> <!-- meleeWpnClubT1BaseballBat -->
+		<passive_effect name="EntityDamage" operation="base_set" value="22" tags="perkPummelPete"/> <!-- meleeWpnClubT1BaseballBat --> <!-- Default 20 -->
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkPummelPete"/> <!-- random EntityDmg -->
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="base_set" value="20" tags="perkPummelPete"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="20" tags="perkPummelPete"/> <!-- Default 18 -->
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkPummelPete"/> <!-- random BlockDmg -->
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
@@ -1721,29 +1724,31 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="35.6" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="32" tags="secondary"/> <!-- Default 35.6 -->
 	</effect_group>
 </item>
 
-<item name="meleeWpnClubT3Skillet"> <!-- T3 clubs meleeWpnClubT3SteelClub +10% for base damage and -10% for degradation and -5% stamina use for high end GS -->
+<item name="meleeWpnClubT3Skillet"> <!-- T3 clubs meleeWpnClubT3SteelClub +10% for base damage and -10% for degradation -->
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfStrength,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,clubSkill"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="Group" value="Ammo/Weapons,Melee Weapons"/>
 	<property name="Meshfile" value="#@modfolder:Resources/pan.unity3d?Skillet"/>
 	<property name="DropMeshfile" value="#@modfolder:Resources/pan.unity3d?Skillet"/>
-	<property name="HoldType" value="12"/>
+	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="Weight" value="1"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="EconomicValue" value="700"/>
+	<property name="EconomicValue" value="1210"/> <!-- Default 1100 -->
 	<property name="TraderStageTemplate" value="baseTier2"/>
 	<property name="UnlockedBy" value="craftingClubs"/><!-- perkBatterUpBaseballBats, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
 	<property name="SoundHolster" value="weapon_holster"/>
+	<property name="SoundPickup" value="club_metal_grab"/>
+	<property name="SoundPlace" value="club_metal_place"/>
 
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -1782,19 +1787,19 @@
 	</property>
 	</property>
 	<effect_group name="meleeWpnClubT3Skillet">
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="52" tags="perkPummelPete,perkFlurryOfStrength"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="21.4" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="330,770" tier="1,6" tags="perkPummelPete"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="57" tags="perkPummelPete,perkFlurryOfStrength"/> <!-- Default 52 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="21.3" tags="primary"/> <!-- Default 23.7 -->
+		<passive_effect name="DegradationMax" operation="base_set" value="550,1100" tier="1,6" tags="perkPummelPete"/> <!-- Default 500,1000 -->
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
 		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="28.8" tags="perkPummelPete"/> <!-- meleeWpnClubT3SteelClub -->
+		<passive_effect name="EntityDamage" operation="base_set" value="35.8" tags="perkPummelPete"/> <!-- meleeWpnClubT3SteelClub --> <!-- Default 32.5 -->
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkPummelPete"/> <!-- random EntityDmg -->
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="base_set" value="33" tags="perkPummelPete"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="33" tags="perkPummelPete"/> <!-- Default 30 -->
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkPummelPete"/> <!-- random BlockDmg -->
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/> <!-- tier bonus -->
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
@@ -1807,7 +1812,7 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="36.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="36.3" tags="secondary"/> <!-- Default 40.3 -->
 	</effect_group>
 </item>
 		
