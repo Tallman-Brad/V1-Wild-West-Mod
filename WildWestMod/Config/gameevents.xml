@@ -1,4 +1,7 @@
 <configs>
+<!-- ww skill points at 5 over vanilla 4 -->
+	<set xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action/property[@name='skill_points']/@value">5</set>
+
 	<append xpath="/gameevents">
 	
 	<!-- Group Animal Spawns -->
