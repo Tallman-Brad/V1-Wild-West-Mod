@@ -736,11 +736,14 @@
 		</trader_item_group>
 
 		<trader_item_group name="rareBooks">
-			<item name="modRoboticDroneCargoModSchematic"/>
+<!--			<item name="modRoboticDroneCargoModSchematic"/>
 			<item name="modRoboticDroneMedicModSchematic"/>
 			<item name="modRoboticDroneHeadlampModSchematic"/>
 			<item name="modRoboticDroneArmorPlatingModSchematic"/>
-			<item name="modRoboticDroneMoraleBoosterModSchematic"/>
+			<item name="modRoboticDroneMoraleBoosterModSchematic"/> -->
+			<item name="modGunBowArrowHandleGripSchematic"/> <!-- added so rare books aren't empty -->
+			<item name="modArcheryReloadSchematic"/>
+			<item name="modWeaponLubricationSchematic"/>
 		</trader_item_group>
 
 		<trader_item_group name="books">

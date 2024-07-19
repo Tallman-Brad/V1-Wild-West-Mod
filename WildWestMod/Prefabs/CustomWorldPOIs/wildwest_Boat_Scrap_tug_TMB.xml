@@ -15,18 +15,18 @@
   <property name="SleeperVolumeSize" value="5, 5, 11" />
   <property name="SleeperVolumeStart" value="1, 11, 1" />
   <property name="SleeperVolumeGroupId" value="0" />
-  <property name="SleeperVolumeGroup" value="S_Zom_Lumber_Jack,3,5" />
+  <property name="SleeperVolumeGroup" value="ZomLumberJack,3,5" />
   <property name="SleeperIsLootVolume" value="False" />
   <property name="SleeperIsQuestExclude" value="False" />
   <property name="SleeperVolumeFlags" value="2" />
   <property name="YOffset" value="-10" />
   <property name="SleeperVolumeTriggeredBy" value=" " />
   <property class="Stats">
-    <property name="TotalVertices" value="178779" />
-    <property name="TotalTriangles" value="178347" />
+    <property name="TotalVertices" value="199274" />
+    <property name="TotalTriangles" value="187214" />
     <property class="BlockEntities">
-      <property name="Vertices" value="170090" />
-      <property name="Triangles" value="172466" />
+      <property name="Vertices" value="190585" />
+      <property name="Triangles" value="181333" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="8017" />
@@ -37,12 +37,12 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
-    <property class="ChunkMeshes3">
       <property name="Vertices" value="672" />
       <property name="Triangles" value="564" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
@@ -52,14 +52,18 @@
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
-    <property class="ChunkMeshes6">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
   </property>
   <property class="IndexedBlockOffsets">
     <property class="FetchContainer">
       <property name="0" value="5, 11, 7" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="5, 11, 12" />
+      <property name="1" value="3, 9, 14" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="1, 12, 10" />
+      <property name="1" value="2, 10, 14" />
     </property>
     <property class="Rally">
       <property name="0" value="1, 11, 13" />
