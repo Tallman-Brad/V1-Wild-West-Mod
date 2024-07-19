@@ -487,7 +487,7 @@ resourceSnowHarePeltDesc,items,item,,,"This pelt can be used as part of a recipe
 animalWildWestSnowBear,entityclasses,Entity,,,Snow Bear,,,,,,,,,,,,,
 resourceCatfish,items,item,,,Catfish,,,,,,,,,,,,,
 resourceCatfishDesc,items,item,,,"Catfish can be taken from a Snow Bear or found in a Fish Trap and used in a recipe, or sold to the trader. Make 2 meals with 1 fish.",,,,,,,,,,,,,
-
+vehiclePlaceableGroupDesc,vehicles,item,,,"Horses are obtained from the trader and increase in performace abilities with higher tiers.\n\nThe Steam Horse is craftable at a workbench.",,,,,,,,,,,,,
 vehicleSteamVelocipede,entityclasses,Entity,,,Steam Velocipede,,,,,,,,,,,,,
 vehicleSteamVelocipedePlaceable,vehicles,vehicle,,,Steam Velocipede,,,,,,,,,,,,,
 vehicleSteamHorsePlaceableDesc,vehicles,vehicle,,,"A steam propelled road vehicle that requires constant top ups of kerosene to maintain pressure.",,,,,,,,,,,,,
