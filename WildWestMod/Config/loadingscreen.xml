@@ -38,7 +38,6 @@
 	<append xpath="/doc/tips">
 		<tip key="loadingTipWildWestTomahawk"/>	
 		<tip key="loadingTipWildWestHordeNight"/>
-		<tip key="loadingTipWildWestHordeQuest"/>
 		<tip key="loadingTipWildWestHardPOIs"/>
 		<tip key="loadingTipWildWestWrenching"/>
 		<tip key="loadingTipWildWestScopes"/>

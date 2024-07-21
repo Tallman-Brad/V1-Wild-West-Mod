@@ -1170,8 +1170,6 @@ loadingTipWildWestTomahawk,UI,Loading Screen,x,,"The Tomahawk is a multi purpose
 loadingTipWildWestTomahawk_title,UI,Loading Screen,x,,Tomahawk,,,,,,,,,,,,,
 loadingTipWildWestHordeNight,UI,Loading Screen,x,,"Wild West blood moon horde nights can be managed with Wild West traps, scrap spitters, and the gatlings.",,,,,,,,,,,,,
 loadingTipWildWestHordeNight_title,UI,Loading Screen,x,,Wild West Blood Moon,,,,,,,,,,,,,
-loadingTipWildWestHordeQuest,UI,Loading Screen,x,,"Eliminate Horde Quest is activated by a quest marker. Activate first, then follow craft and placement instructions. The last item placed spawns the horde.",,,,,,,,,,,,,
-loadingTipWildWestHordeQuest_title,UI,Loading Screen,x,,Eliminate Horde Quest,,,,,,,,,,,,,
 loadingTipWildWestHardPOIs,UI,Loading Screen,x,,"Some of the higher tier custom POIs can be quite challenging. Consider making a small base to retreat to should the battle get too intense.",,,,,,,,,,,,,
 loadingTipWildWestHardPOIs_title,UI,Loading Screen,x,,High Tier Wild West POIs,,,,,,,,,,,,,
 loadingTipWildWestWrenching,UI,Loading Screen,x,,"Wrenching wagons and wagon wheels, wooden barrels, and workstations will supplement looting and mining.",,,,,,,,,,,,,
