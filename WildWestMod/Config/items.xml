@@ -120,6 +120,10 @@
 	<set xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='Meshfile']/@value">#@modfolder:Resources/newfireaxe.unity3d?newfireaxe</set><!-- Replacing Fire Axe for older variant -->
 	<remove xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='TintColor']"/>
 
+    <!-- Machete replace -->
+    <set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='Meshfile']/@value">#@modfolder:Resources/WestKnifes.unity3d?Knife3</set><!-- Replacing Fire Axe for older variant -->
+	<remove xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='TintColor']"/>
+
 	<!-- Steel Spear -->
 	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
 	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfPerception,canHaveCosmetic,perkElectrocutioner,stunBaton,spearSkill"/><!-- ,thrownWeapon -->
@@ -495,10 +499,10 @@
 <!-- Wild West Oakraven Knives -->
 
 <item name="meleeWpnBladeT1HuntingKnifeObsidian">
-	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill"/>
+	<property name="Tags" value="knife,melee,grunting,light,longShaft,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="36"/>
-	<property name="Meshfile" value="#@modfolder:Resources/knife1.unity3d?knife1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/WestKnifes.unity3d?knife1"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -599,10 +603,10 @@
 </item>
 
 <item name="meleeWpnBladeT1HuntingKnifeMedusa">
-	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill"/>
+	<property name="Tags" value="knife,melee,grunting,light,longShaft,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="36"/>
-	<property name="Meshfile" value="#@modfolder:Resources/hunterknife.unity3d?hunterknife"/>
+	<property name="Meshfile" value="#@modfolder:Resources/WestKnifes.unity3d?hunterknife"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -706,7 +710,7 @@
 	<property name="Tags" value="machete,melee,grunting,light,longShaft,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/hacker.unity3d?hacker"/>
+	<property name="Meshfile" value="#@modfolder:Resources/WestKnifes.unity3d?hacker"/>
 	<property name="Material" value="MmeleeWpnBladeParts"/>
 	<property name="Weight" value="1"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
