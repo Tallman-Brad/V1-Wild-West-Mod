@@ -102,6 +102,29 @@
         </item_property_overrides>
 
     </append>
+	
+<!-- Knifes fire Mod -->	 
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+
+       <item_property_overrides name="meleeWpnBladeT3MacheteMini">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?hackerfire"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnBladeT1HuntingKnifeMedusa">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?hunterknifeFire"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnBladeT1HuntingKnifeObsidian">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?knife1fire"/>
+       </item_property_overrides>
+	   
+	   <item_property_overrides name="meleeWpnBladeT3Machete">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?Knife3fire"/>
+       </item_property_overrides>
+
+    </append>	
+	
 
 <append xpath="/item_modifiers">
 
