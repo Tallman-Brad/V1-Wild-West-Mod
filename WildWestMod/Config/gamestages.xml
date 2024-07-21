@@ -71,40 +71,26 @@
 	
 	<!-- GROUPS -->
 	
-	<!-- Boss Group -->
-	<group name="Boss_Family" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="BossVariants" count="5,6" />
-	</group>
+	<!-- Boss Group -->	
+	<group name="Boss_Family" spawner="BossVariants"/>
 	
-	<!-- Crater Bear although also added as a block type sleeper --> 
-	<group name="animalZombieWastelandCraterBear" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="animalZombieWastelandCraterBear" count="1"/>
-	</group>
+	<!-- Crater Bear although also added as a block type sleeper -->
+	<group name="animalZombieWastelandCraterBear" spawner="animalZombieWastelandCraterBear"/>
 	
 	<!-- Guppy Vulture Group with Rats and Bats for complete Family -->
-	<group name="Crispy_Family" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="CripsyVariants" count="5,6" />
-	</group>
+	<group name="Crispy_Family" spawner="CripsyVariants"/>
 	
 	<!-- Bat Swarm -->
-	<group name="Bat_Swarm" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="BatVariants" count="5,6" />
-	</group>
+	<group name="Bat_Swarm" spawner="BatVariants"/>
 	
 	<!-- Rat Pack -->
-	<group name="Rat_Pack" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="RatVariants" count="5,6" />
-	</group>
+	<group name="Rat_Pack" spawner="RatVariants"/>
 	
 	<!-- Scorpion Nest -->
-	<group name="Scorpion_Nest" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="ScorpionVariants" count="5,6" />
-	</group>
+	<group name="Scorpion_Nest" spawner="ScorpionVariants"/>
 
 	<!-- Snow Bear Sleeper Group -->
-	<group name="animalWildWestSnowBear" emptyChance="0" decoyChance="0" decoy1hpChance="0">
-		<spawner name="animalWildWestSnowBear" count="1"/>
-	</group>
+	<group name="animalWildWestSnowBear" spawner="animalWildWestSnowBear"/>
 	
 	<!-- SPAWNERS -->
 	
