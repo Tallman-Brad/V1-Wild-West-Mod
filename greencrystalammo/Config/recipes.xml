@@ -1,0 +1,23 @@
+<wildwestmod>
+
+<set xpath="/recipes">
+
+
+<!-- resourceGreenPowder -->	
+<recipe name="resourceGreenPowder" count="1" craft_time="300" craft_area="chemistryStation" tags="chemStationCrafting">
+	<ingredient name="resourceGreenCrystal" count="20"/>
+	<ingredient name="resourceBlackCrystal" count="5"/>
+	<ingredient name="resourceAcid" count="3"/>
+	<ingredient name="resourceGunPowder" count="4"/>
+</recipe>
+
+<!-- Green Crystal Ammo -->
+<recipe name="ammo9mmGreenCrystal" count="1" craft_area="Ammobench" tags="workbenchCrafting">
+	<ingredient name="resourceGreenPowder" count="1"/>
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+	</set>	
+	
+</wildwestmod>
