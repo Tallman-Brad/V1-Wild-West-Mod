@@ -12,17 +12,6 @@
 			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 		</item>
 		
-		<item name="resourceGreenPowderBundle">
-			<property name="Extends" value="resourceRockSmallBundle"/>
-<!--			<property name="CustomIcon" value="resourceGreenPowder"/> -->
-			<property name="UnlockedBy" value="craftingExplosives"/><!-- perkDemolitionsExpert -->
-			<property class="Action0">
-				<property name="Create_item" value="resourceGreenPowder"/>
-				<property name="Create_item_count" value="1000"/>
-			</property>
-			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
-		</item>
-
 		<item name="ammo9mmGreenCrystal">
 			<property name="Extends" value="ammo9mmBulletBall"/>
 			<property name="Tags" value="ammo9mm"/>
