@@ -424,12 +424,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe!-->
 
-<recipe name="ammoGasCan" count="5" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+<recipe name="ammoGasCan" count="2" craft_time="0.25" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
 	<ingredient name="resourceOilShale" count="1"/>
 </recipe>
 
-<recipe name="ammoGasCanBundle" count="1" craft_time="1000" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
-	<ingredient name="resourceOilShale" count="800"/>
+<recipe name="ammoGasCanBundle" count="1" craft_time="625" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceOilShale" count="2000"/>
 </recipe>
 
 <!--
