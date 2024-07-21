@@ -1930,6 +1930,7 @@
 	<property name="Tags" value="entity,zombie,walker,feral"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSuitFeral.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_SuitZ2.mat,@:Entities/Zombies/Zombies/Materials/HD_SuitZ3.mat"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
 	<property name="ExplodeHealthThreshold" value="0"/>
 
