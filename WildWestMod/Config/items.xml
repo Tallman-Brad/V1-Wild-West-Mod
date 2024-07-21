@@ -4413,7 +4413,7 @@
     <property name="ItemTypeIcon" value="bundle"/>
     <property name="DescriptionKey" value="questRewardOakBundleDesc"/>
     <property class="Action0">
-        <property name="Create_item" value="meleeWpnBladeT1HuntingKnifeObsidian,armorRangerHelmet,foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
+        <property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
         <property name="Create_item_count" value="2-3,1-2,2,2,2"/>
     </property>
 </item>

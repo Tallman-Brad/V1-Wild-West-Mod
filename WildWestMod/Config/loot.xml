@@ -9030,8 +9030,8 @@
 	<item name="cobweb" count="0"/>
 </lootcontainer>
 
-<!-- PLAYER dropped backpacks, they only destroy on close when they are empty -->
-<lootcontainer name="playerBackpack" count="0" size="7,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+<!-- PLAYER dropped backpacks, they only destroy on close when they are empty -->    <!-- Make player dropped bags bigger to accomodate new size of 60 backpack -->
+<lootcontainer name="playerBackpack" count="0" size="10,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
 	<item name="cobweb" count="0"/>
 </lootcontainer>
 
