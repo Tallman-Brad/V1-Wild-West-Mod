@@ -4378,7 +4378,51 @@
 <!--	        <property name="EconomicBundleSize" value="1"/> -->
 	        <property name="Group" value="Resources,Chemicals"/>
        </item>
+<!-- resource green powder -->
+		<item name="resourceGreenPowder">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mdirt"/>
+			<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+			<property name="EconomicValue" value="20"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+		</item>
 
+<!-- Ammo 9mm Green Crystal -->
+		<item name="ammo9mmGreenCrystal">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="Tags" value="ammo9mm"/>
+			<property name="DisplayType" value="ammo9mmGreenCrystal"/>
+			<property name="EconomicValue" value="12"/>
+			<property name="TraderStageTemplate" value="ammoTier3"/>
+			<property name="Damage_type" value="Heat"/>
+			<property name="DescriptionKey" value="ammo9mmGreenCrystalDesc"/>
+			<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
+			
+			<effect_group name="ammo9mmGreenCrystal" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="32" tags="perkGunslinger,9mmGun"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="6" tags="perkGunslinger"/>
+				<passive_effect name="BlockDamage" operation="base_add" value="18" tags="barrelExplosive"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
+				</triggered_effect>
+
+					<display_value name="dEntityDamageFire" value="100"/>
+				<display_value name="dDuration" value="10"/>
+			</effect_group>
+		</item>
+
+	<append xpath="/items/item[@name='gunHandgunT1666Revolver']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmGreenCrystal</append>
 
 <!-- Blue Crystal Battery (Turbine ingredient) -->
 	
@@ -4418,7 +4462,8 @@
     </property>
 </item>
 
-	
-	</append>		
-	
+</append>		
+
+	<append xpath="/items/item[@name='gunHandgunT1666Revolver']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmGreenCrystal</append>
+
 </wildwestmod>

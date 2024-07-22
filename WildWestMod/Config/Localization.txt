@@ -673,6 +673,12 @@ modMeleeStunBatonRepulsor,item_modifiers,Mod,,,Steel Lance Weighted Shock Mod,,,
 modMeleeStunBatonRepulsorDesc,item_modifiers,Mod,,,Install this mod into a Steel Lance and send zombies flying in shock.,,,,,,,,,,,,,
 modGunSoundSuppressorSilencerDesc,item_modifiers,mod,,,"A sound suppressor greatly reduces the firing sound but reduces maximum range and damage.\nWorks best with small calibers and guns with a low rate of fire.\nWill not work on a pipe pistol revolver.",,,,,,,,,,,,,
 
+resourceGreenPowder,items,Resource,,,Green Powder,,,,,,,,,,,,,
+resourceGreenPowderDesc,items,Resource,,,"Green Crystals processed in the Chemistry Station produce Green Powder. A key ingredient in the manufacturing of Green Crystal Ammo.",,,,,,,,,,,,,
+
+ammo9mmGreenCrystal,items,Ammo,,,Green Crystal Ammo,,,,,,,,,,,,,
+ammo9mmGreenCrystalDesc,items,Ammo,,,"Green Crystal Ammo has incendiary properties. Crafted in the Ammo Press using Green Powder, Bullet Tips and Bullet Cases",,,,,,,,,,,,
+
 ammo762mmBulletAP,items,Ammo,,,AP .50-90 Sharps Ammo,,,,,,,,,,,,,
 ammo762mmBulletBall,items,Ammo,,,.50-90 Sharps Ammo,,,,,,,,,,,,,
 ammo762mmBulletBallDesc,items,Ammo,,,"A regular .50-90 Sharps round used as firearm ammunition for hunting large game. Can be crafted at a workbench.",,,,,,,,,,,,,
