@@ -829,6 +829,11 @@ ammoGasCanDesc,items,Item,,,"A jar of kerosene. Can be used as fuel for recipes.
 ammoSteamHorse,items,Item,,,Steam Horse Fuel,,,,,,,,,,,,,
 ammoSteamHorseDesc,items,Item,,,"A jar of steam horse fuel.",,,,,,,,,,,,,
 
+resourceLegendaryParts,items,Item,,,Quality 6 Parts,,,,,,,,,,,,,
+resourceLegendaryPartsDesc,items,Item,,,"Preserved in their factory packaging, these parts are the key to crafting the best quality gear.\n\nUsed to craft quality 6 armor, tools, and weapons.",,,,,,,,,,,,,
+perkWasteTreasuresCompleteDesc,progression,perk  book,,,Find more Quality 6 Parts.,,,,,,,,,,,,,
+perkWasteTreasuresCompleteLongDesc,progression,perk  book,,,Quality 6 Parts: Unbelievable that someone left these behind. Increase your chances of finding Quality 6 Parts amidst the loot.,,,,,,,,,,,,,
+
 bookEnforcerAPAmmo,items,perk  book,,,Henry Vol 5,,,,,,,,,,,,,
 bookEnforcerApparel,items,perk  book,,,Henry Vol 2,,,,,,,,,,,,,
 bookEnforcerCriminalPursuit,items,perk  book,,,Henry Vol 7,,,,,,,,,,,,,
