@@ -4710,9 +4710,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
       <ingredient name="resourcePaint" count="30" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
 <!-- Extras -->
-    <recipe name="modInvisible" count="1">
-      <ingredient name="resourcePaint" count="30" craft_area="workbench" tags="workbenchCrafting"/>
-    </recipe>
     <recipe name="modDyeTan" count="1">
       <ingredient name="resourcePaint" count="30" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
