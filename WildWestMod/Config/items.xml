@@ -1375,6 +1375,207 @@
 	</effect_group>
 </item>
 
+<!-- Gatling Turret -->
+<item name="TurretWildWest">
+	<property name="Tags" value="turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic,roboticsSkill"/>
+	<property name="CustomIcon" value="westturret"/>
+	<property name="DisplayType" value="rangedTurret"/>
+	<property name="HoldType" value="67"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+	<property name="HandMeshfile" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurretHeld_Prefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/> <property name="Weight" value="250"/>
+	<property name="Weight" value="400"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="Group" value="Ammo/Weapons,Robotics"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="TraderStageTemplate" value="baseTier2"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="RequiredPower" value="15"/>
+	<property name="UnlockedBy" value="craftingRobotics"/><!-- gunBotT2JunkTurretSchematic, -->
+    <property name="ShowQuality" value="true"/>
+    <property name="IgnoreKeystoneSound" value="true"/>
+	<property name="SoundUnholster" value="weapon_unholster"/>
+	<property name="SoundHolster" value="weapon_holster"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".8"/> <!-- obsolete if rounds per minute exists -->
+		<!-- <property name="Range" value="40"/> -->
+		<property name="Magazine_items" value="TurretRegular,TurretHD,TurretAP"/>
+		<property name="Reload_time" value="3.9"/>
+		<property name="Sound_start" value="junkturret_fire"/>
+		<property name="Sound_loop" value="junkturret_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="m60_reload"/>
+		<property name="AutoReload" value="false"/>
+		<property name="Particles_muzzle_fire" value="gunfire_junkturret_fpv"/>
+		<!-- <property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/> -->
+		<!-- <property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.wood" value="2.5"/>
+		<property name="DamageBonus.earth" value=".2"/> -->
+		<property name="ScopeOffset" value="0,0,0"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	        <property name="triggerEffectTriggerPullDualsense" value="PistolTrigger"/>
+	        <property name="triggerEffectTriggerPullXbox" value="PistolTrigger"/>
+	        <property name="triggerEffectShootDualsense" value="PistolShoot"/>
+	        <property name="triggerEffectShootXbox" value="PistolShoot"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="SpawnTurret"/>
+		<property name="Turret" value="TurretWildWest"/>
+		<property name="PreviewSize" value="0.75,0.75,0.75"/>
+		<!--<requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="3"/>-->
+	</property>
+	<effect_group name="TurretWildWest">
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkTurrets"/> <!-- random effective rng -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.08,.08" tags="perkTurrets"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkTurrets"/> <!-- tier bonus -->
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/> <!-- random DegMax -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkTurrets"/> <!-- random WeaponHandling -->
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.1,.1" tags="turretRanged"/> <!-- random APM -->
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122" tags="turretRanged"/> <!-- random MagazineSize -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkTurrets"/> <!-- random WeaponHandling -->
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkTurrets"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="180" tags="turretRanged"/> <!-- Default 62 -->
+		<passive_effect name="MagazineSize" operation="base_add" value="6,30" tier="2,6" tags="turretRanged"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13" tags="perkTurrets"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05" tags="perkTurrets"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15" tags="perkTurrets"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkTurrets"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="3" tags="perkTurrets"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3" tags="perkTurrets"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2" tags="perkTurrets"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2" tags="perkTurrets"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0" tags="perkTurrets"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="450,850" tier="1,6" tags="perkTurrets"/> <!-- Default 250,600 -->
+		<passive_effect name="DegradationPerUse" operation="base_set" value="0.35" tags="perkTurrets"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+	</effect_group>
+	<effect_group name="JunkTurretWildWestDeco">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body1" prefab="#@modfolder:Resources/GatlingOak.unity3d?GatlingOakHold" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0"/>
+	</effect_group>
+</item>
+
+<item name="TurretRegular">
+	<property name="Tags" value="ammo"/>
+	<property name="CustomIcon" value="clipreg"/>
+	<property name="DisplayType" value="ammoJunkTurretRegular"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/GatlingOak.unity3d?TurretClip"/>
+	<property name="DropMeshfile" value="#@modfolder:Resources/GatlingOak.unity3d?TurretClip"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="1000"/>
+	<property name="EconomicValue" value="3"/>
+	<property name="TraderStageTemplate" value="ammoTier1"/>
+	<property name="Group" value="Ammo/Weapons,Ammo,Robotics"/>
+	
+	<effect_group name="ammoJunkTurretRegular" tiered="false">
+		<passive_effect name="MaxRange" operation="base_set" value="15" tags="perkTurrets"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="10" tags="perkTurrets"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="11.8" tags="perkTurrets"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150.6" tags="turretRanged"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5" tags="perkTurrets"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5" tags="perkTurrets"/>
+	</effect_group>
+</item>
+
+<item name="TurretHD">
+	<property name="Extends" value="ammoJunkTurretRegular"/>
+	<property name="CustomIcon" value="clipreg"/>
+	<property name="UnlockedBy" value="perkTechJunkie3APAmmo"/> <!-- BOOK_PERK -->
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="DisplayType" value="ammoJunkTurretAP"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="TraderStageTemplate" value="ammoTier3"/>
+	
+	<effect_group name="ammoJunkTurretAP" tiered="false">
+		<passive_effect name="MaxRange" operation="base_set" value="16" tags="perkTurrets"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="11" tags="perkTurrets"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="14.1" tags="perkTurrets"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="2" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150.6" tags="turretRanged"/>
+
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkTurrets"/><display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkTurrets"/><display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4" tags="perkTurrets"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4" tags="perkTurrets"/>
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+	</effect_group>
+</item>
+
+<item name="TurretAP">
+	<property name="Extends" value="ammoJunkTurretRegular"/>
+	<property name="CustomIcon" value="clipreg"/>
+	<property name="UnlockedBy" value="perkTechJunkie3APAmmo"/> <!-- BOOK_PERK -->
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="DisplayType" value="ammoJunkTurretAP"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="TraderStageTemplate" value="ammoTier3"/>
+	
+	<effect_group name="ammoJunkTurretAP" tiered="false">
+		<passive_effect name="MaxRange" operation="base_set" value="16" tags="perkTurrets"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="11" tags="perkTurrets"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="17.1" tags="perkTurrets"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="3" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150.6" tags="turretRanged"/>
+
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkTurrets"/><display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkTurrets"/><display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4" tags="perkTurrets"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4" tags="perkTurrets"/>
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkTurrets">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+	</effect_group>
+</item>
+
+
 <!-- Winchester Rifle -->
 
 <item name="gunRifleT2LeverActionRifleWinchester">

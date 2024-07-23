@@ -4807,7 +4807,16 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
 	</effect_group>
 </recipe>
-		
+
+<!-- Gatling Turret -->
+<recipe name="TurretWildWest" count="1" craft_area="workbench" tags="learnable,perkTurrets">
+	<ingredient name="gunGatling" count="1"/>
+	<ingredient name="blueCrystalBattery" count="1"/>
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceLegendaryParts" count="3"/>
+</recipe>
+	
 <!-- Winchester Rifle -->		
 		
 <recipe name="gunRifleT2LeverActionRifleWinchester" count="1" craft_area="workbench" tags="learnable,perkDeadEye">

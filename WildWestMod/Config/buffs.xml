@@ -123,7 +123,15 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Sandbags/sandbag_single_03Prefab" local_offset="0.35,0.2,0.05" local_rotation="180,160,90" parent_transform="Gun"/>				
 			</effect_group>
 		</buff>
-	
+<!-- Gatling Turret -->
+
+		<buff name="JunkTurretWildWestDeco" hidden="true">
+			<stack_type value="ignore"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/GatlingOak.unity3d?GatlingOak" local_offset="0,-0.5,0" local_rotation="0,0,0" parent_transform="Gun"/>
+			</effect_group>
+		</buff>
+		
 <!-- Wight Gunslinger -->
 
 		<buff name="zombieWightFeralGunslingerDeco" hidden="true">
