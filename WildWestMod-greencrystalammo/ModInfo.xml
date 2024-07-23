@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<Name value="WildWestMod-ammogreencrystal" />
-	<DisplayName value="Ammo Green Crystal" />
-	<Description value="Adds incendiary ammo utilising green crystals" />
-	<Author value="TMB, some code borrowed from Whackit1 - incendiary Ammo Mod for A21 (https://github.com/WhackIt1/IncendiaryAmmo)" />
-	<Version value="21.2.1.0" />
-	<Website value="https://discord.gg/vc2XmnNWB8" />
-</xml>

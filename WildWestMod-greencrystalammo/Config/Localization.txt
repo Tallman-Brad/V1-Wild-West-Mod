@@ -1,7 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-
-resourceGreenPowder,items,Resource,,,Green Powder,,,,,,,,,,,,,
-resourceGreenPowderDesc,items,Resource,,,"Green Crystals processed in the Chemistry Station produce Green Powder. A key ingredient in the manufacturing of Green Crystal Ammo.",,,,,,,,,,,,,
-
-ammo9mmGreenCrystal,items,Ammo,,,Green Crystal Ammo,,,,,,,,,,,,,
-ammo9mmGreenCrystalDesc,items,Ammo,,,"Green Crystal Ammo has incendiary properties. Crafted in the Ammo Press using Green Powder, Bullet Tips and Bullet Cases",,,,,,,,,,,,
