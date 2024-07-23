@@ -1,0 +1,329 @@
+﻿<wildwestmod>
+
+<!-- burning shaft for axe -->
+	<remove xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/item_property_overrides[@name='meleeToolAxeT2SteelAxe']"/>
+
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+            <item_property_overrides name="meleeToolAxeT2SteelAxe">
+            <property name="FlameEffect" value="#@modfolder:Resources/steelaxeoak.unity3d?SteelFire"/>
+        </item_property_overrides>
+    </append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (Wild West Mod)">
+				<requirement name="HoldingItemHasTags" tags="Scope666"/>
+				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.0375,0.025"/>
+			</effect_group>
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (Wild West Mod)">
+				<requirement name="HoldingItemHasTags" tags="ScopeRaven"/>
+				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.035,0.025"/>
+			</effect_group>
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (Wild West Mod)">
+				<requirement name="HoldingItemHasTags" tags="ScopeSchofield"/>
+				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.03,0.03"/>
+			</effect_group>
+    </append>
+
+<!-- Gatling Prototype Mods are not visible as it gets tricky to position on an old format model -->
+
+<!--	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='external attachment prefab (old way)']">
+		<requirement name="!HoldingItemHasTags" tags="gunGatling"/>
+	</append> -->
+	
+<!-- Oakraven Kitchen Melee Weapons -->
+	
+   <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletSpikes"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panSpikes"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleSpikes"/>
+        </item_property_overrides>        
+    </append>    
+
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletWire"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panWire"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleWire"/>
+        </item_property_overrides>        
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletChain"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panChain"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleChain"/>
+        </item_property_overrides>        
+    </append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+
+       <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="FlameEffect" value="#@modfolder:Resources/pan.unity3d?Skilletflame"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="FlameEffect" value="#@modfolder:Resources/pan.unity3d?PanFlames"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="FlameEffect" value="#@modfolder:Resources/pan.unity3d?LadleFlame"/>
+        </item_property_overrides>
+
+    </append>
+	
+<!-- Knifes fire Mod -->	 
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+
+       <item_property_overrides name="meleeWpnBladeT3MacheteMini">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?hackerfire"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnBladeT1HuntingKnifeMedusa">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?hunterknifeFire"/>
+       </item_property_overrides>
+
+       <item_property_overrides name="meleeWpnBladeT1HuntingKnifeObsidian">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?knife1fire"/>
+       </item_property_overrides>
+	   
+	   <item_property_overrides name="meleeWpnBladeT3Machete">
+            <property name="FlameEffect" value="#@modfolder:Resources/WestKnifes.unity3d?Knife3fire"/>
+       </item_property_overrides>
+
+    </append>	
+	
+
+<append xpath="/item_modifiers">
+
+<!-- Cowboy Boots Mod -->
+
+  <item_modifier name="modArmorCowboyBoots" installable_tags="armorFeet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelCowboyBoots"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="boot02"/>
+			<property name="UMA.Overlay0" value="boot02"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+		<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="3.5,4.5"/>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".1"/><display_value name="dRunSpeed" value=".1"/>
+		</effect_group>
+	</item_modifier>
+
+<!-- Desert Hare Hat Mod -->
+
+	<item_modifier name="modArmorDesertHareHelmetPelt" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,clothing" type="attachment">
+        <property name="CustomIcon" value="sleeperRabbitAnimal"/>
+		<property name="DescriptionKey" value="modArmorDesertHareHelmetPeltDesc"/>		
+        <property name="Stacknumber" value="1"/>
+            <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="EconomicValue" value="50"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Rabbit/RABBIT" parent_transform="Head" local_offset="-0.1,0,0.09" local_rotation="0,-35,90">
+                    <requirement name="!IsFPV"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Rabbit/RABBIT">
+                    <requirement name="IsFPV"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Rabbit/RABBIT"/>
+            </effect_group>
+            <effect_group tiered="false">
+            <passive_effect name="HypothermalResist" operation="base_add" value="15.0"/> <!-- Skull Cap 10.5,13.2 -->
+            <passive_effect name="HyperthermalResist" operation="base_add" value="5.0"/> <!-- Skull Cap 1.5,2.5 -->
+        </effect_group>
+	</item_modifier>
+	
+<!-- Snow Hare Shoe Warmer Mod -->
+	
+	<item_modifier name="modArmorSnowHareShoeWarmer" installable_tags="armorFeet" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DisplayType" value="modTempResist"/>
+        <property name="CustomIcon" value="modArmorSnowHareShoeWarmer"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+		</effect_group>
+	</item_modifier>		
+
+<!-- Bow Handle -->
+
+	<item_modifier name="modGunBowArrowHandleGrip" installable_tags="bow" modifier_tags="specialDamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+        <property name="CustomIcon" value="modGunBowArrowHandleGrip"/>
+		<property name="UnlockedBy" value="modGunBowArrowHandleGripSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<!--Do +15% damage to evil / undead-->
+		<effect_group tiered="false">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.15"/>
+		</effect_group>
+	</item_modifier>
+	
+<!-- Archery Reload Mod -->
+
+	<item_modifier name="modArcheryReload" installable_tags="perkArchery" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modArcheryReload"/>
+		<property name="UnlockedBy" value="modArcheryReloadSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="Material" value="Mcloth"/>
+		
+		<!-- Reload archery weapons 15% faster -->
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+		</effect_group>
+	</item_modifier>
+
+<!-- Black Crystal Armor Mod -->
+ 	<item_modifier name="modArmorPlatingReinforced" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modArmorPlatingReinforcedSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="DescriptionKey" value="modArmorPlatingReinforcedDesc"/>
+		
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+			<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.05"/><display_value name="dNoiseMultiplier" value="-.05"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="2" tags="heat,electrical"/>
+		</effect_group>
+	</item_modifier>	
+
+<!-- arramus - Color additions -->
+
+	<item_modifier name="modDyeTan" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".16">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="210,180,140"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="210,180,140"/>
+			<property name="CustomIconTint" value="210,180,140"/>
+			<property name="UMA.Overlay0Tint" value="210,180,140"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="210,180,140"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtPlain">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="210,180,140"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtZU">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="210,180,140"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelCoatJacketLetterZU">
+			<property name="UMA.Overlay0Tint" value="210,180,140,255"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelDenimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="210,180,140"/>
+		</item_property_overrides>
+	</item_modifier>
+	
+	<item_modifier name="modDyeSandyTan" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".16">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="253,217,181"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="253,217,181"/>
+			<property name="CustomIconTint" value="253,217,181"/>
+			<property name="UMA.Overlay0Tint" value="253,217,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="253,217,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtPlain">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="253,217,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtZU">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="253,217,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelCoatJacketLetterZU">
+			<property name="UMA.Overlay0Tint" value="253,217,181,255"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelDenimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="253,217,181"/>
+		</item_property_overrides>
+	</item_modifier>
+
+	<item_modifier name="modWeaponLubrication" installable_tags="weapon" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DescriptionKey" value="modWeaponLubricationDesc"/>
+		<property name="UnlockedBy" value="modWeaponLubricationSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>		
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modWeaponLubrication"/>
+		
+		<!-- Increases durability, increases block efficiency, all weapons and melee -->
+		<effect_group tiered="false">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.5" tags="perkYeahScience,perkGunslinger,perkMachineGunner,perkBoomstick,perkDeadEye,perkSkullCrusher,perkDeepCuts,perkArchery,perkFlurryOfBlows,perkPummelPete,perkTheHuntsman,perkMiner69r,perkMotherLode,admin"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+</append>
+
+</wildwestmod>
+
+
+

@@ -1,8 +1,0 @@
-<wildwestmod>
-
-<!-- Trader Rekt Chill a little-->
-
-    <setattribute xpath="/npc/npc_info[@trader_id='8']" name="stance">Like</setattribute>
-    <setattribute xpath="/npc/npc_info[@trader_id='8']" name="voice_set">trader_hugh</setattribute>
-
-</wildwestmod>

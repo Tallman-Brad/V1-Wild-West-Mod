@@ -1,0 +1,1334 @@
+<wildwestmod>
+
+<!-- *** BIOME_GROUPS -->
+	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
+		zombieSpiderFeralFireGlider, .085
+	</csv>
+
+<!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+		zombieBurntRadiated
+		zombieWightFeral, 1.5
+		zombieWightRadiated
+		zombieSoldierFeral, 1.5
+		zombieSoldierRadiated
+		zombieTheRat, 2
+		zombieTheRatFeral, .8
+		zombieBusinessManRadiatedGunslinger, .8
+		zombieLumberjackRadiatedAxe, .8
+		zombieMutatedFeral, 1.5
+		zombieMutatedRadiated
+		zombieTheRatRadiated, .6
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger, .8
+		zombieWightRadiatedGunslinger, .5
+		zombieFemaleFatBarker, .8		
+		zombieFemaleBigFatBarker, .5
+		guppyVultureBurnt, 1.2
+		guppyMommaVultureBurnt, .8
+		guppyRadiatedMommaVultureBurnt, .5
+		zombieMolotovSoldierFeral, .5
+		guppyRadiatedFireMommaVultureBurnt, .5
+		zombieSpiderFeralFireGlider, .25	
+	</set>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+		zombieBurntRadiated
+		zombieWightFeral, 1.5
+		zombieWightRadiated
+		zombieSoldierFeral, 1.5
+		zombieSoldierRadiated
+		zombieTheRat, 3
+		zombieBusinessManRadiatedGunslinger, .8
+		zombieLumberjackRadiatedAxe, .8
+		zombieTheRatFeral, .8
+		zombieMutatedFeral, 1.5
+		zombieMutatedRadiated
+		zombieTheRatRadiated, .6
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger, 1.5
+		zombieWightRadiatedGunslinger, 1
+		zombieFemaleFatBarker, 1.5		
+		zombieFemaleBigFatBarker, 1
+		guppyVultureBurnt, 1.2
+		guppyMommaVultureBurnt, .8
+		guppyRadiatedMommaVultureBurnt, .5
+		zombieMolotovSoldierFeral, .5
+		guppyRadiatedFireMommaVultureBurnt, .5
+		zombieSpiderFeralFireGlider, .25	
+	</set>
+	
+	<!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		animalHorseKiller, .05					   
+	</csv>
+	
+<!-- *** INTEGRATION FOR ANIMALS -->
+
+<!-- *** WASTELAND ANIMALS -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+		animalZombieWastelandCraterBear, 15
+		animalBossGrace, 15
+		animalZombieLargeVulture, 10
+		animalZombieFeralChicken, 10
+		animalHorseKiller, 10					   
+	</csv>
+	
+<!-- *** DESERT ANIMALS -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
+		animalDesertHare, 10
+		animalBisonBoar, 6
+		animalBisonBear, .5
+		guppyVultureBurnt, 14
+		animalScorpion, 14
+	</csv>
+	
+<!-- *** SNOW ANIMALS -->	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
+		animalSnowHare, 12
+		animalWolf, 10
+		animalWildWestSnowBear, 9
+		SnowWendigo, 2
+	</csv>
+	
+<!-- *** FOREST ANIMALS -->
+	
+	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="add" >
+		animalBoar, 3
+		animalStag, 4
+		animalDoe, 5
+		animalBear, 1
+		animalWolf, 1
+		animalDireWolf, .05	
+	</csv>
+	
+<!-- *** FOREST ANIMALS NIGHT -->
+
+	<csv xpath="/entitygroups/entitygroup[@name='WildGameForestNight']/text()" delim="\n" op="add" >
+		animalSmallBat, 25	
+	</csv>
+	
+	<!-- Custom Groups -->
+	
+	<!-- Boss Group -->
+	
+	<append xpath="/entitygroups">
+	
+	<entitygroup name="BossVariantsGroupGS01">
+		zombieBurntRadiated
+		zombieWightFeral, 1.5
+		zombieWightRadiated
+		zombieSoldierFeral, 1.5
+		zombieSoldierRadiated
+		zombieTheRat, 1.5
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger, .8
+		zombieLumberjackRadiatedAxe, .8
+		zombieMutatedFeral, 1.5
+		zombieMutatedRadiated
+		zombieTheRatRadiated, .8
+		zombieSpiderRadiated
+		guppyVultureBurnt, 1.5
+		guppyMommaVultureBurnt, .8
+		guppyRadiatedMommaVultureBurnt, .5
+		zombieMolotovSoldierFeral, .5
+		guppyRadiatedFireMommaVultureBurnt, .5
+		zombieSpiderFeralFireGlider, .25
+		zombieDemolition, .5
+		SnowWendigo, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS50">
+		zombieBurntRadiated
+		zombieWightFeral, 1.2
+		zombieWightRadiated
+		zombieSoldierFeral, 1.2
+		zombieSoldierRadiated
+		zombieTheRat, 1.2
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger
+		zombieLumberjackRadiatedAxe
+		zombieMutatedFeral
+		zombieMutatedRadiated
+		zombieTheRatRadiated
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger
+		zombieWightRadiatedGunslinger
+		zombieFemaleFatBarker		
+		zombieFemaleBigFatBarker
+		guppyVultureBurnt
+		guppyMommaVultureBurnt
+		guppyRadiatedMommaVultureBurnt
+		zombieMolotovSoldierFeral
+		guppyRadiatedFireMommaVultureBurnt
+		zombieSpiderFeralFireGlider, .5
+		zombieDemolition, .5
+		SnowWendigo, .5
+		animalZombieBear, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+		animalBisonZombieBear, .5
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS100">
+		zombieBurntRadiated
+		zombieWightFeral, .8
+		zombieWightRadiated
+		zombieSoldierFeral, .8
+		zombieSoldierRadiated
+		zombieTheRat, .8
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger
+		zombieMutatedFeral, .8
+		zombieMutatedRadiated
+		zombieTheRatRadiated
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger
+		zombieWightRadiatedGunslinger
+		zombieLumberjackRadiatedAxe
+		zombieFemaleFatBarker		
+		zombieFemaleBigFatBarker
+		guppyVultureBurnt, .8
+		guppyMommaVultureBurnt
+		guppyRadiatedMommaVultureBurnt
+		zombieMolotovSoldierFeral
+		guppyRadiatedFireMommaVultureBurnt
+		zombieSpiderFeralFireGlider
+		zombieDemolition
+		SnowWendigo
+		animalZombieBear, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+		animalBisonZombieBear, .5
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS200">
+		zombieBurntRadiated
+		zombieWightFeral, .5
+		zombieWightRadiated
+		zombieSoldierFeral, .5
+		zombieSoldierRadiated
+		zombieTheRat, .5
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger
+		zombieLumberjackRadiatedAxe
+		zombieMutatedFeral, .5
+		zombieMutatedRadiated
+		zombieTheRatRadiated
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger
+		zombieWightRadiatedGunslinger
+		zombieFemaleFatBarker		
+		zombieFemaleBigFatBarker
+		guppyVultureBurnt, .5
+		guppyMommaVultureBurnt
+		guppyRadiatedMommaVultureBurnt
+		zombieMolotovSoldierFeral
+		guppyRadiatedFireMommaVultureBurnt
+		zombieSpiderFeralFireGlider
+		zombieDemolition
+		SnowWendigo
+		animalZombieBear, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+		animalBisonZombieBear, .5
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS400">
+		zombieBurntRadiated
+		zombieWightFeral, .5
+		zombieWightRadiated
+		zombieSoldierFeral, .5
+		zombieSoldierRadiated
+		zombieTheRat, .5
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger
+		zombieMutatedFeral, .5
+		zombieMutatedRadiated
+		zombieTheRatRadiated
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger
+		zombieWightRadiatedGunslinger
+		zombieLumberjackRadiatedAxe
+		zombieFemaleFatBarker		
+		zombieFemaleBigFatBarker
+		guppyVultureBurnt, .5
+		guppyMommaVultureBurnt
+		guppyRadiatedMommaVultureBurnt
+		zombieMolotovSoldierFeral
+		guppyRadiatedFireMommaVultureBurnt
+		zombieSpiderFeralFireGlider
+		zombieDemolition
+		SnowWendigo
+		animalZombieBear, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+		animalBisonZombieBear, .5
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS800">
+		zombieBurntRadiated
+		zombieWightFeral, .5
+		zombieWightRadiated
+		zombieSoldierFeral, .5
+		zombieSoldierRadiated
+		zombieTheRat, .5
+		zombieTheRatFeral
+		zombieBusinessManRadiatedGunslinger
+		zombieLumberjackRadiatedAxe
+		zombieMutatedFeral, .5
+		zombieMutatedRadiated
+		zombieTheRatRadiated
+		zombieSpiderRadiated
+		zombieWightFeralGunslinger
+		zombieWightRadiatedGunslinger
+		zombieFemaleFatBarker		
+		zombieFemaleBigFatBarker
+		guppyVultureBurnt, .5
+		guppyMommaVultureBurnt
+		guppyRadiatedMommaVultureBurnt
+		zombieMolotovSoldierFeral
+		guppyRadiatedFireMommaVultureBurnt
+		zombieSpiderFeralFireGlider
+		zombieDemolition
+		SnowWendigo
+		animalZombieBear, .5
+		animalZombieLargeVulture, .5
+		animalZombieFeralChicken, .5
+		animalBisonZombieBear, .5
+	</entitygroup>
+	
+	<!-- Wasteland Crater and Select POIs -->
+
+	<entitygroup name="animalZombieWastelandCraterBear">
+		animalZombieWastelandCraterBear
+	</entitygroup>
+	
+	<entitygroup name="WastelandCraterBearGroup">
+		animalZombieWastelandCraterBear
+	</entitygroup>
+	
+	<!-- Guppy Vulture Group -->
+	
+	<entitygroup name="CripsyVariantsGroupGS01">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .1
+		zombieTheRat, .05
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS50">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .25
+		zombieTheRatFeral, .125
+		animalSmallBat, .5
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS100">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .35
+        guppyRadiatedMommaVultureBurnt, .1
+		zombieTheRatRadiated, .05
+		animalSmallBat, .5
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS200">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .5
+        guppyRadiatedMommaVultureBurnt, .25	
+		zombieTheRatRadiated, .125		
+		animalSmallBat, .5
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS400">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .5
+        guppyRadiatedMommaVultureBurnt, .25
+		zombieTheRatRadiated, .125		
+		animalSmallBat, .5
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS800">
+		guppyVultureBurnt
+        guppyMommaVultureBurnt, .75
+        guppyRadiatedMommaVultureBurnt, .5
+		zombieTheRatRadiated, .25
+		animalSmallBat, .5
+	</entitygroup>
+	
+	<!-- Bat Group -->
+	
+	<entitygroup name="BatVariantsGroupGS01">
+		animalSmallBat
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS50">
+		animalSmallBat
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS100">
+		animalSmallBat
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS200">
+		animalSmallBat
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS400">
+		animalSmallBat
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS800">
+		animalSmallBat
+	</entitygroup>
+	
+	<!-- Rat Group -->
+	
+	<entitygroup name="RatVariantsGroupGS01">
+		zombieTheRat
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS50">
+		zombieTheRat, .8
+		zombieTheRatFeral, .125
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS100">
+		zombieTheRat, .7
+		zombieTheRatFeral, .25
+		zombieTheRatRadiated, .1
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS200">
+		zombieTheRat, .6
+		zombieTheRatFeral, .3
+		zombieTheRatRadiated, .25
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS400">
+		zombieTheRat, .5
+		zombieTheRatFeral, .5
+		zombieTheRatRadiated, .4
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS800">
+		zombieTheRat, .2
+		zombieTheRatFeral, .7
+		zombieTheRatRadiated, .5
+	</entitygroup>
+	
+	<!-- Scorpion Group -->
+	
+	<entitygroup name="ScorpionVariantsGroupGS01">
+		animalScorpion
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS50">
+		animalScorpion
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS100">
+		animalScorpion
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS200">
+		animalScorpion
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS400">
+		animalScorpion
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS800">
+		animalScorpion
+	</entitygroup>
+	
+	<!-- Bison POI Spawn Group -->
+	
+	<entitygroup name="animalBisonBoar">
+		animalBisonBoar
+	</entitygroup>
+
+
+	<!-- Military POI Spawn Group -->
+	
+	<entitygroup name="zombieMilitaryFeral">
+		zombieSoldierFeral
+		zombieMaleHazmatFeral
+		zombieMolotovSoldierFeral
+	</entitygroup>
+
+	<!-- Mon Signor POI Spawn Group -->
+
+	<entitygroup name="zombieMonsignor">
+		zombieBusinessManRadiatedGunslinger
+	</entitygroup>
+	
+	<!-- Bat POI Spawn Group -->
+	
+	<entitygroup name="animalSmallBat">
+		animalSmallBat
+	</entitygroup>
+	
+	<!-- Scorpion POI Spawn Group -->
+	
+	<entitygroup name="animalScorpion">
+		animalScorpion
+	</entitygroup>
+	
+	<!-- Snow Bear Sleeper Group -->
+
+	<entitygroup name="animalWildWestSnowBear">
+		animalWildWestSnowBear
+	</entitygroup>
+	
+<!-- *** WANDERING_HORDE_STAGES -->
+
+	<entitygroup name="zombieTheRatGroup">
+		zombieTheRat
+		zombieTheRatFeral, .2
+		zombieTheRatRadiated, .1
+	</entitygroup>
+	
+	</append>
+	
+<!-- *** INTEGRATION FOR SLEEPERS -->
+
+<!-- Mon Senor -->
+
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieGhostTownGroupGS') and contains (text(), 'zombieFemaleFatRadiated') and not ( contains(text(), 'zombieFemaleFatRadiated, 0'))]/text()" delim="\n" op="add">
+		zombieBusinessManRadiatedGunslinger, .25
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieFemaleFatRadiated')]/text()" delim="\n" op="add">
+		zombieBusinessManRadiatedGunslinger, .9
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieFemaleFatRadiated')]/text()" delim="\n" op="add">
+		zombieBusinessManRadiatedGunslinger, .9
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieFemaleFatRadiated')]/text()" delim="\n" op="add">
+		zombieBusinessManRadiatedGunslinger, .9
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieFemaleFatRadiated')]/text()" delim="\n" op="add">
+		zombieBusinessManRadiatedGunslinger, .9
+	</csv>
+
+<!-- Steel Axe Lumberjack -->
+
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'zombieLumberjackGroupGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .25
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .9
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .9
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .9
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .9
+	</csv>
+	
+<!-- *** SCOUT_HORDE_STAGES -->	
+<!-- Add The Rat to Scout Horde Groups and tagged to Screamer of same type -->
+    <csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieScreamer')]/text()" delim="\n" op="add">
+        zombieRatPet, 1.5
+    </csv> <!-- GS 36 -->
+
+    <csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieScreamerFeral')]/text()" delim="\n" op="add">
+        zombieRatPetFeral, 1.5
+    </csv> <!-- GS 198 -->
+
+    <csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieScreamerRadiated')]/text()" delim="\n" op="add">
+        zombieRatPetRadiated, 1.5
+    </csv> <!-- GS 164 -->
+	
+<!-- *** FERAL_HORDE_STAGES -->
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoe')]/text()" delim="\n" op="add">
+		zombieBurnt, .5
+		zombieMutated, .5
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeFeral')]/text()" delim="\n" op="add">
+		zombieBurntFeral, .35
+		zombieMutatedFeral, .35
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
+		zombieBurntRadiated, .2
+		zombieMutatedRadiated, .2
+		zombieBusinessManRadiatedGunslinger, .35 
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
+		zombieLumberjackRadiatedAxe, .35
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieDemolition')]/text()" delim="\n" op="add">
+		guppyVultureBurnt, .45
+		guppyMommaVultureBurnt, .45
+		zombieSoldierRadiated, .45
+		zombieMolotovSoldierFeral, .45
+		guppyRadiatedFireMommaVultureBurnt, .45
+		guppyRadiatedMommaVultureBurnt, .45
+		animalZombieBear, .45
+		animalZombieLargeVulture, .45
+		animalZombieFeralChicken, .45
+		animalBisonZombieBear, .45
+		zombieTheRat, .25
+		zombieTheRatFeral, .25
+		zombieTheRatRadiated, .25
+		zombieSpiderFeralFireGlider, .15
+	</csv>
+	
+ <!-- First Crispy Family-->	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS40']">
+		guppyVultureBurnt	
+	</set>	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS80']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .1
+		zombieTheRat, .025
+	</set>
+ <!-- First Grin Bomber - Military-->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS103']">
+		zombieMaleHazmat
+		zombieSoldier, .5
+		zombieMutated, .25
+		zombieSoldierFeral, .1
+		zombieMaleHazmatFeral, .1
+		zombieMutatedFeral, .025
+		zombieSoldierRadiated, .02
+		zombieMaleHazmatRadiated, .02
+		zombieMutatedRadiated, .02
+		zombieBusinessManRadiatedGunslinger, .02
+		zombieMolotovSoldierFeral, .02
+		zombieSpiderFeralFireGlider, .02
+		zombieGrinBomb, .01
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS121']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .2
+		zombieTheRat, .05
+		zombieTheRatFeral, .025
+	</set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS140']">
+		zombieMaleHazmat
+		zombieSoldier, .5
+		zombieMutated, .25
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .1
+		zombieSoldierRadiated, .1
+		zombieMaleHazmatRadiated, .1
+		zombieMutatedRadiated, .05
+		zombieBusinessManRadiatedGunslinger, .05
+		zombieMolotovSoldierFeral, .05
+		zombieSpiderFeralFireGlider, .05
+		zombieGrinBomb, .025
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .3
+		guppyRadiatedMommaVultureBurnt, .2
+		guppyRadiatedFireMommaVultureBurnt, .1
+		zombieTheRat, .075
+		zombieTheRatFeral, .05
+		zombieTheRatRadiated, .025
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS195']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .3
+		guppyRadiatedMommaVultureBurnt, .2
+		guppyRadiatedFireMommaVultureBurnt, .1
+		zombieTheRat, .075
+		zombieTheRatFeral, .05
+		zombieTheRatRadiated, .025
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']">
+		zombieMaleHazmat
+		zombieSoldier, .5
+		zombieMutated, .5
+		zombieSoldierFeral, .3
+		zombieMaleHazmatFeral, .3
+		zombieMutatedFeral, .3
+		zombieSoldierRadiated, .15
+		zombieMaleHazmatRadiated, .15
+		zombieMutatedRadiated, .15
+		zombieBusinessManRadiatedGunslinger, .05
+		zombieMolotovSoldierFeral, .05
+		zombieSpiderFeralFireGlider, .05
+		zombieGrinBomb, .05
+	</set>				   
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS304']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS354']">	
+		zombieSoldier, .25
+		zombieMaleHazmat, .25
+		zombieMutated, .25
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .5
+		zombieMaleHazmatRadiated, .5
+		zombieMutatedRadiated, .5
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>  
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS407']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS453']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>  
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS501']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS550']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set> 
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS600']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS651']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS704']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS758']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS802']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS858']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS904']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS951']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1010']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1106']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1206']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1308']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1412']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1506']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1601']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1712']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1811']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1911']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1999']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2102']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2207']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2314']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2407']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2501']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2612']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2708']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2805']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2903']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3003']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3103']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3204']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3306']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3410']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3514']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3601']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3707']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3814']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3904']">
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4013']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4031']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4049']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4067']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']">
+		guppyVultureBurnt
+		guppyMommaVultureBurnt, .4
+		guppyRadiatedMommaVultureBurnt, .3
+		guppyRadiatedFireMommaVultureBurnt, .2
+		zombieTheRat, .1
+		zombieTheRatFeral, .075
+		zombieTheRatRadiated, .05
+		zombieSoldier, .1
+		zombieMaleHazmat, .1
+		zombieMutated, .1
+		zombieSoldierFeral, .25
+		zombieMaleHazmatFeral, .25
+		zombieMutatedFeral, .25
+		zombieSoldierRadiated, .7
+		zombieMaleHazmatRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieMolotovSoldierFeral, .15
+		zombieSpiderFeralFireGlider, .15
+		zombieBusinessManRadiatedGunslinger, .15
+		zombieGrinBomb, .1
+	</set>
+
+</wildwestmod>
