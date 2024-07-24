@@ -821,7 +821,7 @@
 <!-- Wild West Oakraven Revolvers -->
 
 <item name="gunHandgunT1666Revolver"> <!-- Based on 9mm Pistol -->
-	<property name="Tags" value="Scope666,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill"/>
+	<property name="Tags" value="revolvermagazine,Scope666,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/666revolver.unity3d?666revolver"/>
@@ -919,7 +919,7 @@
 </item>
 
 <item name="gunHandgunT2RavenRevolver">
-	<property name="Tags" value="ScopeRaven,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,44enforcer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,enforcerReload"/>
+	<property name="Tags" value="revolvermagazine,ScopeRaven,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,44enforcer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,enforcerReload"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/revolver1875.unity3d?revolver1875"/>
@@ -1021,7 +1021,7 @@
 </item>
 
 <item name="gunHandgunT3SchofieldRevolver">
-	<property name="Tags" value="ScopeSchofield,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload"/>
+	<property name="Tags" value="revolvermagazine,ScopeSchofield,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/schofieldrevolver.unity3d?schofieldrevolver"/>
@@ -2119,7 +2119,19 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArcheryReload" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
-		</item>	
+		</item>
+		
+<!-- Revolver Magazine Extender Mod -->	
+		<item name="modGunRevolverMagazineExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunRevolverMagazineExtender"/>
+			<property name="Unlocks" value="modGunRevolverMagazineExtender"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunRevolverMagazineExtender" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
 		
 <!-- Gatling Gun - Thank you to Snufkin for base inspiration -->
 

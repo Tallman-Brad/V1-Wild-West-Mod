@@ -354,7 +354,7 @@
 			<item name="modMeleeClubBarbedWire"/>
 			<item name="modMeleeFortifyingGrip"/>
 			<item name="modMeleeBunkerBuster"/>
-			<item name="modFuelTankLarge"/>
+			<!--item name="modFuelTankLarge"/-->
 		<!-- *** T3_MELEE_MODS -->
 			<item name="modMeleeClubMetalSpikes"/>
 			<item name="modMeleeErgonomicGrip"/>
@@ -388,6 +388,7 @@
 			<!--item name="modGunTriggerGroupBurst3"/-->
 			<item name="modGunBowArrowHandleGrip"/> <!-- Wild West Mod -->
 			<item name="modArcheryReload"/> <!-- Wild West Mod -->
+			<item name="modGunRevolverMagazineExtender"/> <!-- Wild West Mod -->
 		<!-- *** T3_RANGED_MODS -->
 			<item name="modGunBowPolymerString"/>
 			<item name="modGunScopeLarge"/>

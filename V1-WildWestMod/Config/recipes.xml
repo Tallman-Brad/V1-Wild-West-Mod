@@ -5345,6 +5345,15 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceBlueCrystal" count="16"/>
 </recipe>
 
+<!-- Revolver Magazine Extender Mod -->
+		
+		<recipe name="modGunRevolverMagazineExtender" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+
 <!-- Wind Turbine -->
 	
     <recipe name="windturbine" count="1" craft_area="workbench" tags="workbenchCrafting">

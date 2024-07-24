@@ -674,6 +674,9 @@ modWeaponLubricationSchematic,item_modifiers,Mod,,,Weapon Lubrication Mod Schema
 modMeleeStunBatonRepulsor,item_modifiers,Mod,,,Steel Lance Weighted Shock Mod,,,,,,,,,,,,,
 modMeleeStunBatonRepulsorDesc,item_modifiers,Mod,,,Install this mod into a Steel Lance and send zombies flying in shock.,,,,,,,,,,,,,
 modGunSoundSuppressorSilencerDesc,item_modifiers,mod,,,"A sound suppressor greatly reduces the firing sound but reduces maximum range and damage.\nWorks best with small calibers and guns with a low rate of fire.\nWill not work on a pipe pistol revolver.",,,,,,,,,,,,,
+modGunRevolverMagazineExtender,item_modifiers,mod,,,Revolver Speedloader Mod,,,,,,,,,,,,,
+modGunRevolverMagazineExtenderDesc,item_modifiers,mod,,,"Attaching this mod to a revolver doubles ammo capacity. Does not attach to a Pipe Revolver.",,,,,,,,,,,,,
+modGunRevolverMagazineExtenderSchematic,item_modifiers,Mod,,,Revolver Speedloader Mod Schematic,,,,,,,,,,,,,
 
 resourceGreenPowder,items,Resource,,,Green Powder,,,,,,,,,,,,,
 resourceGreenPowderDesc,items,Resource,,,"Green Crystals processed in the Chemistry Station produce Green Powder. A key ingredient in the manufacturing of Green Crystal Ammo.",,,,,,,,,,,,,

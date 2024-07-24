@@ -226,7 +226,19 @@
 			<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.05"/><display_value name="dNoiseMultiplier" value="-.05"/>
 			<passive_effect name="ElementalDamageResist" operation="base_add" value="2" tags="heat,electrical"/>
 		</effect_group>
-	</item_modifier>	
+	</item_modifier>
+	
+<!-- Revolver Magazine Extender Mod -->
+	
+	<item_modifier name="modGunRevolverMagazineExtender" installable_tags="revolvermagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunRevolverMagazineExtenderSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
+		</effect_group>
+	</item_modifier>
 
 <!-- arramus - Color additions -->
 
