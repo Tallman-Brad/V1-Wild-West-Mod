@@ -853,7 +853,7 @@
 
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,ammo9mmGreenCrystal"/>
 		<property name="Sound_start" value="44magnum_fire"/>
 		<property name="Sound_loop" value="44magnum_fire"/>
 		<property name="Sound_end" value=""/>
@@ -4613,8 +4613,6 @@
 			</effect_group>
 		</item>
 
-	<append xpath="/items/item[@name='gunHandgunT1666Revolver']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmGreenCrystal</append>
-
 <!-- Blue Crystal Battery (Turbine ingredient) -->
 	
 		<item name="blueCrystalBattery">
@@ -4639,22 +4637,28 @@
 		<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
 	</effect_group>
 		</item>
-	
-<item name="questRewardOakBundle">
-    <property name="Extends" value="questRewardBundleMaster"/>
-    <property name="CreativeMode" value="Player"/>
-    <property name="CustomIcon" value="leatheroakpack"/>
-    <property name="CustomIconTint" value="139,69,19"/>
-    <property name="ItemTypeIcon" value="bundle"/>
-    <property name="DescriptionKey" value="questRewardOakBundleDesc"/>
-    <property class="Action0">
-        <property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
-        <property name="Create_item_count" value="2-3,1-2,2,2,2"/>
-    </property>
-</item>
-
-</append>		
-
-	<append xpath="/items/item[@name='gunHandgunT1666Revolver']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmGreenCrystal</append>
+		
+		<item name="WildWestStarterKit">
+			<property name="CustomIcon" value="cntLeatheroakpack"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="WildWestStarterKitDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="Group" value="Basics"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="open_supply_crate"/>
+				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
+				<property name="Create_item_count" value="2-3,1-2,2,2,2"/>
+			</property>
+		</item>
+		
+</append>
 
 </wildwestmod>

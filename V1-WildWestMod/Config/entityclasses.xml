@@ -46,9 +46,9 @@
 		</effect_group>
 	</append>
 
-    <set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvival')]/@value">questRewardOakBundle</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvivalSP')]/@value">questRewardOakBundle</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvivalMP')]/@value">questRewardOakBundle</set>
+    <set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvival')]/@value">WildWestStarterKit</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvivalSP')]/@value">WildWestStarterKit</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'ItemsOnEnterGame.GameModeSurvivalMP')]/@value">WildWestStarterKit</set>
 
 	<!-- Supply Drop -->
 		<set xpath="/entity_classes/entity_class[@name='supplyPlane']/property[@name='Mesh']/@value">#@modfolder:Resources/HotAirBalloon2.unity3d?HotAirBalloon2</set>
