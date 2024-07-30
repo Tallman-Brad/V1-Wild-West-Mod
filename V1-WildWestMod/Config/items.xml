@@ -874,6 +874,7 @@
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,0.0225,0"/> <!-- Test -->
+		<property name="SightsCameraOffset" value="0,0.021,0"/>
         	<property name="zoomTriggerEffectPullDualsense" value="PistolZoom"/>
         	<property name="zoomTriggerEffectPullXb" value="PistolZoom"/>
 	</property>
@@ -975,6 +976,7 @@
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,0.0265,0"/> <!-- Test -->
+		<property name="SightsCameraOffset" value="0,0.023,0"/>
 	        <property name="zoomTriggerEffectPullDualsense" value="PistolZoom"/>
 	        <property name="zoomTriggerEffectPullXb" value="PistolZoom"/>
 	</property>
@@ -1071,6 +1073,7 @@
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,0.0225,0"/> <!-- Test -->
+		<property name="SightsCameraOffset" value="0,0.02,0"/>
 	        <property name="zoomTriggerEffectPullDualsense" value="PistolZoom"/>
 	        <property name="zoomTriggerEffectPullXb" value="PistolZoom"/>
 	</property>
@@ -1623,6 +1626,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
+		<property name="SightsCameraOffset" value="0,0.015,0"/>
 		<!-- <property name="ScopeCameraOffset" value="0,.0262,-.05"/> -->
                 <property name="zoomTriggerEffectTriggerPullDualsense" value="PistolZoom"/>
                 <property name="zoomTriggerEffectTriggerPullXbox" value="PistolZoom"/>
@@ -1728,6 +1732,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
+		<property name="SightsCameraOffset" value="0,0.015,0"/>
 		<!-- <property name="ScopeCameraOffset" value="0,.0262,-.05"/> -->
                 <property name="zoomTriggerEffectTriggerPullDualsense" value="PistolZoom"/>
                 <property name="zoomTriggerEffectTriggerPullXbox" value="PistolZoom"/>
