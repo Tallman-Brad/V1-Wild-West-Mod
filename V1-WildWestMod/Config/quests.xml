@@ -1,7 +1,7 @@
 <wildwestmod>
 
 	<set xpath="/quests/@max_quest_tier">6</set>
-	<set xpath="/quests/@quests_per_tier">2</set>
+	<set xpath="/quests/@quests_per_tier">7</set>
 	<!--set xpath="/quests/@quests_per_tier">1</set--> <!-- For Testing Quest Progression -->
 
 <set xpath="/quests">
