@@ -267,9 +267,9 @@
 <!-- Cement Mixer -->
 	<set xpath="/blocks/block[@name='cementMixer']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?CementMixer3</set>
 	<set xpath="/blocks/block[@name='cementMixer']/property[@name='ModelOffset']/@value">0,0.5,0</set>
-	<set xpath="/blocks/block[@name='cntCollapsedCementMixer']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?CementMixer3</set>
+	<set xpath="/blocks/block[@name='cntCollapsedCementMixer']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?CementMixerBusted3</set>
 	<set xpath="/blocks/block[@name='cntCollapsedCementMixer']/property[@name='ModelOffset']/@value">0,0.5,0</set>	
-	<set xpath="/blocks/block[@name='cntCementMixerBustedRandomLootHelper']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?CementMixer3</set>
+	<set xpath="/blocks/block[@name='cntCementMixerBustedRandomLootHelper']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?CementMixerBusted3</set>
 	<set xpath="/blocks/block[@name='cntCementMixerBustedRandomLootHelper']/property[@name='ModelOffset']/@value">0,0.5,0</set>	
 <!-- Wood Saw -->
 	<set xpath="/blocks/block[@name='tableSaw']/property[@name='Model']/@value">#@modfolder:Resources/CementMixer2.unity3d?TableSaw2</set>
