@@ -21,11 +21,11 @@
   <property name="TeleportVolumeSize" value="39, 3, 40#41, 11, 42" />
   <property name="TeleportVolumeStart" value="1, 1, 1#0, 4, 0" />
   <property class="Stats">
-    <property name="TotalVertices" value="562139" />
-    <property name="TotalTriangles" value="280400" />
+    <property name="TotalVertices" value="519635" />
+    <property name="TotalTriangles" value="230975" />
     <property class="BlockEntities">
-      <property name="Vertices" value="468825" />
-      <property name="Triangles" value="224551" />
+      <property name="Vertices" value="426321" />
+      <property name="Triangles" value="175126" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="87760" />
@@ -56,6 +56,9 @@
     <property class="POILight">
       <property name="0" value="26, 3, 23" />
       <property name="1" value="22, 3, 35" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="9, 1, 26" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="27, 2, 7" />
