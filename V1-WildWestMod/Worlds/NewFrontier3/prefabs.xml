@@ -1954,5 +1954,5 @@
   <decoration type="model" name="wildwest_unknownactivity_TMB" position="-1972,91,-2129" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="trader_JenWW_arramus" position="1543,37,898" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="trader_joel" position="-2011,37,-933" rotation="2" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_JenWW_arramus" position="-793,37,962" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_JenWW_arramus" position="-793,37,962" rotation="3" y_is_groundlevel="true" />
 </prefabs>
