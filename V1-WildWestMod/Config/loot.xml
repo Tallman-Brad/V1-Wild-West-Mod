@@ -6756,7 +6756,7 @@
 	<item name="oldCash" count="200,400" loot_prob_template="med"/>
 	<item group="groupMedicalRare" loot_prob_template="medHigh"/>
 	<item group="groupTreasureMaps" loot_prob_template="low"/>
-	<item name="modArmorNightVision" loot_prob_template="veryLow"/>
+<!--	<item name="modArmorNightVision" loot_prob_template="veryLow"/> -->
 	<item name="modArmorHelmetLight" loot_prob_template="veryLow"/>
 </lootgroup>
 
@@ -8188,7 +8188,7 @@
 	<item name="modArmorAgility"/>
 	<item name="modArmorIntellect"/>
 	<item name="modArmorTreasureHunter"/>
-	<item name="modArmorNightVision"/>
+<!--	<item name="modArmorNightVision"/> -->
 	<item name="modArmorCigar"/>
 </lootgroup>
 

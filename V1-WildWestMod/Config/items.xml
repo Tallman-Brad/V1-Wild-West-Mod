@@ -4339,22 +4339,22 @@
 <!-- Steam Horse -->
 
 <item name="vehicleSteamHorsePlaceable">
-	<property name="Extends" value="vehicleMinibikePlaceable"/>
-	<property name="CustomIcon" value="vehicleSteamHorse"/>
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
-	<property name="Meshfile" value="#@modfolder:Resources/SteamHorse.unity3d?SteamHorse"/>
-	<property name="EconomicValue" value="30000"/>
-	<property name="UnlockedBy" value="craftingVehicles"/>
-	<property name="TraderStageTemplate" value="vehicleTier4"/>
-	<property class="Action1">
-		<property name="Vehicle" value="vehicleSteamHorse"/>
-		<property name="VehicleSize" value="2.5, 2.1, 5"/>
-	</property>
-	<effect_group name="SteamHorsePlaceable" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="5"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="8500"/>     <!-- 7500 -->
-	</effect_group>
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <property name="CustomIcon" value="vehicleSteamHorse"/>
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:Resources/SteamHorse.unity3d?SteamHorse"/>
+    <property name="EconomicValue" value="30000"/>
+    <property name="UnlockedBy" value="craftingVehicles"/>
+    <property name="TraderStageTemplate" value="vehicleTier4"/>
+    <property class="Action1">
+        <property name="Vehicle" value="vehicleSteamHorse"/>
+        <property name="VehicleSize" value="2.5, 2.1, 5"/>
+    </property>
+    <effect_group name="SteamHorsePlaceable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="5"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="8500"/>     <!-- 7500 -->
+    </effect_group>
 </item>
 
 <!-- Balloons -->

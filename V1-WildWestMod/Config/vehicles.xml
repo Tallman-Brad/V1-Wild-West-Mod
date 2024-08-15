@@ -211,43 +211,38 @@
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
 			<property name="capacity" value="400"/>
+			<property name="mod" value="fueltank"/>
+			<property name="modT" value="car_mesh/Fuel"/>
 		</property>
 
 		<property class="handlebars">
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
-			<property name="steerMaxAngle" value="60"/>
-			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
-			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
-			<property name="IKHandRPosition" value=".154, .1256, .0265"/>
-			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<property name="IKHandLPosition" value="-.241, .207, .0"/>
+			<property name="IKHandLRotation" value="0, 49.7, 80.7"/>
+			<property name="IKHandRPosition" value=".207, .207, .017"/>
+			<property name="IKHandRRotation" value="0, 99.3, 239.0"/>
 		</property>
 
 		<property class="seat0">
 		    <property name="class" value="Seat"/>
-			<property name="position" value="0,.7, .9"/>
+			<property name="pose" value="20"/>
+			<property name="position" value="0,.86, 1.1"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
-			<property name="IKFootLPosition" value="-.35, .34, .25"/>
-			<property name="IKFootLRotation" value="-33, 0, 0"/>
-			<property name="IKFootRPosition" value=".35, .34, .25"/>
-			<property name="IKFootRRotation" value="-33, 0, 0"/>
+			<property name="IKFootLPosition" value="-.35, .34, -.15"/>
+			<property name="IKFootLRotation" value="18.6, 0, 0"/>
+			<property name="IKFootRPosition" value=".35, .34, -.15"/>
+			<property name="IKFootRRotation" value="18.63, 0, 0"/>
 		</property>
 
 		<property class="seat1">
 			<property name="class" value="Seat"/>
-			<property name="position" value="0,.7, .6"/>
+			<property name="pose" value="20"/>
+			<property name="position" value="0,.86, .860"/>
 			<property name="rotation" value="-27, 0, 0"/>
 			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
-			<property name="IKHandLPosition" value="-.27, .87, .14"/>
-			<property name="IKHandLRotation" value="41, -30, 18"/>
-			<property name="IKHandRPosition" value=".27, .87, .14"/>
-			<property name="IKHandRRotation" value="41, 30, -18"/>
-			<property name="IKFootLPosition" value="-.35, .31, .25"/>
-			<property name="IKFootLRotation" value="-15, 0, 0"/>
-			<property name="IKFootRPosition" value=".35, .31, .25"/>
-			<property name="IKFootRRotation" value="-15, 0, 0"/>
 		</property>
 
 		<property class="wheel0">
@@ -282,18 +277,27 @@
             <property name="torqueScale_motor_brake" value="1, 1"/>
         </property>
 
-        <property class="wheel5">
-            <property name="tireTransform" value="Origin/backRightWheelJoint1/backRightWheelJoint2"/>
-            <property name="tireSuspensionPercent" value="1"/>
-            <property name="torqueScale_motor_brake" value="1, 1"/>
-        </property>
-		
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
-		</property>
+			
+			<property name="mod" value="light"/>
+			<property name="modT" value="car_mesh/LightBar"/>
+			<property name="modOnT" value="car_mesh/LightBar/Lights"/>
+			<property name="modMatEmissive" value="909090"/>
 
+			<property name="tailEmissive" value="c0c0c0"/>
+			
+		</property>
+		
+		
+<property class="plow">
+			<property name="class" value="VehiclePart"/>
+			<property name="mod" value="plow"/>
+			<property name="modT" value="car_mesh/Plow"/>
+			<property name="modRBT" value="Plow"/>
+		</property>
 		<property class="storage">
 			<property name="class" value="Storage"/>
 			<property name="display_name" value="basket"/>

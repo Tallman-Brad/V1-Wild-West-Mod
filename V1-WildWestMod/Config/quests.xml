@@ -555,7 +555,6 @@
 		<reward type="Item" id="modArmorWaterPurifier" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="modArmorQuadStoragePocket" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="modArmorTreasureHunter" ischosen="true" isfixed="true" value="1"/>
-		<reward type="Item" id="modArmorNightVision" ischosen="true" isfixed="true" value="1"/>
 	</quest>
 
 <!-- Kill_Mutated_Challenge_Reward -->

@@ -93,18 +93,6 @@
 		<objective type="Harvest" held="meleeToolRepairT0StoneAxe" required_held="true" item="resourceRockSmall" count="5" override_tracker_index="quest_stone_boulder" track_distance="40"/>
 	</challenge>
 
-	<challenge name="craftClothes" title_key="challengeCraftClothes" icon="ui_game_symbol_challenge_basics_craft_clothing" group="Basics" 
-		hint="challengeCraftClothesHint1"
-		short_description_key="challengeCraftClothesShort" description_key="challengeCraftClothesDesc">
-		<objective type="Craft" item="armorPrimitiveOutfit"/>
-	</challenge>
-
-	<challenge name="wearClothes" title_key="challengeWearClothes" icon="ui_game_symbol_challenge_basics_wear_clothing" group="Basics" 
-		hint="challengeWearClothesHint1"
-		short_description_key="challengeWearClothesShort" description_key="challengeWearClothesDesc">
-		<objective type="Wear" item="armorPrimitiveOutfit"/>
-	</challenge>
-
 	<challenge name="craftWoodClub" title_key="challengeCraftWoodClub" icon="ui_game_symbol_challenge_basics_craft_club" group="Basics" 
 		hint="challengeCraftWoodClubHint1"
 		short_description_key="challengeCraftWoodClubShort" description_key="challengeCraftWoodClubDesc">
@@ -121,6 +109,18 @@
 		hint="challengeCraftArrowsHint1"
 		short_description_key="challengeCraftArrowsShort" description_key="challengeCraftArrowsDesc">
 		<objective type="Craft" item="ammoArrowStone" count="1"/>
+	</challenge>
+
+	<challenge name="craftClothes" title_key="challengeCraftClothes" icon="ui_game_symbol_challenge_basics_craft_clothing" group="Basics" 
+		hint="challengeCraftClothesHint1"
+		short_description_key="challengeCraftClothesShort" description_key="challengeCraftClothesDesc">
+		<objective type="Craft" item="armorPrimitiveOutfit"/>
+	</challenge>
+
+	<challenge name="wearClothes" title_key="challengeWearClothes" icon="ui_game_symbol_challenge_basics_wear_clothing" group="Basics" 
+		hint="challengeWearClothesHint1"
+		short_description_key="challengeWearClothesShort" description_key="challengeWearClothesDesc">
+		<objective type="Wear" item="armorPrimitiveOutfit"/>
 	</challenge>
 
 	<challenge name="groupCompleteChallenge" title_key="challengeGroupComplete" icon="ui_game_symbol_challenge_basics_redeem_rewards" group="Basics"
@@ -166,7 +166,7 @@
 
 	<challenge name="placeStorageContainer" title_key="challengePlaceStorageContainer" icon="ui_game_symbol_challenge_homesteading_place_storage" group="Homesteading" 
 	short_description_key="challengePlaceStorageContainerShort" description_key="challengePlaceStorageContainerDesc">
-		<objective type="BlockPlace" block="WildWestStorageVariantHelper" count="1"/>
+		<objective type="BlockPlace" block="cntWoodWritableCrate" count="1"/>
 	</challenge>
 
 <!--	<challenge name="placeTorch" title_key="challengePlaceTorch" icon="ui_game_symbol_challenge_homesteading_place_torch" group="Homesteading" 
