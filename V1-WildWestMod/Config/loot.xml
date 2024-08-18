@@ -4113,7 +4113,7 @@
 	<item name="ammo762mmBulletAP" count="45" loot_prob_template="QuestT3Prob"/>
 	<!--item name="ammoRocketFrag" count="5" loot_prob_template="QuestT3Prob"/-->
 	<!--item name="thrownGrenadeContact" count="10" loot_prob_template="QuestT3Prob"/-->
-	<item name="thrownTimedCharge" count="5" loot_prob_template="QuestT3Prob"/>
+	<item name="thrownTimedDynamite" count="5" loot_prob_template="QuestT3Prob"/>
 </lootgroup>
 
 <lootgroup name="groupQuestArmorT1" loot_quality_template="questT1QualTemplate">
@@ -4242,7 +4242,7 @@
 </lootgroup>
 
 <lootgroup name="groupQuestTimedCharges" count="all">
-	<item name="thrownTimedCharge" count="10"/>
+	<item name="thrownTimedDynamite" count="10"/>
 </lootgroup>
 
 <lootgroup name="groupQuestForge" count="all">
@@ -8115,12 +8115,12 @@
 </lootgroup>
 
 <lootgroup name="twitch_explosivesT1" count="2">
-	<item name="thrownGrenade" count="2,3"/>
+<!--	<item name="thrownGrenade" count="2,3"/>-->
 	<item name="thrownDynamite" count="2,3"/>
 </lootgroup>
 
 <lootgroup name="twitch_explosivesT2" count="2">
-	<item name="thrownGrenadeContact" count="2,3"/>
+<!--	<item name="thrownGrenadeContact" count="2,3"/> -->
 	<item name="thrownAmmoMolotovCocktail" count="1,3"/>
 	<item name="thrownDynamite" count="2,3"/>
 </lootgroup>
@@ -8687,7 +8687,7 @@
 
 <lootgroup name="twitch_utilitylockpicks2" count="1">
 	<item name="resourceLockPick" count="5,10"/>
-	<item name="thrownTimedCharge" count="2,4"/>
+	<item name="thrownTimedDynamite" count="2,4"/>
 </lootgroup>
 
 <lootgroup name="twitch_utilitypaint" count="all">
