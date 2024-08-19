@@ -158,7 +158,7 @@
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
             <property name="EconomicValue" value="50"/>
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Rabbit/RABBIT" parent_transform="Head" local_offset="-0.1,0,0.09" local_rotation="0,-35,90">
+                <triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Rabbit/RABBIT" parent_transform="Head" local_offset="0,0.1,0.075" local_rotation="0,0,0">
                     <requirement name="!IsFPV"/>
                 </triggered_effect>
                 <triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Rabbit/RABBIT">
