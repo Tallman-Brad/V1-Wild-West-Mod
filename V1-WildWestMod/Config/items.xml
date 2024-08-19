@@ -3476,7 +3476,7 @@
 		
 <item name="foodApple">
 	<property name="Tags" value="food"/>
-	<property name="HoldType" value="31"/>
+	<property name="HoldType" value="64"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="#@modfolder:Resources/WWMHorsey.unity3d?apple.prefab"/>
 	<property name="DropMeshfile" value="#@modfolder:Resources/WWMHorsey.unity3d?apple.prefab"/>
