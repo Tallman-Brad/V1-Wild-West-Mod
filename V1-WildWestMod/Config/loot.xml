@@ -10303,7 +10303,7 @@
 
 <!-- Water Wagon -->
 	<!-- Water plus Farming related loot-->
-	<lootgroup name="groupWaterWagon" count="1,2">
+	<lootgroup name="groupWaterWagon">
 		<item name="drinkJarRiverWater" count="2,5"/>
 		<item name="foodPintoBeans" count="5,10" prob="0.3"/>
 		<item name="foodOkra" count="5,10" prob="0.3"/>
@@ -10312,31 +10312,31 @@
 	</lootgroup>
 
 	<lootcontainer name="WaterWagon" count="1,2" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
-	<item group="groupWaterWagon" count="1"/>
+	<item group="groupWaterWagon" count="1,2"/>
 	</lootcontainer>
 
 <!-- Jail Wagon -->
 	<!-- guard's ammo, reward cash for prisoners -->
-	<lootgroup name="groupJailWagon" count="1,2">
+	<lootgroup name="groupJailWagon">
 		<item group="groupAmmoPileSmall"/>
 		<item name="oldCash" count="10,200" prob="0.3"/>
 	</lootgroup>
 
 	<lootcontainer name="JailWagon" count="1,2" size="6,2" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
-	<item group="groupJailWagon" count="1"/>
+	<item group="groupJailWagon" count="1,2"/>
 	</lootcontainer>
 
 <!-- Stage Coach -->
 	<!-- Passenger luggage or items from/to market -->
-	<lootgroup name="groupStageCoach" count="1,2">
+	<lootgroup name="groupStageCoach">
 		<item group="groupSavageCountryCrate"/>
 		<item name="oldCash" count="100,200" prob="0.3"/>
 		<item name="GrownChicken" count="1" prob="0.1"/>
 	
 	</lootgroup>
 
-	<lootcontainer name="StageCoach" count="1,2" size="6,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
-	<item group="groupStageCoach" count="1"/>
+	<lootcontainer name="StageCoach" size="6,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+	<item group="groupStageCoach" count="1,2"/>
 	</lootcontainer>
 
 </set>
