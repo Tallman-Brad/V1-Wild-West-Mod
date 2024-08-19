@@ -10311,8 +10311,8 @@
 		<item name="foodCropCorn" count="1,5" prob="0.1"/>
 	</lootgroup>
 
-	<lootcontainer name="WaterWagon" count="1,2" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
-	<item group="groupWaterWagon" count="1,2"/>
+	<lootcontainer name="WaterWagon" count="1,3" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+		<item group="groupWaterWagon" count="1,2"/>
 	</lootcontainer>
 
 <!-- Jail Wagon -->
@@ -10322,8 +10322,8 @@
 		<item name="oldCash" count="10,200" prob="0.3"/>
 	</lootgroup>
 
-	<lootcontainer name="JailWagon" count="1,2" size="6,2" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
-	<item group="groupJailWagon" count="1,2"/>
+	<lootcontainer name="JailWagon" count="1,3" size="6,2" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+		<item group="groupJailWagon" count="1,2"/>
 	</lootcontainer>
 
 <!-- Stage Coach -->
@@ -10331,12 +10331,11 @@
 	<lootgroup name="groupStageCoach">
 		<item group="groupSavageCountryCrate"/>
 		<item name="oldCash" count="100,200" prob="0.3"/>
-		<item name="GrownChicken" count="1" prob="0.1"/>
-	
+		<item name="GrownChicken" count="1" prob="0.1"/>	
 	</lootgroup>
 
-	<lootcontainer name="StageCoach" size="6,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
-	<item group="groupStageCoach" count="1,2"/>
+	<lootcontainer name="StageCoach" count="1,3" size="6,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+		<item group="groupStageCoach" count="1,2"/>
 	</lootcontainer>
 
 </set>
