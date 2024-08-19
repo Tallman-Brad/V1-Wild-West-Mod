@@ -70,13 +70,15 @@
 	
 <!-- *** INTEGRATION FOR ANIMALS -->
 
-<!-- *** WASTELAND ANIMALS -->
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		animalZombieWastelandCraterBear, 15
-		animalBossGrace, 15
-		animalZombieLargeVulture, 10
-		animalZombieFeralChicken, 10
-		animalHorseKiller, 10					   
+	<!-- *** BURNT_FOREST -->
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestAny']/text()" delim="\n" op="add" >
+		animalDireWolf, 3
+	</csv>
+	
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestNight']/text()" delim="\n" op="add" >
+		animalDireWolf, 3
 	</csv>
 	
 <!-- *** DESERT ANIMALS -->
@@ -86,6 +88,17 @@
 		animalBisonBear, .5
 		guppyVultureBurnt, 14
 		animalScorpion, 14
+		animalDireWolf, 1
+	</csv>
+	
+<!-- *** DESERT ANIMALS NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']/text()" delim="\n" op="add" >
+		animalDesertHare, 10
+		animalBisonBoar, 6
+		animalBisonBear, .5
+		guppyVultureBurnt, 14
+		animalScorpion, 14
+		animalDireWolf, 3
 	</csv>
 	
 <!-- *** SNOW ANIMALS -->	
@@ -93,7 +106,25 @@
 		animalSnowHare, 12
 		animalWolf, 10
 		animalWildWestSnowBear, 9
+		animalDireWolf, 3
 		SnowWendigo, 2
+	</csv>
+	
+<!-- *** SNOW ANIMALS -->	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnowNight']/text()" delim="\n" op="add" >
+		animalSnowHare, 5
+		animalWildWestSnowBear, 5
+		SnowWendigo, 2
+	</csv>
+	
+<!-- *** WASTELAND ANIMALS -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+		animalZombieWastelandCraterBear, 15
+		animalBossGrace, 15
+		animalZombieLargeVulture, 10
+		animalZombieFeralChicken, 10
+		animalHorseKiller, 10
+		animalDireWolf, 5		
 	</csv>
 	
 <!-- *** FOREST ANIMALS -->
