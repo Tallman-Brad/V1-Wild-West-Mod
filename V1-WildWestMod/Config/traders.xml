@@ -1005,7 +1005,6 @@
 			<!--item name="vehicleGyroCopterChassis"/-->
 			<!--item name="vehicleGyroCopterAccessories"/-->
 			<!--item name="vehicleGyrocopterPlaceable"/-->
-			<item name="vehicleBalloonPlaceable"/>
 			<item name="vehicleBalloon2Placeable"/>
 			<item name="vehicleBalloon3Placeable"/>
 			<item name="vehicleBalloon4Placeable"/>
