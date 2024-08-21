@@ -614,7 +614,7 @@
 <block name="cntDewCollectorVariantHelper">
 	<property name="Extends" value="cntDewCollector"/>		
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="cntDewCollector"/>
+	<property name="CustomIcon" value="oldwell"/>
 	<property name="DescriptionKey" value="cntGroundWaterCollectorDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true"/>
