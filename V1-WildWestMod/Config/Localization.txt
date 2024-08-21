@@ -651,7 +651,7 @@ resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Wate
 workstationsT1-1,progression,Attribute,,,Tier 1: Water Collector,,,,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,,,,,,,,,,,,
 
-cntGroundWaterCollectorDesc,blocks,block,,,A well that collects groundwater over time for clean drinking water. Choose from four different styles.,,,,,,,,,,,,,
+cntGroundWaterCollectorDesc,blocks,block,,,A well that collects groundwater over time for clean drinking water. Choose from three different styles.,,,,,,,,,,,,,
 
 modVehicleSuperCharger,item_modifiers,Mod,,,Horse Sugar Cubes Mod,,,,,,,,,,,,,
 modVehicleSuperChargerDesc,item_modifiers,Mod,,,"This horse sugar cubes mod increases acceleration and top speed.",,,,,,,,,,,,,
