@@ -229,10 +229,10 @@
 		<objective type="ChallengeStatAwarded" challenge_stat="drinkwater" count="1" stat_text_key="challengeStatDrinkWaterFromLake"/>
 	</challenge>
 
-	<challenge name="placeDewCollector" title_key="challengePlaceDewCollector" icon="ui_game_symbol_water" group="AdvancedSurvival"
-	short_description_key="challengePlaceDewCollectorShort" description_key="challengePlaceDewCollectorDesc"
+	<challenge name="placeRainDanceCatcher" title_key="challengePlaceRainDanceCatcher" icon="ui_game_symbol_water" group="AdvancedSurvival"
+	short_description_key="challengePlaceRainDanceCatcherShort" description_key="challengePlaceRainDanceCatcherDesc"
 	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
-		<objective type="BlockPlace" block="cntDewCollector" count="1"/>
+		<objective type="BlockPlace" block="cntRainDanceCatcher" count="1"/>
 	</challenge>
 
 	<challenge name="killZombies" title_key="challengeKillZombies" icon="ui_game_symbol_challenge_adv_survival_kill_zombies" group="AdvancedSurvival"

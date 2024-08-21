@@ -615,10 +615,10 @@
 	<property name="Extends" value="cntDewCollector"/>		
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="cntDewCollector"/>
-	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="DescriptionKey" value="cntGroundWaterCollectorDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true"/>
-	<property name="PlaceAltBlockValue" value="cntDewCollector,cntRainDanceCatcher,cntOldWell,cntStoneWell,cntWoodWell"/>
+	<property name="PlaceAltBlockValue" value="cntDewCollector,cntOldWell,cntStoneWell,cntWoodWell"/>
 </block>
 
 	<!-- *** DEW_COLLECTOR -->
@@ -626,6 +626,7 @@
 	<property name="Class" value="DewCollector"/>
 	<property name="UnlockedBy" value="craftingWorkstations"/>
 	<property name="WorkstationIcon" value="ui_game_symbol_water"/>
+	<property name="CustomIcon" value="cntRainDanceCatcher"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DescriptionKey" value="cntRainDanceCatcherDesc"/>
 	<property name="Material" value="MFuelBarrelPolymer"/>

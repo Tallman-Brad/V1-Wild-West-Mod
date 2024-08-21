@@ -634,17 +634,24 @@ drinkCanMegaCrushDesc,items,Food,,,"Remedial and energizing. Helps you pick up t
 barracksChair,blocks,Block,,,Deck Chair,,,,,,,,,,,,,
 capChimneyLargeSmoke,blocks,block,,,Chimney Cap Large Smoke,,"Schornstein – Abdeckung, groß, Rauch",Sombrero de chimenea grande humeante,"Grand chapeau de cheminée, fumée",Coperchio del camino grande con fumo,煙突キャップ（大・スモーク）,치메니 캡 라지 스모크,"Komin – końcówka, duży, dym",Tampo de chaminé grande esfumaçado,Большая дымящаяся верхушка трубы,"Baca Külahı, Büyük, Duman",烟囱 顶盖 大 冒烟,冒煙大煙囪蓋
 
-cntDewCollectorVariantHelper,blocks,block,,,Wells and Catchers,,,,,,,,,,,,,
+cntDewCollectorVariantHelper,blocks,block,,,Water Wells,,,,,,,,,,,,,
 cntRainDanceCatcherDesc,blocks,block,,,"Collects water over time for clean drinking water.\n\nRepair with Tree Resin.",,,,,,,,,,,,,
 cntRainDanceCatcher,blocks,block,,,Rain Dance Catcher,,,,,,,,,,,,,
-dewCollectorDesc,blocks,block,,,"Collects groundwater over time for clean drinking water.\n\nRepair with Tree Resin.",,,,,,,,,,,,,
+
+challengePlaceRainDanceCatcher,Challenges,Challenge,,,Place Rain Dance Catcher,,,,,,,,,,,,,
+challengePlaceRainDanceCatcherDesc,Challenges,Challenge,,,"A [DECEA3]Rain Dance Catcher[-] is a [DECEA3]Workstation[-] that allows you to passively obtain [DECEA3]Water[-] over time. Initially it will collect [DECEA3]Murky Water[-], but can be upgraded with [DECEA3]Workstation Modifications[-] to provide cleaner [DECEA3]Water[-] more efficiently.",,,,,,,,,,,,,
+challengePlaceRainDanceCatcherShort,Challenges,Challenge,,,Place a Rain Dance Catcher to collect water.,,,,,,,,,,,,,
+
+
 cntOldWell,blocks,block,,,Old Well - Groundwater Collector,,,,,,,,,,,,,
 cntStoneWell,blocks,block,,,Stone Well - Groundwater Collector,,,,,,,,,,,,,
 cntWoodWell,blocks,block,,,Wood Well - Groundwater Collector,,,,,,,,,,,,,
-cntDewCollector,blocks,block,,,Barrel Well - Groundwater Collector,,,,,,,,,,,,,
+
 resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Water Collector.",,,,,,,,,,,,,
 workstationsT1-1,progression,Attribute,,,Tier 1: Water Collector,,,,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,,,,,,,,,,,,
+
+cntGroundWaterCollectorDesc,blocks,block,,,A well that collects groundwater over time for clean drinking water. Choose from four different styles.,,,,,,,,,,,,,
 
 modVehicleSuperCharger,item_modifiers,Mod,,,Horse Sugar Cubes Mod,,,,,,,,,,,,,
 modVehicleSuperChargerDesc,item_modifiers,Mod,,,"This horse sugar cubes mod increases acceleration and top speed.",,,,,,,,,,,,,
