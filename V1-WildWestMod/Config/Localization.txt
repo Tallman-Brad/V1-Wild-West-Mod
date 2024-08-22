@@ -665,6 +665,14 @@ modGunBowArrowHandleGripSchematic,item_modifiers,Mod,,,Antler Bow Handle Grip Mo
 modArcheryReload,item_modifiers,mod,,,Antler Reload Mod,,,,,,,,,,,,,
 modArcheryReloadDesc,item_modifiers,mod,,,"Attaching this mod to a bow or crossbow increases reload speed by 15%.",,,,,,,,,,,,,
 modArcheryReloadSchematic,item_modifiers,Mod,,,Antler Reload Mod Schematic,,,,,,,,,,,,,
+modArmorAgilityDesc,item_modifiers,mod,,,"This armor mod boosts your reflexes when added to headgear.\n\n+1 Agility",,,,,,,,,,,,,
+modArmorFortitudeDesc,item_modifiers,mod,,,"This armor mod boosts the immune system when added to headgear.\n\n+1 Fortitude",,,,,,,,,,,,,
+modArmorIntellectDesc,item_modifiers,mod,,,"This armor mod boosts your brainz when added to headgear.\n\n+1 Brainz",,,,,,,,,,,,,
+modArmorPerceptionDesc,item_modifiers,mod,,,"This armor mod enhances sight and targeting when added to headgear.\n\n+1 Perception",,,,,,,,,,,,,
+modArmorStrengthDesc,item_modifiers,mod,,,"This armor mod improves strength when added to headgear.\n\n+1 Strength",,,,,,,,,,,,,
+modArmorTreasureHunterDesc,item_modifiers,mod,,,"This armor mod boosts learning speed and improves the user's ability to discover valuable loot and buried treasures when added to headgear.\n\n+10% XP Gain\n+5 Loot Stage\nTreasure Radius -1",,,,,,,,,,,,,
+
+
 modArmorHelmetLight,item_modifiers,mod,,,Miner's Headlamp Mod,,,,,,,,,,,,,
 modArmorHelmetLightSchematic,item_modifiers,mod,,,Miner's Headlamp Mod Schematic,,,,,,,,,,,,,
 modArmorCowboyBoots,item_modifiers,mod,,,Cowboy Boots Mod,,,,,,,,,,,,,
