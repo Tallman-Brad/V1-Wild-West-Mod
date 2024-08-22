@@ -147,11 +147,11 @@
 		<objective type="Craft" item="frameShapes:VariantHelper" count="1"/>
 	</challenge> -->
 
-<!--	<challenge name="placeFrameHelpers" title_key="challengePlaceBuildingBlocks" icon="ui_game_symbol_challenge_homesteading_place_building_block" group="Homesteading" 
+	<challenge name="placeFrameHelpers" title_key="challengePlaceBuildingBlocks" icon="ui_game_symbol_challenge_homesteading_place_building_block" group="Homesteading" 
 	prerequisite_hint="challengePlaceBuildingBlocksHint1" hint="challengePlaceBuildingBlocksHint2"
 	short_description_key="challengePlaceBuildingBlocksShort" description_key="challengePlaceBuildingBlocksDesc">
-		<objective type="BlockPlace" block="frameShapes:VariantHelper" count="1"/>
-	</challenge> -->
+		<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60"/>
+	</challenge>
 
 <!--	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading" 
 	prerequisite_hint="challengeUpgradeBlocksHint1" hint="challengeUpgradeBlocksHint2"
@@ -159,10 +159,10 @@
 		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="1" held="meleeToolRepairT0StoneAxe" needed_resource="resourceWood" needed_resource_count="8"/>
 	</challenge> -->
 
-<!--	<challenge name="placeDoor" title_key="challengePlaceDoor" icon="ui_game_symbol_challenge_homesteading_place_door" group="Homesteading" 
+	<challenge name="placeDoor" title_key="challengePlaceDoor" icon="ui_game_symbol_challenge_homesteading_place_door" group="Homesteading" 
 	short_description_key="challengePlaceDoorShort" description_key="challengePlaceDoorDesc">
 		<objective type="BlockPlace" block="oldWoodDoor" count="1"/>
-	</challenge> -->
+	</challenge>
 
 	<challenge name="placeStorageContainer" title_key="challengePlaceStorageContainer" icon="ui_game_symbol_challenge_homesteading_place_storage" group="Homesteading" 
 	short_description_key="challengePlaceStorageContainerShort" description_key="challengePlaceStorageContainerDesc">
@@ -179,11 +179,10 @@
 		<objective type="BlockPlace" block="trapSpikesWoodDmg0" count="1"/>
 	</challenge> -->
 
-<!--	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
+	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
 	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc">
-		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="1" held="meleeToolRepairT0StoneAxe" 
-			needed_resource="resourceCobblestones" needed_resource_count="10"/>
-	</challenge> -->
+		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="50" needed_resource="resourceCobblestones" needed_resource_count="1"/>
+	</challenge>
 
 	<!-- *** Advanced -->
 	<challenge name="spendSkillPoint" title_key="challengeSpendSkillPoint" icon="ui_game_symbol_skills" group="AdvancedSurvival"
