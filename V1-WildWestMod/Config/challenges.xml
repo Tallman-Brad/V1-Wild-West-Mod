@@ -229,7 +229,7 @@
 		<objective type="ChallengeStatAwarded" challenge_stat="drinkwater" count="1" stat_text_key="challengeStatDrinkWaterFromLake"/>
 	</challenge>
 
-	<challenge name="placeRainDanceCatcher" title_key="challengePlaceRainDanceCatcher" icon="ui_game_symbol_water" group="AdvancedSurvival"
+	<challenge name="placeRainDanceCatcher" title_key="challengePlaceRainDanceCatcher" icon="ui_game_symbol_raindancecatcher" group="AdvancedSurvival"
 	short_description_key="challengePlaceRainDanceCatcherShort" description_key="challengePlaceRainDanceCatcherDesc"
 	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
 		<objective type="BlockPlace" block="cntRainDanceCatcher" count="1"/>
