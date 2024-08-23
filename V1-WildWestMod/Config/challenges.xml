@@ -181,7 +181,7 @@
 
 	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
 	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc">
-		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="50" needed_resource="resourceCobblestones" needed_resource_count="1"/>
+		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="60" needed_resource="resourceCobblestones" needed_resource_count="60"/>
 	</challenge>
 
 	<!-- *** Advanced -->
@@ -200,7 +200,7 @@
 	<challenge name="harvestAnimals" title_key="challengeHarvestAnimals"  icon="ui_game_symbol_challenge_adv_survival_harvest_meat" group="AdvancedSurvival"
 	short_description_key="challengeHarvestAnimalsShort" description_key="challengeHarvestAnimalsDesc"
 	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
-		<objective type="Harvest" held="meleeWpnBladeT0BoneKnife" required_held="true" item="foodRawMeat" is_block="false" count="10"/>
+		<objective type="Harvest" item="foodRawMeat" is_block="false" count="10"/>
 	</challenge>
 
 	<challenge name="placeCampfire" title_key="challengePlaceCampfire" icon="ui_game_symbol_challenge_adv_survival_place_campfire" group="AdvancedSurvival" 
