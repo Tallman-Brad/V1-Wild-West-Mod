@@ -149,8 +149,9 @@
 
 	<challenge name="placeFrameHelpers" title_key="challengePlaceBuildingBlocks" icon="ui_game_symbol_challenge_homesteading_place_building_block" group="Homesteading" 
 	prerequisite_hint="challengePlaceBuildingBlocksHint1" hint="challengePlaceBuildingBlocksHint2"
-	short_description_key="challengePlaceBuildingBlocksShort" description_key="challengePlaceBuildingBlocksDesc">
-		<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60"/>
+	short_description_key="challengePlaceBuildingBlocksShort" description_key="challengePlaceBuildingBlocksDesc"
+	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">	
+	<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60"/>
 	</challenge>
 
 <!--	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading" 
@@ -180,8 +181,14 @@
 	</challenge> -->
 
 	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
-	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc">
+	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc"
+		reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
 		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="60" needed_resource="resourceCobblestones" needed_resource_count="60"/>
+	</challenge>
+
+	<challenge name="placeLadders" title_key="challengePlaceLadders" icon="ui_game_symbol_challenge_ladders" group="Homesteading" 
+	short_description_key="challengePlaceLaddersShort" description_key="challengePlaceLaddersDesc">
+		<objective type="BlockPlace" block="ladderWood" count="2"/>
 	</challenge>
 
 	<!-- *** Advanced -->
