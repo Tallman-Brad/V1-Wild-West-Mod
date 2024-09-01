@@ -3556,6 +3556,27 @@
 
 <!-- Custom Entities -->
 
+<!-- Spider Bite -->
+
+	<item name="meleeHandAnimalSpider">
+    <property name="Extends" value="meleeHandMaster"/>
+    <property name="CreativeMode" value="None"/>
+    <property class="Action0"><!-- AttackAction -->
+		<property name="Buff" value="buffanimalSpiderBite"/>
+        <property name="Range" value="1.1"/> <!-- This not what "clientside melee combat" means.  This is the adjustment afterwards due to code changes. -->
+        <property name="DamageEntity" value="4"/>
+        <property name="DamageBlock" value="4"/>
+    </property>
+    <effect_group name="meleeHandAnimalSpider" tiered="false">
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.15"/> <!-- Default for Range is 1.65 -->
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+                buff="buffAbrasionCatch,"
+                weights=".05,.95"/> <!-- second value for probability of nothing (blank after comma above) happening -->
+    </effect_group>
+</item>
+
+
+
 		<item name="meleeHandanimalZombieFeralChicken">
 			<property name="Extends" value="meleeHandAnimalZombieVulture"/>
 			<property name="CreativeMode" value="None"/>

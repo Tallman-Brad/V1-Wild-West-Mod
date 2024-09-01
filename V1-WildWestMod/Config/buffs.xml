@@ -158,6 +158,23 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/newfireaxe.unity3d?newfireaxe" local_offset="0.1,0.02,0.0" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Left-Right/Front-Back -->
 			</effect_group>
 		</buff>
+
+<!-- Spider Bite -->
+        <buff name="buffanimalSpiderBite" icon="ui_game_symbol_stunned" icon_color="20,210,60">
+            <stack_type value="replace"/>
+            <duration value="1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#painlg" play_in_head="true"/>
+                <triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="player#painlg" play_in_head="true"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="player#painlg" play_in_head="true"/>
+            </effect_group>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Greyscale" intensity="1" fade=".025"/>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Dark" intensity="1" fade="0.25"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Dark" intensity="0" fade="1"/> -->
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Greyscale" intensity="0" fade="1"/>
+            </effect_group>
+        </buff> 
 		
 <!-- Wendigo Radiation buff courtesy of Bdubyah from The Wasteland Overhaul -->	
 	
@@ -356,7 +373,7 @@
 		<duration value="0"/>
 		<update_rate value="30" />
 		<effect_group name="Damage over Time">
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="10" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="5" />
 		</effect_group>
 </buff>
 
