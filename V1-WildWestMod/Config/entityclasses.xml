@@ -205,10 +205,10 @@
 
 <!-- Daddy Spider -->
 
-<entity_class name="animalDaddySpider" extends="animalSpider">
+	<entity_class name="animalDaddySpider" extends="animalSpider">
 	<property name="Mesh" value="#@modfolder:Resources/OakSpider.unity3d?OakSpiderSmall2"/>	
-	<property name="CanClimbLadders" value="true"/>
-
+	<property name="SizeScale" value="1.4"/>
+	
 	<!-- Gameplay  -->
 	<property name="PainResistPerHit" value="1"/>
 	<property name="ExperienceGain" value="100"/>
@@ -236,7 +236,8 @@
 
  <entity_class name="animalMummySpider" extends="animalSpider">
 	<property name="Mesh" value="#@modfolder:Resources/OakSpider.unity3d?OakSpiderSmall3"/>	
-
+	<property name="SizeScale" value="1.8"/>
+	
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=2;duration=3"/>
 	<property name="AITask-3" value="Territorial"/>
