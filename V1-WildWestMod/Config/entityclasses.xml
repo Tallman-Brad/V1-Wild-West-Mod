@@ -16,6 +16,14 @@
 <remove xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']"/>
 <remove xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']"/>
 
+<remove xpath="/entity_classes/entity_class[@name='zombieBiker']"/>
+<remove xpath="/entity_classes/entity_class[@name='zombieBikerFeral']"/>
+<remove xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']"/>
+
+<remove xpath="/entity_classes/entity_class[@name='zombieScreamer']"/>
+<remove xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']"/>
+<remove xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']"/>
+
 	<!-- Remove Demolition and Readd to removed extends and hat issue -->
 	<remove xpath="/entity_classes/entity_class[@name='zombieDemolition']"/>
 
@@ -114,22 +122,150 @@
 	<drop event="Harvest" name="foodBoarMilk" tag="butcherHarvest" count="1,2"/>
 	</append>
 
-	<!-- Medusa Screamer -->
-	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/property[@name='Mesh']/@value">#@modfolder:Resources/Meduse.unity3d?Meduse</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='Mesh']/@value">#@modfolder:Resources/Meduse.unity3d?Meduse3</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='Mesh']/@value">#@modfolder:Resources/Meduse.unity3d?Meduse2</set>	
-
-
-	<!-- New Biker -->
-	
-	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='Mesh']/@value">#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBiker</set>
-    <set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='Mesh']/@value">#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBikerFed</set> <!-- fed -->
-    <set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/property[@name='Mesh']/@value">#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBikerRad</set>  <!-- Rad -->
-
 	
 <append xpath="/entity_classes">
 
 <!-- ##### New Entites2 #####-->
+
+<!-- Screamer variants -->
+		<!-- *** ZOMBIE_SCREAMER -->
+<entity_class name="zombieScreamer" extends="zombieTemplateShort">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="#@modfolder:Resources/Meduse.unity3d?Meduse"/>
+	<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
+	<property name="SoundRandom" value="zombiefemalescoutroam"/>
+	<property name="SoundAlert" value="zombiefemalescoutalert"/>
+	<property name="SoundAttack" value="zombiefemalescoutattack"/>
+	<property name="SoundHurt" value="zombiefemalescoutpain"/>
+	<property name="SoundDeath" value="zombiefemalescoutdeath"/>
+	<property name="SoundSense" value="zombiefemalescoutsense"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="110"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="AIPathCostScale" value=".5, .6"/>
+	<property name="DanceType" value="2" />
+
+	<!-- Gameplay zombieScreamer -->
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+	</effect_group>
+
+</entity_class>
+
+		<!-- *** ZOMBIE_SCREAMER_FERAL -->
+<entity_class name="zombieScreamerFeral" extends="zombieScreamer">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="#@modfolder:Resources/Meduse.unity3d?Meduse3"/>
+
+	<!-- Gameplay zombieScreamerFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="250"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_SCREAMER_RADIATED -->
+<entity_class name="zombieScreamerRadiated" extends="zombieScreamerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="#@modfolder:Resources/Meduse.unity3d?Meduse2"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieScreamerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="ExperienceGain" value="1200"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<!-- Zombie Biker -->
+
+<entity_class name="zombieBiker" extends="zombieTemplateMale">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="SizeScale" value="1.08"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBiker"/>
+	<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
+	<property name="Mass" value="230"/>
+	<property name="WalkType" value="7"/>
+	<property name="PainResistPerHit" value=".75"/>
+
+	<!-- Gameplay zombieBiker -->
+	<property name="MoveSpeedAggro" value="0.2, 1.2"/> <!-- strong, regular -->
+	<property name="JumpMaxDistance" value=".8, 1.1"/>
+	<property name="HandItem" value="meleeHandZombieStrong"/>
+	<property name="ExperienceGain" value="750"/><!-- XP strong -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="550"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="20"/>
+	</effect_group>
+
+</entity_class>
+
+<!-- Biker Feral -->
+
+<entity_class name="zombieBikerFeral" extends="zombieBiker">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBikerFed"/>
+
+	<!-- Gameplay zombieBikerFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.45, 1.3"/> <!-- strong, feral -->
+	<property name="JumpMaxDistance" value="1.8, 2.5"/>
+	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
+	<property name="ExperienceGain" value="1200"/><!-- XP strong feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="900"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="20"/>
+	</effect_group>
+</entity_class>
+
+	<!-- Biker radiated -->
+	
+<entity_class name="zombieBikerRadiated" extends="zombieBikerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="#@modfolder:Resources/OaksCowboyBiker.unity3d?OaksCowboyBikerRad"/>
+
+	<!-- Gameplay zombieBikerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1500"/><!-- XP strong radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1800"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="20"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
 
 <!-- Regular Spider -->	
 
@@ -2275,7 +2411,7 @@
             <property name="Mesh" value="#@modfolder:Resources/a20burntvulture.unity3d?gupBurnedVultureTeeth"/>
             <property name="ExperienceGain" value="300"/>
             <property name="DeadBodyHitPoints" value="200"/>
-			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
+			<property name="PhysicsBody" value="xythrig"/>	
             <property name="Mass" value="35"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2336,7 +2472,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".35"/>
-			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
+			<property name="PhysicsBody" value="xythrig"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2397,7 +2533,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
+			<property name="PhysicsBody" value="xythrig"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2460,7 +2596,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>			
+			<property name="PhysicsBody" value="xythrig"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
