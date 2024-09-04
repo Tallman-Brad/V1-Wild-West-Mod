@@ -374,7 +374,7 @@
 		<property class="seat0">
 			 <property name="class" value="Seat"/>
 			<property name="pose" value="20"/>
-			<property name="position" value=" 0,.431, 0.724"/>               0,.431, 0.724
+			<property name="position" value=" 0,.431, 0.724"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="IKFootLPosition" value="-.35, .34, -.15"/>
 			<property name="IKFootLRotation" value="18.6, 0, 0"/>
@@ -497,7 +497,7 @@
 		<property class="seat0">
 			 <property name="class" value="Seat"/>
 			<property name="pose" value="20"/>
-			<property name="position" value=" 0,.793, 0.759"/>              0,.793, 0.759 
+			<property name="position" value=" 0,.793, 0.759"/>
 			<property name="rotation" value="338.3, 0, 0"/>
 			<property name="IKFootLPosition" value="-.35, .34, -.15"/>
 			<property name="IKFootLRotation" value="18.6, 0, 0"/>
@@ -618,7 +618,7 @@
 		<property class="seat0">
 			 <property name="class" value="Seat"/>
 			<property name="pose" value="20"/>
-			<property name="position" value="0,-0.086, 1.000"/>           0,-0.086, 1.000       
+			<property name="position" value="0,-0.086, 1.000"/>      
 			<property name="rotation" value="338.3, 0, 0"/>
 			<property name="IKFootLPosition" value="-.35, .34, -.15"/>
 			<property name="IKFootLRotation" value="18.6, 0, 0"/>
