@@ -327,7 +327,7 @@
 		<property name="tiltDampenThreshold" value="1"/>
 		<property name="tiltUpForce" value="1"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="5, 10"/> <!-- 8, 14 -->
+		<property name="velocityMax" value="6, 12"/> <!-- 8, 14 -->
 		<property name="waterY_VelMaxScale" value="2, .2"/>
 
 		<property name="hornSound" value="Train_horn"/>
@@ -451,7 +451,7 @@
 		<property name="tiltDampenThreshold" value="1"/>
 		<property name="tiltUpForce" value="1"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="8, 14"/>
+		<property name="velocityMax" value="6, 12"/> <!-- 8, 14 -->
 		<property name="waterY_VelMaxScale" value="2, .2"/>
 
 		<property name="hornSound" value="Train_horn"/>
@@ -572,7 +572,7 @@
 		<property name="tiltDampenThreshold" value="1"/>
 		<property name="tiltUpForce" value="1"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="8, 14"/>
+		<property name="velocityMax" value="6, 12"/> <!-- 8, 14 -->
 		<property name="waterY_VelMaxScale" value="2, .2"/>
 
 		<property name="hornSound" value="Train_horn"/>

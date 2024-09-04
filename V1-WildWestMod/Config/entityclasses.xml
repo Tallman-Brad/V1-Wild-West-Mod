@@ -2411,7 +2411,7 @@
             <property name="Mesh" value="#@modfolder:Resources/a20burntvulture.unity3d?gupBurnedVultureTeeth"/>
             <property name="ExperienceGain" value="300"/>
             <property name="DeadBodyHitPoints" value="200"/>
-			<property name="PhysicsBody" value="xythrig"/>	
+			<property name="PhysicsBody" value="mixamoConvertedGuppyZombie"/>	
             <property name="Mass" value="35"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2472,7 +2472,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".35"/>
-			<property name="PhysicsBody" value="xythrig"/>			
+			<property name="PhysicsBody" value="mixamoConvertedGuppyZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2533,7 +2533,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="xythrig"/>			
+			<property name="PhysicsBody" value="mixamoConvertedGuppyZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -2596,7 +2596,7 @@
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="PhysicsBody" value="xythrig"/>			
+			<property name="PhysicsBody" value="mixamoConvertedGuppyZombie"/>			
             <property name="Mass" value="70"/>
             <property name="Weight" value="80"/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
