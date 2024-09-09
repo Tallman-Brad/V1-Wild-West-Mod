@@ -1731,6 +1731,7 @@
 	<entity_class name="animalZombieWastelandCraterBear" extends="animalZombieBear">
 	<property name="Tags" value="entity,animal,zombie,hostile,bear"/>
 
+	<property name="Prefab" value="/Entities/Animals/Bear/animalBearZombiePrefab"/>
 	<property name="AIFeralSense" value="1.2"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="DestroyArea"/>
@@ -1764,7 +1765,8 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-        <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="CraterBear"/>
+        <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffCraterBearDeco"/>
+        <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieWendigoRadiatedShowerAOE"/>
 		<passive_effect name="HealthMax" operation="base_set" value="2200"/>
 	</effect_group>
 </entity_class>

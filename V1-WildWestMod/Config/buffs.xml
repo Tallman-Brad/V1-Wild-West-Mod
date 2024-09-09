@@ -171,7 +171,7 @@
             <effect_group>
                 <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Greyscale" intensity="1" fade=".025"/>
                 <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Dark" intensity="1" fade="0.25"/>
-                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Dark" intensity="0" fade="1"/> -->
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Dark" intensity="0" fade="1"/>
                 <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Greyscale" intensity="0" fade="1"/>
             </effect_group>
         </buff> 
@@ -379,9 +379,9 @@
 
 <!-- Crater Bear Glow -->
 
-<buff name="CraterBear" hidden="true">
+<buff name="buffCraterBearDeco" hidden="true">
             <effect_group>
-                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/bearfx.unity3d?bearfx" local_offset="0,-1.5,0.5" local_rotation="0,0,0" parent_transform="Spine"/>
+                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/bearfx.unity3d?bearfx" local_offset="0,-1.5,0.5" local_rotation="0,0,0" parent_transform="Spine"/>				
 			</effect_group>
 </buff>
 
