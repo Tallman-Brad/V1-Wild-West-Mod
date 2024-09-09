@@ -429,9 +429,9 @@
 	<challenge name="harvestCarParts" title_key="challengeHarvestCarParts" icon="ui_game_symbol_challenge_harvesting_wrench_cars" group="Harvesting"
 		short_description_key="challengeHarvestCarPartsShort" description_key="challengeHarvestCarPartsDesc"
 		reward_text_key="challenge_reward_2500xp" reward_event="challenge_reward_2500">
-		<objective type="Harvest" item="smallEngine" count="3" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
-		<objective type="Harvest" item="carBattery" count="3" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
-		<objective type="Harvest" item="resourceRadiator" count="4" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
+		<objective type="Harvest" item="resourceGlue" count="10" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
+		<objective type="Harvest" item="resourceForgedIron" count="40" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
+		<objective type="Harvest" item="resourceOil" count="10" block_tag="challenge_cars" override_tracker_index="challenge_cars" track_distance="50"/>
 	</challenge>
 
 	<challenge name="harvestMechanicalParts" title_key="challengeHarvestMechanicalParts" icon="ui_game_symbol_challenge_harvesting_mechanical_parts" group="Harvesting" 

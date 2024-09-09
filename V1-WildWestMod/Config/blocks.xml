@@ -111,8 +111,13 @@
     <set xpath="/blocks/block[@name='cntWeaponsBagLarge']/property[@name='Model']/@value">@:Entities/LootContainers/weapon_bags_smallPrefab.prefab</set>
 <!-- Non vehicle deco wagon -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
+	<property name="IndexName" value="challenge_cars"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
 	<drop event="Harvest" name="resourceForgedIron" count="2,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,4" prob="0.1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceGlue" count="1" prob="0.3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceOil" count="1" prob="0.3" tag="allHarvest"/>
+	<property name="Tags" value="challenge_cars,challenge_elec_parts,challenge_mech_parts"/>
 	</append>
  	<append xpath="/blocks/block[@name='decoWildWestWagonWheelBack']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
