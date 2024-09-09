@@ -1728,7 +1728,7 @@
 	
 		<!-- CUSTOM Zombie Wasteland Crater Bear -->	
 	
-	<entity_class name="animalZombieWastelandCraterBear" extends="animalBear">
+	<entity_class name="animalZombieWastelandCraterBear" extends="animalZombieBear">
 	<property name="Tags" value="entity,animal,zombie,hostile,bear"/>
 
 	<property name="AIFeralSense" value="1.2"/>
