@@ -403,6 +403,8 @@
 	
 	<append xpath="/blocks/block[@name='treeMaster']" >
 		<drop event="Destroy" name="resourceScrapPolymers" count="2,3"/>
+		<property name="Tags" value="challenge_polymers"/>
+		<property name="IndexName" value="challenge_polymers"/>
 	</append>
 	
 <!-- Custom Content From Here -->
