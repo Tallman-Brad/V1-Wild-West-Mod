@@ -322,7 +322,7 @@
 		<objective type="BlockPlace" block="chemistryStation" count="1"/>
 	</challenge>
 
-	<challenge name="craftGasCan" title_key="challengeCraftGasCan" icon="ui_game_symbol_hammer" group="Workstations"
+	<challenge name="craftGasCan" title_key="challengeCraftGasCan" icon="ui_game_symbol_gas" group="Workstations"
 		short_description_key="challengeCraftGasCanShort" description_key="challengeCraftGasCanDesc"
 		reward_text_key="challenge_reward_5000xp" reward_event="challenge_reward_5000">
 		<objective type="Craft" item="ammoGasCan" count="100"/>

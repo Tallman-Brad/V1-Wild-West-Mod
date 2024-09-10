@@ -642,7 +642,6 @@ challengePlaceRainDanceCatcher,Challenges,Challenge,,,Place Rain Dance Catcher,,
 challengePlaceRainDanceCatcherDesc,Challenges,Challenge,,,"A [DECEA3]Rain Dance Catcher[-] is a [DECEA3]Workstation[-] that allows you to passively obtain [DECEA3]Water[-] over time. Initially it will collect [DECEA3]Murky Water[-], but can be upgraded with [DECEA3]Workstation Modifications[-] to provide cleaner [DECEA3]Water[-] more efficiently.",,,,,,,,,,,,,
 challengePlaceRainDanceCatcherShort,Challenges,Challenge,,,Place a Rain Dance Catcher to collect water.,,,,,,,,,,,,,
 
-
 cntOldWell,blocks,block,,,Old Well - Groundwater Collector,,,,,,,,,,,,,
 cntStoneWell,blocks,block,,,Stone Well - Groundwater Collector,,,,,,,,,,,,,
 cntWoodWell,blocks,block,,,Wood Well - Groundwater Collector,,,,,,,,,,,,,
@@ -661,6 +660,10 @@ challengePlaceLaddersShort,Challenges,Challenge,,,Craft Ladders to reach upper a
 challengeUpgradeBlocks,Challenges,Challenge,,,Upgrade 60 Building Blocks,,,,,,,,,,,,,
 challengeUpgradeToCobblestone,Challenges,Challenge,,,Upgrade to Cobblestone,,,,,,,,,,,,,
 challengeUpgradeToCobblestoneShort,Challenges,Challenge,,,Upgrade 60 Wooden Blocks to Cobblestone.,,,,,,,,,,,,,
+
+challengeCraftGasCan,Challenges,Challenge,,,Craft Kerosene Jars,,,,,,,,,,,,,
+challengeCraftGasCanDesc,Challenges,Challenge,,,"[DECEA3]Kerosene Jars[-] are primarily used to fuel [DECEA3]Vehicles[-], but are also a material in some recipes and as [DECEA3]Fuel[-] for [DECEA3]Workstations[-] in a pinch.\n\nCraft some [DECEA3]Kerosene Jars[-].",,,,,,,,,,,,,
+challengeCraftGasCanShort,Challenges,Challenge,,,Craft some Kerosene Jars.,,,,,,,,,,,,,
 
 challengeHarvestForgedSteelDesc,Challenges,Challenge,,,"[DECEA3]Forged Steel[-] is used to craft [DECEA3]Steel Blocks[-], [DECEA3]Vehicles[-], [DECEA3]Armor[-], [DECEA3]Item Modifications[-] and many other advanced recipes.\n\n[DECEA3]Forged Steel[-] can be harvested from things like [DECEA3]Vending Machines[-], but beware, some [DECEA3]Vending Machines[-] have anti-tampering features.",,,,,,,,,,,,,
 
@@ -1242,9 +1245,9 @@ quest_bartertrade_response,Quest,Quest Info,,,Barter and Trade,,,,,,,,,,,,,
 qc_eliminatecrispyfamily,items,Quest - Challenge,,,"Contract: Eliminate Crispy",,,,,,,,,,,,,
 qc_eliminatecrispyfamilyDesc,items,Quest - Challenge,,,"A contract issued by the Wild West New Frontier Settlement. Accept this bounty quest to eliminate 200 Crispy Family members and their Mutant Rat friends. 1 Skill, 10000 XP, and 5000 Liberty Coins for your troubles. This bounty quest continually loops, since their presence can be maintained, but never eradicated. Only accept if you can commit to this never ending challenge.",,,,,,,,,,,,,
 
-loadingTipWildWestTomahawk,UI,Loading Screen,x,,"The Tomahawk is a multi purpose weapon and tool. It can attack, upgrade, repair, chop, and mine. Craft to Quality Level 5 with Miner 69'er, but find in loot, and at the traders' at Quality Level 6.",,,,,,,,,,,,,
+loadingTipWildWestTomahawk,UI,Loading Screen,x,,"The Tomahawk is a multi purpose tool, and can be used as a weapon when needed. It can upgrade, repair, butcher, mine, and attack.",,,,,,,,,,,,,
 loadingTipWildWestTomahawk_title,UI,Loading Screen,x,,Tomahawk,,,,,,,,,,,,,
-loadingTipWildWestHordeNight,UI,Loading Screen,x,,"Wild West blood moon horde nights can be managed with Wild West traps, scrap spitters, and the gatlings.",,,,,,,,,,,,,
+loadingTipWildWestHordeNight,UI,Loading Screen,x,,"Wild West blood moon horde nights can be managed with traps, scrap spitters, and the gatlings, among other defenses. Beware of unique waves of incoming hordes.",,,,,,,,,,,,,
 loadingTipWildWestHordeNight_title,UI,Loading Screen,x,,Wild West Blood Moon,,,,,,,,,,,,,
 loadingTipWildWestHardPOIs,UI,Loading Screen,x,,"Some of the higher tier custom POIs can be quite challenging. Consider making a small base to retreat to should the battle get too intense.",,,,,,,,,,,,,
 loadingTipWildWestHardPOIs_title,UI,Loading Screen,x,,High Tier Wild West POIs,,,,,,,,,,,,,
