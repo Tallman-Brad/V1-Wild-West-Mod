@@ -661,6 +661,18 @@ challengeUpgradeBlocks,Challenges,Challenge,,,Upgrade 60 Building Blocks,,,,,,,,
 challengeUpgradeToCobblestone,Challenges,Challenge,,,Upgrade to Cobblestone,,,,,,,,,,,,,
 challengeUpgradeToCobblestoneShort,Challenges,Challenge,,,Upgrade 60 Wooden Blocks to Cobblestone.,,,,,,,,,,,,,
 
+challengePlaceWallLightPlayerCandle,Challenges,Challenge,,,Place 1 Wall Candle,,,,,,,,,,,,,
+challengePlaceCandleDesc,Challenges,Challenge,,,"[DECEA3]Wall Candles[-] provide a limited light source using simple resources. Place on a wall or other flat surface.\n\nPlace [DECEA3]Wall Candles[-] with [action:local:Secondary]. \n\nYou can repair them with [action:local:Secondary] while holding a [DECEA3]Repair Tool[-] and having repair items in your Inventory.\n\nThere are other types of [DECEA3]Lights[-] available to craft on your player or Workbench.",,,,,,,,,,,,,
+challengePlaceCandleShort,Challenges,Challenge,,,Craft a Candle to place on a wall.,,,,,,,,,,,,,
+
+challengePlaceHayBaleSquare,Challenges,Challenge,,,Place 1 Hay Bale,,,,,,,,,,,,,
+challengePlaceHayBaleSquareDesc,Challenges,Challenge,,,"[DECEA3]Hay Bales[-] provide immersion using using a simple resource. Place near your homestead.\n\nPlace [DECEA3]Hay Bales[-] with [action:local:Secondary]. \n\nYou can repair them with [action:local:Secondary] while holding a [DECEA3]Repair Tool[-] and having repair items in your Inventory.",,,,,,,,,,,,,
+challengePlaceHayBaleSquareShort,Challenges,Challenge,,,Craft a Hay Bale to place near your homestead.,,,,,,,,,,,,,
+
+challengeEatApple,Challenges,Challenge,,,Feed an Apple,,,,,,,,,,,,,
+challengeEatAppleDesc,Challenges,Challenge,,,Select an [DECEA3]Apple[-] on your [DECEA3]Toolbelt[-] then consume it with [action:local:Primary] while close to your horse.\n\nConsuming [DECEA3]Apples[-] increases your [DECEA3]Horse's[-] health.\n\nApples can be harvested from trees or found in some loot. Look for other recipes that require Apples.,,,,,,,,,,,,,
+challengeEatAppleShort,Challenges,Challenge,,,Feed an Apple to your Horse.,,,,,,,,,,,,,
+
 challengeCraftGasCan,Challenges,Challenge,,,Craft Kerosene Jars,,,,,,,,,,,,,
 challengeCraftGasCanDesc,Challenges,Challenge,,,"[DECEA3]Kerosene Jars[-] are primarily used to fuel [DECEA3]Vehicles[-], but are also a material in some recipes and as [DECEA3]Fuel[-] for [DECEA3]Workstations[-] in a pinch.\n\nCraft some [DECEA3]Kerosene Jars[-].",,,,,,,,,,,,,
 challengeCraftGasCanShort,Challenges,Challenge,,,Craft some Kerosene Jars.,,,,,,,,,,,,,

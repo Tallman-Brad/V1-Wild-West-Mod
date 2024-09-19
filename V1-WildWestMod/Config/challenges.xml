@@ -151,7 +151,7 @@
 	prerequisite_hint="challengePlaceBuildingBlocksHint1" hint="challengePlaceBuildingBlocksHint2"
 	short_description_key="challengePlaceBuildingBlocksShort" description_key="challengePlaceBuildingBlocksDesc"
 	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">	
-	<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60"/>
+	<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60" needed_resource="resourceWood" needed_resource_count="120"/>
 	</challenge>
 
 <!--	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading" 
@@ -159,6 +159,13 @@
 	short_description_key="challengeUpgradeBlocksShort" description_key="challengeUpgradeBlocksDesc">
 		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="1" held="meleeToolRepairT0StoneAxe" needed_resource="resourceWood" needed_resource_count="8"/>
 	</challenge> -->
+	
+	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading"
+	prerequisite_hint="challengeUpgradeBlocksHint1" hint="challengeUpgradeBlocksHint2"
+	short_description_key="challengeUpgradeBlocksShort" description_key="challengeUpgradeBlocksDesc"
+		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="60" needed_resource="resourceWood" needed_resource_count="480"/>
+	</challenge>
 
 	<challenge name="placeDoor" title_key="challengePlaceDoor" icon="ui_game_symbol_challenge_homesteading_place_door" group="Homesteading" 
 	short_description_key="challengePlaceDoorShort" description_key="challengePlaceDoorDesc">
@@ -169,12 +176,11 @@
 	short_description_key="challengePlaceStorageContainerShort" description_key="challengePlaceStorageContainerDesc">
 		<objective type="BlockPlace" block="cntWoodWritableCrate" count="1"/>
 	</challenge>
-
-	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading"
-	prerequisite_hint="challengeUpgradeBlocksHint1" hint="challengeUpgradeBlocksHint2"
-	short_description_key="challengeUpgradeBlocksShort" description_key="challengeUpgradeBlocksDesc"
-		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="60" needed_resource="resourceWood" needed_resource_count="60"/>
+	
+	<challenge name="placeWallLightPlayerCandle" title_key="challengePlaceWallLightPlayerCandle" icon="ui_game_symbol_challenge_homesteading_place_candle" group="Homesteading" 
+	short_description_key="challengePlaceCandleShort" description_key="challengePlaceCandleDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
+		<objective type="BlockPlace" alternate_item="candle" block="candleWallLightPlayer" count="1"/>
 	</challenge>
 
 <!--	<challenge name="placeTorch" title_key="challengePlaceTorch" icon="ui_game_symbol_challenge_homesteading_place_torch" group="Homesteading" 
@@ -195,9 +201,20 @@
 	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
 	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc"
 		reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
-		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="60" needed_resource="resourceCobblestones" needed_resource_count="60"/>
+		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="60" needed_resource="resourceCobblestones" needed_resource_count="600"/>
 	</challenge>
-
+	
+	<challenge name="placeHayBaleSquare" title_key="challengePlaceHayBaleSquare" icon="ui_game_symbol_challenge_homesteading_place_haybalesquare" group="Homesteading" 
+	short_description_key="challengePlaceHayBaleSquareShort" description_key="challengePlaceHayBaleSquareDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
+		<objective type="BlockPlace" block="hayBaleSquare" count="1"/>
+	</challenge>
+	
+	<challenge name="eatApple" title_key="challengeEatApple" icon="ui_game_symbol_challenge_homesteading_eat_apple" group="Homesteading"
+		short_description_key="challengeEatAppleShort" description_key="challengeEatAppleDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">		
+		<objective type="UseItem" item="foodApple" count="1"/>
+	</challenge>
 
 	<!-- *** Advanced -->
 	<challenge name="spendSkillPoint" title_key="challengeSpendSkillPoint" icon="ui_game_symbol_skills" group="AdvancedSurvival"
