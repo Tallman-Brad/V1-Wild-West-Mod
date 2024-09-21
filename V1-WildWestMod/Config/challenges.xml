@@ -151,7 +151,7 @@
 	prerequisite_hint="challengePlaceBuildingBlocksHint1" hint="challengePlaceBuildingBlocksHint2"
 	short_description_key="challengePlaceBuildingBlocksShort" description_key="challengePlaceBuildingBlocksDesc"
 	reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">	
-	<objective type="BlockPlace" block="frameShapes:VariantHelper" count="60" needed_resource="resourceWood" needed_resource_count="120"/>
+	<objective type="BlockPlace" block="frameShapes:VariantHelper" count="1" needed_resource="resourceWood" needed_resource_count="2"/>
 	</challenge>
 
 <!--	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading" 
@@ -163,17 +163,19 @@
 	<challenge name="upgradeFrameHelpers" title_key="challengeUpgradeBlocks" icon="ui_game_symbol_challenge_homesteading_upgrade_block" group="Homesteading"
 	prerequisite_hint="challengeUpgradeBlocksHint1" hint="challengeUpgradeBlocksHint2"
 	short_description_key="challengeUpgradeBlocksShort" description_key="challengeUpgradeBlocksDesc"
-		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="60" needed_resource="resourceWood" needed_resource_count="480"/>
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
+		<objective type="BlockUpgrade" block="frameShapes:VariantHelper" count="1" held="meleeToolRepairT0StoneAxe" needed_resource="resourceWood" needed_resource_count="8"/>
 	</challenge>
 
 	<challenge name="placeDoor" title_key="challengePlaceDoor" icon="ui_game_symbol_challenge_homesteading_place_door" group="Homesteading" 
-	short_description_key="challengePlaceDoorShort" description_key="challengePlaceDoorDesc">
+	short_description_key="challengePlaceDoorShort" description_key="challengePlaceDoorDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
 		<objective type="BlockPlace" block="oldWoodDoor" count="1"/>
 	</challenge>
 
 	<challenge name="placeStorageContainer" title_key="challengePlaceStorageContainer" icon="ui_game_symbol_challenge_homesteading_place_storage" group="Homesteading" 
-	short_description_key="challengePlaceStorageContainerShort" description_key="challengePlaceStorageContainerDesc">
+	short_description_key="challengePlaceStorageContainerShort" description_key="challengePlaceStorageContainerDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
 		<objective type="BlockPlace" block="cntWoodWritableCrate" count="1"/>
 	</challenge>
 	
@@ -194,14 +196,15 @@
 	</challenge> -->
 
 	<challenge name="placeLadders" title_key="challengePlaceLadders" icon="ui_game_symbol_challenge_ladders" group="Homesteading" 
-	short_description_key="challengePlaceLaddersShort" description_key="challengePlaceLaddersDesc">
-		<objective type="BlockPlace" block="ladderWood" count="2"/>
+	short_description_key="challengePlaceLaddersShort" description_key="challengePlaceLaddersDesc"
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">	
+		<objective type="BlockPlace" block="ladderWood" count="1"/>
 	</challenge>
 
 	<challenge name="upgradeToCobblestone" title_key="challengeUpgradeToCobblestone" icon="ui_game_symbol_challenge_homesteading_upgrade_cobble" group="Homesteading" 
 	short_description_key="challengeUpgradeToCobblestoneShort" description_key="challengeUpgradeToCobblestoneDesc"
-		reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
-		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="60" needed_resource="resourceCobblestones" needed_resource_count="600"/>
+		reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
+		<objective type="BlockUpgrade" block="woodShapes:VariantHelper" count="1" held="meleeToolRepairT0StoneAxe" needed_resource="resourceCobblestones" needed_resource_count="10"/>
 	</challenge>
 	
 	<challenge name="placeHayBaleSquare" title_key="challengePlaceHayBaleSquare" icon="ui_game_symbol_challenge_homesteading_place_haybalesquare" group="Homesteading" 

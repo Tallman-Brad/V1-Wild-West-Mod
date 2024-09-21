@@ -652,14 +652,12 @@ xuiDewCollector,UI,XUI,,,Water Collector,,,,,,,,,,,,,
 
 cntGroundWaterCollectorDesc,blocks,block,,,A more efficient option to the [DECEA3]Rain Dance Catcher[-]. A well that collects groundwater over time for clean drinking water. Choose from three different styles.,,,,,,,,,,,,,
 
-challengePlaceBuildingBlocks,Challenges,Challenge,,,Place 60 Building Blocks,,,,,,,,,,,,,
-challengePlaceLadders,Challenges,Challenge,,,Place 2 Wooden Ladders,,,,,,,,,,,,,
+challengePlaceLadders,Challenges,Challenge,,,Place 1 Wooden Ladder,,,,,,,,,,,,,
 challengePlaceLaddersDesc,Challenges,Challenge,,,"[DECEA3]Ladders[-] allow you to go up or down between floors, and quickly escape predators. Place with a gap of 2 blocks from the ground to confuse your average Zombie.\n\nPlace [DECEA3]Ladders[-] with [action:local:Secondary]. \n\nYou can repair them with [action:local:Secondary] while holding a [DECEA3]Repair Tool[-] and having repair items in your Inventory.",,,,,,,,,,,,,
 challengePlaceLaddersShort,Challenges,Challenge,,,Craft Ladders to reach upper areas or escape predators.,,,,,,,,,,,,,
 
-challengeUpgradeBlocks,Challenges,Challenge,,,Upgrade 60 Building Blocks,,,,,,,,,,,,,
 challengeUpgradeToCobblestone,Challenges,Challenge,,,Upgrade to Cobblestone,,,,,,,,,,,,,
-challengeUpgradeToCobblestoneShort,Challenges,Challenge,,,Upgrade 60 Wooden Blocks to Cobblestone.,,,,,,,,,,,,,
+challengeUpgradeToCobblestoneShort,Challenges,Challenge,,,Upgrade 1 Wooden Block to Cobblestone.,,,,,,,,,,,,,
 
 challengePlaceWallLightPlayerCandle,Challenges,Challenge,,,Place 1 Wall Candle,,,,,,,,,,,,,
 challengePlaceCandleDesc,Challenges,Challenge,,,"[DECEA3]Wall Candles[-] provide a limited light source using simple resources. Place on a wall or other flat surface.\n\nPlace [DECEA3]Wall Candles[-] with [action:local:Secondary]. \n\nYou can repair them with [action:local:Secondary] while holding a [DECEA3]Repair Tool[-] and having repair items in your Inventory.\n\nThere are other types of [DECEA3]Lights[-] available to craft on your player or Workbench.",,,,,,,,,,,,,
@@ -679,7 +677,7 @@ challengeCraftGasCanShort,Challenges,Challenge,,,Craft some Kerosene Jars.,,,,,,
 
 challengeHarvestForgedSteelDesc,Challenges,Challenge,,,"[DECEA3]Forged Steel[-] is used to craft [DECEA3]Steel Blocks[-], [DECEA3]Vehicles[-], [DECEA3]Armor[-], [DECEA3]Item Modifications[-] and many other advanced recipes.\n\n[DECEA3]Forged Steel[-] can be harvested from things like [DECEA3]Vending Machines[-], but beware, some [DECEA3]Vending Machines[-] have anti-tampering features.",,,,,,,,,,,,,
 
-challengeHarvestLeatherDesc,Challenges,Challenge,,,"[DECEA3]Leather[-] is an ingredient used primarily in [DECEA3]Armor[-] and [DECEA3]Armor Modification[-] recipes.\n\nIt can be harvested from places such as dead [DECEA3]Animals[-], and Leather Couches[-].",,,,,,,,,,,,,
+challengeHarvestLeatherDesc,Challenges,Challenge,,,"[DECEA3]Leather[-] is an ingredient used primarily in [DECEA3]Armor[-] and [DECEA3]Armor Modification[-] recipes.\n\nIt can be harvested from places such as dead [DECEA3]Animals[-], and [DECEA3]Leather Couches[-].",,,,,,,,,,,,,
 challengeHarvestLeatherShort,Challenges,Challenge,,,Harvest some Leather from Couches with a Stone Axe.,,,,,,,,,,,,,
 
 challengeHarvestMechanicalPartsDesc,Challenges,Challenge,,,"[DECEA3]Mechanical Parts[-] are a commonly used material in recipes like [DECEA3]Wild West Lights[-], [DECEA3]Item Modifications[-] and [DECEA3]Revolvers[-].\n\nThey can be harvested from things like [DECEA3]Wild West Wagons[-] with any [DECEA3]Salvage Tool[-].",,,,,,,,,,,,,
@@ -690,6 +688,8 @@ challengeHarvestPipesShort,Challenges,Challenge,,,Harvest some Short Iron Pipes 
 challengeHarvestPolymers,Challenges,Challenge,,,Harvest Tree Resin,,,,,,,,,,,,,
 challengeHarvestPolymersDesc,Challenges,Challenge,,,"[DECEA3]Tree Resin[-] is a resource used in recipes like [DECEA3]Water Collectors[-] and [DECEA3]Item Modifications[-].\n\n[DECEA3]Tree Resin[-] can be harvested from [DECEA3]Trees[-], [DECEA3]Boxes[-], and some [DECEA3]Trash[-].",,,,,,,,,,,,,
 challengeHarvestPolymersShort,Challenges,Challenge,,,Harvest some Tree Resin with any Harvest Tool.,,,,,,,,,,,,,
+
+challengeHarvestRottingFleshDesc,Challenges,Challenge,,,"[DECEA3]Rotting Flesh[-] is a component used to make [DECEA3]Farm Plots[-] and some [DECEA3]Food[-] items.\n\nIt can be harvested from things like [DECEA3]Zombie Animal Corpses[-] and [DECEA3]Human Corpses[-].\n\nHarvest some [DECEA3]Rotting Flesh[-] with any [DECEA3]Knife[-].",,,,,,,,,,,,,
 
 challengeHarvestCarParts,Challenges,Challenge,,,Harvest Wild West Wagon Parts,,,,,,,,,,,,,
 challengeHarvestCarPartsDesc,Challenges,Challenge,,,"[DECEA3]Wild West Wagons[-] can be broken down into resources with [DECEA3]Salvage Tools[-].\n\nResources such as [DECEA3]Glue[-], [DECEA3]Forged Iron[-], and [DECEA3]Oil[-] are used in [DECEA3]Workstation[-] recipes.",,,,,,,,,,,,,
