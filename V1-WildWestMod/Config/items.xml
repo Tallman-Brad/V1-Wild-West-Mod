@@ -508,7 +508,6 @@
 	<property name="HoldType" value="36"/>
 	<property name="Meshfile" value="#@modfolder:Resources/WestKnifes.unity3d?knife1"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="TintColor" value="0,0,0"/>
 	<property name="ScrapTimeOverride" value="10.0"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -616,7 +615,6 @@
 	<property name="HoldType" value="36"/>
 	<property name="Meshfile" value="#@modfolder:Resources/WestKnifes.unity3d?hunterknife"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="TintColor" value="0,0,0"/>
 	<property name="ScrapTimeOverride" value="10.0"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -4492,22 +4490,22 @@
 
 	<!-- ADMIN TOOLS -->
 	
-<!--	<item name="jetBootsAdmin">
-		<property name="Extends" value="apparelGothBoots" param1="DescriptionKey"/>
+	<item name="jetBootsAdmin">
+		<property name="Extends" value="armorBikerBoots" param1="DescriptionKey"/>
 		<property name="CreativeMode" value="Dev"/>
-		<property name="CustomIcon" value="apparelGothBoots"/>
+		<property name="CustomIcon" value="armorBikerBoots"/>
 		<property name="CustomIconTint" value="80,170,255"/>
 		<property name="ItemTypeIcon" value="computer"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="Tags" value="lowerbody,feet,clothing,admin,noMods"/>
+		<property name="Tags" value="lowerbody,feet,admin,noMods"/>
 		<property name="UMA.Overlay0Tint" value="80,170,255"/>
-		<property name="ShowQuality" value="true"/>
+		<property name="ShowQuality" value="false"/>
 		<property name="Group" value="Special Items"/>
 		<effect_group tiered="false">
 			<passive_effect name="ModSlots" operation="base_set" value="0"/>
 			<passive_effect name="RunSpeed" operation="perc_add" value="4.0"/>
 		</effect_group>
-	</item> -->
+	</item>
 	
 		<!-- Loading Hacks -->		
 		
