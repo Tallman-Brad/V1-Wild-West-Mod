@@ -682,7 +682,7 @@ challengeHarvestLeatherShort,Challenges,Challenge,,,Harvest some Leather from Co
 
 challengeHarvestMechanicalPartsDesc,Challenges,Challenge,,,"[DECEA3]Mechanical Parts[-] are a commonly used material in recipes like [DECEA3]Wild West Lights[-], [DECEA3]Item Modifications[-] and [DECEA3]Revolvers[-].\n\nThey can be harvested from things like [DECEA3]Wild West Wagons[-] with any [DECEA3]Salvage Tool[-].",,,,,,,,,,,,,
 
-challengeHarvestPipesDesc,Challenges,Challenge,,,"[DECEA3]Short Iron Pipes[-] are used in a variety of recipes, including [DECEA3]Pipe Weapons[-] and [DECEA3]Pipe Bombs[-]. \n\nUsing a [DECEA3]Wrench[-] or other [DECEA3]Salvage Tool[-], they can be harvested from plumbing fixtures such as [DECEA3]Toilets[-] and [DECEA3]Sinks[-], appliances like [DECEA3]Stoves[-] and [DECEA3]Refrigerators[-], as well as [DECEA3]Bed Frames[-], [DECEA3]Cars[-] and more.",,,,,,,,,,,,,
+challengeHarvestPipesDesc,Challenges,Challenge,,,"[DECEA3]Short Iron Pipes[-] are used in a variety of recipes, including [DECEA3]Pipe Weapons[-] and [DECEA3]Pipe Bombs[-]. \n\nUsing a [DECEA3]Wrench[-] or other [DECEA3]Salvage Tool[-], they can be harvested from objects such as s well as [DECEA3]Bed Frames[-], [DECEA3]Wild West Wagons[-] and more.",,,,,,,,,,,,,
 challengeHarvestPipesShort,Challenges,Challenge,,,Harvest some Short Iron Pipes with any Harvest Tool.,,,,,,,,,,,,,
 
 challengeHarvestPolymers,Challenges,Challenge,,,Harvest Tree Resin,,,,,,,,,,,,,

@@ -4179,11 +4179,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceOil" count="1"/>
 </recipe>
 
-<!--recipe name="thrownAmmoPipeBomb" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting">
+<recipe name="thrownAmmoPipeBomb" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceYuccaFibers" count="1"/>
 	<ingredient name="resourceGunPowder" count="12"/>
 	<ingredient name="resourceMetalPipe" count="1"/>
-</recipe-->
+</recipe>
 
 <!--recipe name="thrownGrenade" count="1" craft_time="16" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceMechanicalParts" count="1"/>

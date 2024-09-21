@@ -579,10 +579,10 @@
 		<!-- *** EXPLOSIVE_SKILLS -->
 	<crafting_skill name="craftingExplosives" max_level="35" parent="attCrafting" name_key="craftingExplosivesName" desc_key="craftingExplosivesDesc" long_desc_key="craftingExplosivesLongDesc" icon="ui_game_symbol_explosion">
 
-		<display_entry icon="mineCookingPot" name_key="explosivesT1-3" has_quality="false" unlock_level="10" >
-			<!--unlock_entry item="thrownAmmoPipeBomb" unlock_tier="1" /-->
+		<display_entry icon="thrownAmmoPipeBomb,mineCookingPot" name_key="explosivesT1-1,explosivesT1-3" has_quality="false" unlock_level="2,10" >
+			<unlock_entry item="thrownAmmoPipeBomb" unlock_tier="1" />
 			<!--unlock_entry item="thrownGrenade" unlock_tier="2" /-->
-			<unlock_entry item="mineCookingPot" unlock_tier="1" />
+			<unlock_entry item="mineCookingPot" unlock_tier="2" />
 		</display_entry>
 		<display_entry icon="thrownDynamite" name_key="explosivesT2-1" has_quality="false" unlock_level="12" >
 			<unlock_entry item="thrownDynamite" unlock_tier="1" />
@@ -602,7 +602,7 @@
 		</display_entry-->
 
 		<effect_group>
-			<!--passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="thrownAmmoPipeBomb"/-->
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="thrownAmmoPipeBomb"/>
 			<!--passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="thrownGrenade"/-->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="mineCookingPot"/>
 

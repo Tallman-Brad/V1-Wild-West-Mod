@@ -318,7 +318,7 @@
 		<objective type="BlockPlace" block="workbench" count="1"/>
 	</challenge>
 
-	<challenge name="craftPipeBomb" title_key="challengeCraftPipeBomb" icon="ui_game_symbol_hammer" group="Workstations"
+	<challenge name="craftPipeBomb" title_key="challengeCraftPipeBomb" icon="ui_game_symbol_pipebomb" group="Workstations"
 		short_description_key="challengeCraftPipeBombShort" description_key="challengeCraftPipeBombDesc"
 		reward_text_key="challenge_reward_2500xp" reward_event="challenge_reward_2500">
 		<objective type="Craft" item="thrownAmmoPipeBomb" count="20"/>
