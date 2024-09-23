@@ -984,6 +984,7 @@
 			<item name="vehicleBicycleChassis"/>
 			<item name="vehicleBicycleHandlebars"/>
 			<item name="vehicleBicyclePlaceable"/>
+			<item name="vehicleWWMDinkyDonkeyPlaceable"/>
 			<item name="vehicleWWMHorseT1Placeable"/>
 		<!-- *** MINIBIKE -->
 			<!--item name="vehicleMinibikeChassis"/-->

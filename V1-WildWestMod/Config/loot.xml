@@ -4975,6 +4975,7 @@
 	<item name="foodCanCatfood"/>
 	<item name="foodShamSandwich"/>
 	<item name="foodCharredMeat"/>
+	<item name="foodApple"/>
 </lootgroup>
 
 <lootgroup name="groupFoodPileCommon">
@@ -4985,6 +4986,7 @@
 	<item name="foodCornBread"/>
 	<item name="foodCanCatfood"/>
 	<item name="foodCharredMeat"/>
+	<item name="foodApple"/>
 </lootgroup>
 
 <lootgroup name="groupFoodUncommon">

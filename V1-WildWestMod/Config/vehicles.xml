@@ -677,6 +677,135 @@
 		</property>		
 	</vehicle>
 	
+<!-- Donkey T0 -->
+	
+	<vehicle name="vehicleWWMDinkyDonkey">
+		<property name="cameraDistance" value="5.5, 7"/>
+        <property name="cameraTurnRate" value=".2, .35"/>
+        <property name="upAngleMax" value="70"/>
+        <property name="upForce" value="1"/>
+        <property name="steerAngleMax" value="32"/>
+        <property name="steerRate" value="130"/>
+        <property name="steerCenteringRate" value="90"/>
+        <property name="tiltAngleMax" value="5"/>
+        <property name="tiltThreshold" value="3"/>
+        <property name="tiltDampening" value=".22"/>
+        <property name="tiltDampenThreshold" value="8"/>
+        <property name="tiltUpForce" value="1"/>
+		<property name="hopForce" value="3.0, .005"/>
+        <property name="motorTorque_turbo" value="500, 180, 750, 180"/>
+        <property name="velocityMax_turbo" value="6, 4, 8.5, 4"/>
+        <property name="brakeTorque" value="6000"/>
+        <property name="unstickForce" value="1"/>
+        <property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .15"/>
+        <property name="wheelPtlScale" value="1"/>		
+		<property name="hornSound" value="DinkyDonkey"/>
+		
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/>
+			<!--property name="paint" value="Horse-Idle"/-->
+		</property>
+
+		<property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".001,.002"/>
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 700,2200,900,
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, horse_gallop
+								"/>    <!-- horseIdle was horse_gallop -->
+			<property name="gear2" value="
+								500,2500, -2000,1000,2000, 600,2200,800,
+								Vehicles/Suv/horse_gallop,
+								Vehicles/Suv/horse_gallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/horse_gallop
+								"/>
+			<property name="gear3" value="
+								500,2500, -2000,1000,2000, 500,2200,1000,
+								Vehicles/Suv/horse_gallop,
+								Vehicles/Suv/horse_gallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/horse_gallop
+								"/>
+			<property name="gear4" value="
+								500,2500, -2000,1000,2000, 500,9999,9999,
+								Vehicles/Suv/horse_gallop,
+								Vehicles/Suv/horse_gallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/horse_gallop
+								"/>
+		</property>
+
+		<property class="handlebars">
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering_joint"/>
+			<property name="steerMaxAngle" value="0"/>
+			<property name="IKHandLPosition" value="0.259, 0.086, 0.224"/>
+			<property name="IKHandLRotation" value="34.1, 0, 52.8"/>
+			<property name="IKHandRPosition" value="0.414, -0.017, 0.086"/>
+			<property name="IKHandRRotation" value="0.0, 155.2, 266.9"/>
+		</property>
+
+		<property class="seat0">     <!-- Single seat for T1 -->
+            <property name="class" value="Seat"/>        
+			<property name="pose" value="30"/>     
+			<property name="position" value=".0, 0.845, 1.05"/> <!-- Left/Right, Down/Up, Back/Front --> 
+            <property name="rotation" value="-25, 0, 0"/>
+            <property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
+
+
+            <property name="IKFootLPosition" value="-.348, .18, -0.7"/>
+            <property name="IKFootRPosition" value=".348, .18, -0.7"/>            
+            <property name="IKFootLRotation" value="22, -20, 0"/>
+            <property name="IKFootRRotation" value="22, 20, 0"/>                        
+        </property>
+
+		<property class="wheel0">
+			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
+			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value="1, .8"/>
+		</property>
+
+		<property class="wheel1">
+			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
+			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value="1, .8"/>
+		</property>
+
+		<property class="wheel2">
+			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value="1, 1"/>
+		</property>
+
+		<property class="wheel3">
+			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value="1, 1"/>
+		</property>
+
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+		</property>
+
+	</vehicle>
+	
 <!-- Horse T1 -->
 
 	<vehicle name="vehicleWWMHorseT1">

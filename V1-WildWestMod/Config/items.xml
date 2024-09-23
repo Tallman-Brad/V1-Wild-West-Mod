@@ -4435,6 +4435,25 @@
 	</effect_group>
 </item>
 
+		<!-- Donkey - Medusa and Oakraven -->
+
+		<item name="vehicleWWMDinkyDonkeyPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>	
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/DinkyDonkey.unity3d?DinkyDonkey.prefab"/>
+			<property name="EconomicValue" value="8000"/>
+			<property name="TraderStageTemplate" value="vehicleTier1"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleWWMDinkyDonkey"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="vehicleMedievalHorseT0Placeable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="2500"/>
+			</effect_group>
+		</item>
+
 		<!-- Horse - Zilox, Darkstardragon, Telric, Oakraven, and arramus -->	
 		
 		<item name="vehicleWWMHorseT1Placeable">
@@ -4671,8 +4690,8 @@
 				<property name="Delay" value="0"/>
 				<property name="Use_time" value="0"/>
 				<property name="Sound_start" value="open_supply_crate"/>
-				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,foodTallmanBradJerky,medicalFirstAidBandage,drinkJarBoiledWater,qc_eliminateanimals,qc_eliminatecrispyfamily,qc_eliminatezombies"/>
-				<property name="Create_item_count" value="2-3,1-2,2,2,2,2,1,1,1"/>
+				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,foodTallmanBradJerky,medicalFirstAidBandage,drinkJarBoiledWater,qc_eliminateanimals,qc_eliminatecrispyfamily,qc_eliminatezombies,vehicleWWMDinkyDonkeyPlaceable"/>
+				<property name="Create_item_count" value="2-3,1-2,2,2,2,2,1,1,1,1"/>
 			</property>
 		</item>
 		

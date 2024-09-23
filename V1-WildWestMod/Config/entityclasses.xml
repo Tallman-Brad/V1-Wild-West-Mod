@@ -2940,7 +2940,31 @@
 	<property name="NavObject" value="Balloon" />
 </entity_class>
 
-		<!-- Horse - Zilox and Darkstardragon -->	
+		<!-- Donkey - Medusa and Oakraven -->
+
+		<entity_class name="vehicleWWMDinkyDonkey">
+			<property name="Tags" value="vehicle,wwmhorseapple,horsehealth"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/DinkyDonkey.unity3d?DinkyDonkey.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="organic"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="vehicleMinibike"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_horse"/>
+			<property name="NavObject" value="Horse" />
+			<property name="Buffs" value="buffHorseMovement"/>		
+		</entity_class>
+
+		<!-- Horse - Zilox and Darkstardragon -->
 
 		<entity_class name="vehicleWWMHorseT1">
 			<property name="Tags" value="vehicle,wwmhorseapple,horsehealth"/>
