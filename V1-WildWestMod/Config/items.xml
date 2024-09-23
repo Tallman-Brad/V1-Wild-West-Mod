@@ -4442,7 +4442,7 @@
 
 		<item name="vehicleWWMDinkyDonkeyPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>	
-			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+			<property name="Tags" value="vehicle,canHaveCosmetic"/>
 			<property name="Meshfile" value="#@modfolder:Resources/DinkyDonkey.unity3d?DinkyDonkey.prefab"/>
 			<property name="EconomicValue" value="8000"/>
 			<property name="TraderStageTemplate" value="vehicleTier1"/>
@@ -4461,7 +4461,7 @@
 		
 		<item name="vehicleWWMHorseT1Placeable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>	
-			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+			<property name="Tags" value="vehicle,canHaveCosmetic"/>
 			<property name="Meshfile" value="#@modfolder:Resources/WWMHorsey.unity3d?HorseT1.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property name="TraderStageTemplate" value="vehicleTier1"/>
@@ -4478,7 +4478,7 @@
 		
 		<item name="vehicleWWMHorseT2Placeable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>	
-			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+			<property name="Tags" value="vehicle,canHaveCosmetic"/>
 			<property name="Meshfile" value="#@modfolder:Resources/WWMHorsey.unity3d?HorseT2.prefab"/>
 			<property name="EconomicValue" value="20000"/>
 			<property name="TraderStageTemplate" value="vehicleTier2"/>
@@ -4495,7 +4495,7 @@
 		
 		<item name="vehicleWWMHorseT3Placeable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>	
-			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+			<property name="Tags" value="vehicle,canHaveCosmetic"/>
 			<property name="Meshfile" value="#@modfolder:Resources/WWMHorsey.unity3d?HorseT3.prefab"/>
 			<property name="EconomicValue" value="30000"/>
 			<property name="TraderStageTemplate" value="vehicleTier3"/>
