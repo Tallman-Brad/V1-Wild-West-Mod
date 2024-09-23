@@ -2822,23 +2822,25 @@
 <!-- Timed Dynamite -->
 
 <item name="thrownTimedDynamite"> <!-- T2 demolitions (perk 5) -->
-	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill,perkGreatHeistSafes"/>
 	<property name="CustomIcon" value="timertnt"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
 	<property name="Class" value="ItemClassTimeBomb"/>
 	<property name="HoldType" value="62"/>
 	<property name="Meshfile" value="#@modfolder:Resources/TimedTNT.unity3d?TimedTNT"/>
-  <property name="ActivationTransformToHide" value="Armed"/>
-  <property name="DropScale" value="1.8"/>
+	<property name="ActivationTransformToHide" value="Armed"/>
+	<property name="DropScale" value="1.8"/>
 	<property name="Material" value="MDynamite"/>
 	<property name="Stacknumber" value="25"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="TraderStageTemplate" value="baseTier2"/>
 	<property name="Weight" value="0"/>
-	<property name="Explosion.BlockTags" value="door,safes"/>
+	<property name="Explosion.BlockDamage" value="110"/>
+	<property name="Explosion.EntityDamage" value="800"/>
+	<property name="Explosion.BlockTags" value="door,safes,timecharge"/>
 	<property name="Explosion.DamageBonus.tags" value="38"/>
-	<property name="Explosion.ParticleIndex" value="12"/>
+	<property name="Explosion.ParticleIndex" value="21"/>
 	<property name="Explosion.RadiusBlocks" value=".65"/>
 	<property name="Explosion.RadiusEntities" value="1.2"/>
 	<property name="Explosion.DamageBonus.stone" value="1"/>
@@ -2855,26 +2857,27 @@
 	<property name="SoundUnholster" value="charge_unholster"/>
 	<property name="SoundStick" value="charge_stick"/>
 	<property name="SoundTick" value="wrench_harvest,.8"/>
+	<property name="SoundPickup" value="timedcharge_grab"/>
+	<property name="SoundPlace" value="timedcharge_place"/>
 	<property class="Action0">
 		<property name="Class" value="ThrowAway"/>
 		<property name="Delay" value="1.2"/>
 		<property name="Throw_strength_default" value="15"/>
 		<property name="Max_strain_time" value="0"/>
 		<property name="Sound_start" value="charge_throw"/>
-		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-  <property class="Action1">
-    <!-- UseAction -->
-    <property name="Class" value="Activate"/>
-    <property name="Delay" value="1"/>
-    <!-- obsolete if rounds per minute exists -->
-  </property>
-  <property name="ThrowableDecoy" value="true"/>
+	<property class="Action1">
+		<!-- UseAction -->
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/>
+		<!-- obsolete if rounds per minute exists -->
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
 	<effect_group tiered="false">
-		<passive_effect name="BlockDamage" operation="base_set" value="110" tags="perkDemolitionsExpert"/>
-			<display_value name="dExDamageBlock" value="3000"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="800" tags="perkDemolitionsExpert"/>
 		<display_value name="dExRadius" value="1"/>
+		<display_value name="dExBlockDamage" value="3000"/>
+		<display_value name="dExEntityDamage" value="800"/>
 		<display_value name="dFuseTime" value="6"/>
 	</effect_group>
 </item>
