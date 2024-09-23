@@ -1955,4 +1955,16 @@
   <decoration type="model" name="trader_JenWW_arramus" position="1543,37,898" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="trader_joel" position="-2011,37,-933" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="trader_JenWW_arramus" position="-793,37,962" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="1532,37,-554" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="1682,37,-262" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="1402,37,1046" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="856,37,988" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="-114,37,1158" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="-510,37,979" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="146,61,-1731" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="563,61,-1831" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="-1479,37,-584" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="-1479,37,-617" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_spectabcem_01_arramus" position="-1396,37,2349" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_mixstrip_01_arramus" position="-1396,37,2404" rotation="3" y_is_groundlevel="true" />
 </prefabs>
