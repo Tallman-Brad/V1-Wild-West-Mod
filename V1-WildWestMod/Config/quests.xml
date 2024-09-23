@@ -2775,6 +2775,233 @@
 		<reward type="LootItem" id="groupQuestGas,groupQuestSteel02" ischosen="true"/>
 		<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true"/>
 	</quest>
+	
+	<!-- Adds the "Zombie Looping" Bounty Quest -->
+	<quest id="quest_eliminatezombies25">
+	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
+    <property name="name_key" value="25 Infected Settlers" />
+	<property name="subtitle_key" value="25 Infected Settlers" />
+	<property name="description_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="SnowWendigo,zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombieBusinessManRadiatedGunslinger,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieFemaleFatBarker,zombieFemaleBigFatBarker,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieLumberjackRadiatedAxe,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral,zombieGrinBomb,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralFireGlider,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveCrawlerRadiated,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightFeralGunslinger,zombieWightRadiatedGunslinger,zombieYo,zombieYoFeral,zombieYoRadiated" value="25"/>
+
+	<reward type="Item" id="casinoCoin" value="1000"/>
+	<reward type="Quest" id="quest_eliminatezombies50">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies50">
+	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
+    <property name="name_key" value="50 Infected Settlers" />
+	<property name="subtitle_key" value="50 Infected Settlers" />
+	<property name="description_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="SnowWendigo,zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombieBusinessManRadiatedGunslinger,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieFemaleFatBarker,zombieFemaleBigFatBarker,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieLumberjackRadiatedAxe,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral,zombieGrinBomb,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralFireGlider,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveCrawlerRadiated,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightFeralGunslinger,zombieWightRadiatedGunslinger,zombieYo,zombieYoFeral,zombieYoRadiated" value="50"/>
+	
+	<reward type="Exp" value="5000"/>
+	<reward type="Quest" id="quest_eliminatezombies75">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies75">
+	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
+    <property name="name_key" value="75 Infected Settlers" />
+	<property name="subtitle_key" value="75 Infected Settlers" />
+	<property name="description_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="SnowWendigo,zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombieBusinessManRadiatedGunslinger,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieFemaleFatBarker,zombieFemaleBigFatBarker,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieLumberjackRadiatedAxe,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral,zombieGrinBomb,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralFireGlider,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveCrawlerRadiated,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightFeralGunslinger,zombieWightRadiatedGunslinger,zombieYo,zombieYoFeral,zombieYoRadiated" value="75"/>
+	
+	<reward type="Item" id="casinoCoin" value="3000"/>
+	<reward type="Quest" id="quest_eliminatezombies100">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies100">
+	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
+    <property name="name_key" value="100 Infected Settlers" />
+	<property name="subtitle_key" value="100 Infected Settlers" />
+	<property name="description_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="SnowWendigo,zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombieBusinessManRadiatedGunslinger,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieFemaleFatBarker,zombieFemaleBigFatBarker,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieLumberjackRadiatedAxe,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral,zombieGrinBomb,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralFireGlider,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveCrawlerRadiated,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightFeralGunslinger,zombieWightRadiatedGunslinger,zombieYo,zombieYoFeral,zombieYoRadiated" value="100"/>
+	
+	<reward type="Exp" value="10000"/>
+	<reward type="Quest" id="quest_eliminatezombies250">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies250">
+	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
+    <property name="name_key" value="250 Infected Settlers" />
+	<property name="subtitle_key" value="250 Infected Settlers" />
+	<property name="description_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="SnowWendigo,zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombieBusinessManRadiatedGunslinger,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieFemaleFatBarker,zombieFemaleBigFatBarker,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieLumberjackRadiatedAxe,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral,zombieGrinBomb,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralFireGlider,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveCrawlerRadiated,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightFeralGunslinger,zombieWightRadiatedGunslinger,zombieYo,zombieYoFeral,zombieYoRadiated" value="250"/>
+	
+	<reward type="SkillPoints" value="2" chainreward="false"/>	
+	<reward type="Quest" id="quest_eliminatezombies25">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+
+	<!-- Looping Animal Elimination Quest - Influenced by TMB's Animals Hunting Quest -->
+	
+    <!-- Animals Part 1 -->
+	<quest id="quest_eliminateanimals01">
+	<property name="offer_key" value="quest_eliminateanimals01_offer"/>
+    <property name="name_key" value="quest_eliminateanimals01_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals01_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals01_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+	
+			<objective type="EntityKill" id="animalRabbit" value="1"/>
+			<objective type="EntityKill" id="animalChicken" value="1"/>
+			<objective type="EntityKill" id="animalCoyote" value="1"/>
+			<objective type="EntityKill" id="animalBoar" value="1"/>			
+		
+	<reward type="Exp" value="2000"/>
+	<reward type="Item" id="casinoCoin" value="750"/>
+	<reward type="Quest" id="quest_eliminateanimals02">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+    <!-- Animals Part 2 -->
+	<quest id="quest_eliminateanimals02">
+	<property name="offer_key" value="quest_eliminateanimals02_offer"/>
+    <property name="name_key" value="quest_eliminateanimals02_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals02_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals02_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalWolf" value="1"/>
+			<objective type="EntityKill" id="animalDoe" value="1"/>
+			<objective type="EntityKill" id="animalBear" value="1"/>
+			<objective type="EntityKill" id="animalMountainLion" value="1"/>			
+		
+	<reward type="Exp" value="3000"/>
+	<reward type="Item" id="casinoCoin" value="1500"/>
+	<reward type="Quest" id="quest_eliminateanimals03">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 3 -->
+	<quest id="quest_eliminateanimals03">
+	<property name="offer_key" value="quest_eliminateanimals03_offer"/>
+    <property name="name_key" value="quest_eliminateanimals03_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals03_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals03_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalWildWestSnowBear" value="1"/>
+			<objective type="EntityKill" id="animalSnowHare" value="1"/>
+			<objective type="EntityKill" id="animalDesertHare" value="1"/>
+			<objective type="EntityKill" id="animalStag" value="1"/>			
+		
+	<reward type="Exp" value="4500"/>
+	<reward type="Item" id="casinoCoin" value="3000"/>
+	<reward type="Quest" id="quest_eliminateanimals04">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 4 -->
+	<quest id="quest_eliminateanimals04">
+	<property name="offer_key" value="quest_eliminateanimals04_offer"/>
+    <property name="name_key" value="quest_eliminateanimals04_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals04_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals04_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+			
+			<objective type="EntityKill" id="animalZombieBear" value="1"/>
+			<objective type="EntityKill" id="animalZombieWastelandCraterBear" value="1"/>
+			<objective type="EntityKill" id="animalDireWolf" value="1"/>
+			<objective type="EntityKill" id="animalBossGrace" value="1"/>			
+		
+	<reward type="Exp" value="6000"/>
+	<reward type="Item" id="casinoCoin" value="5000"/>
+	<reward type="SkillPoints" value="2" chainreward="false"/>
+	<reward type="Quest" id="quest_eliminateanimals01">
+				<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+	<!-- Adds the "Crispy Family" Horde Quest -->
+	<quest id="challenge_eliminatecrispyfamily">
+	<property name="offer_key" value="Accept this bounty quest to eliminate 200 Crispy Family members and their Mutant Rat friends. 1 Skill, 10000 XP, and 5000 Liberty Coins for your troubles. This bounty quest continually loops, since their presence can be maintained, but never eradicated." />       
+    <property name="name_key" value="Crispy Family and Friends" />
+	<property name="subtitle_key" value="Crispy Family and Friends" />
+	<property name="description_key" value="Accept this bounty quest to eliminate 200 Crispy Family members and their Mutant Rat friends. 1 Skill, 10000 XP, and 5000 Liberty Coins for your troubles. This bounty quest continually loops, since their presence can be maintained, but never eradicated." />
+	<property name="icon" value="ui_game_symbol_crispy"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="guppyVultureBurnt,guppyMommaVultureBurnt,guppyRadiatedMommaVultureBurnt,guppyRadiatedFireMommaVultureBurnt,zombieTheRat,zombieTheRatFeral,zombieTheRatRadiated" value="200"/>
+		
+	<reward type="Exp" value="10000"/>
+	<reward type="Item" id="casinoCoin" value="5000"/>	
+	<reward type="SkillPoints" value="1" chainreward="false"/>	
+	<reward type="Quest" id="challenge_eliminatecrispyfamily">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>	
 
 <!-- *** QUEST_LISTS -->
 	<quest_list id="test_quests">

@@ -2734,7 +2734,7 @@
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 1">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-3"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="5"/>		
@@ -4240,7 +4240,7 @@
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="DescriptionKey" value="qc_eliminatezombiesDesc"/>
-			<property name="CustomIcon" value="questMaster"/>
+			<property name="CustomIcon" value="qc_eliminatezombies"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_eliminatezombies25"/>
@@ -4314,13 +4314,13 @@
 		</item>
 		
 		<!-- Adds the "Hunter Achievement Quest" note -->
-		<item name="qc_hunterquest_eliminateanimals">
+		<item name="qc_eliminateanimals">
 			<property name="Extends" value="challengeQuestMaster"/>
-			<property name="DescriptionKey" value="qc_hunterquest_eliminateanimalsDesc"/>
+			<property name="DescriptionKey" value="qc_eliminateanimalsDesc"/>
 			<property name="CustomIcon" value="decoCowSkull"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
-				<property name="QuestGiven" value="hunterquest_eliminateanimals01"/>
+				<property name="QuestGiven" value="quest_eliminateanimals01"/>
 			</property>
 		</item>
 		
@@ -4671,8 +4671,8 @@
 				<property name="Delay" value="0"/>
 				<property name="Use_time" value="0"/>
 				<property name="Sound_start" value="open_supply_crate"/>
-				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,medicalFirstAidBandage,drinkJarBoiledWater"/>
-				<property name="Create_item_count" value="2-3,1-2,2,2,2"/>
+				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,foodTallmanBradJerky,medicalFirstAidBandage,drinkJarBoiledWater,qc_eliminateanimals,qc_eliminatecrispyfamily,qc_eliminatezombies"/>
+				<property name="Create_item_count" value="2-3,1-2,2,2,2,2,1,1,1"/>
 			</property>
 		</item>
 		
