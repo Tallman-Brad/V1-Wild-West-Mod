@@ -2027,4 +2027,25 @@
   <decoration type="model" name="wildwest_church" position="-1104,37,-1073" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_cathouse_Medusa" position="-983,37,-1025" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_remnant_business_03" position="-1050,37,-1025" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_tallmancity_01" position="1950,37,-202" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_tallmancity_01" position="2115,37,-821" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_tallmancity_01" position="1298,38,-723" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_tallmancity_01" position="2120,38,-489" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_eastwoodcity_01" position="1644,37,982" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_eastwoodcity_01" position="1711,37,798" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_eastwoodcity_01" position="916,37,653" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_westwoodcity_01" position="-155,37,752" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_westwoodcity_01" position="-671,37,1626" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_westwoodcity_01" position="-1020,37,840" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_westwoodcity_01" position="-600,37,536" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-1409,37,1898" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-1058,37,1932" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-956,37,2316" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-954,37,2159" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-1101,37,2581" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_frozenbettycity_01" position="-1443,37,2540" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_embercity_01" position="-23,38,-1457" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_embercity_01" position="-188,37,-2091" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_embercity_01" position="518,61,-2144" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_embercity_01" position="364,61,-2145" rotation="3" y_is_groundlevel="true" />
 </prefabs>
