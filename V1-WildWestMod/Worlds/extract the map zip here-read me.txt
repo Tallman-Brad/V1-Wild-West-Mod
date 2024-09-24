@@ -1,5 +1,0 @@
-Extract the Wild West RWG01.zip file directly to this folder.
-
-The structure should be:
-
-../Worlds/Wild West RWG01/ (biomes.png, checksums.txt, dtm.raw etc..)
