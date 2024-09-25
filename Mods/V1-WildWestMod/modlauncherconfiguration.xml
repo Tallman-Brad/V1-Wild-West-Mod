@@ -1,0 +1,30 @@
+<Servers>
+  <ServerGroup Name="Wild West Mod (V1)">
+    <Server Name="Wild West Mod (V1)" Logo="https://i.imgur.com/sisuVqb.jpg">
+      <Description>The Wild West Mod takes you back to the mid 19th Century American Wild West.
+	  
+Features Include:
+- Unique Hand Crafted World by Tallman Brad
+- Exclusive Wild West POIs by Community Creators
+- Custom Weapons and Tools by Oakraven
+- Custom Entities by Oakraven
+- Rideable Horses by Oakraven
+- Custom Vehicles by Oakraven
+- Immersive Quests
+- Custom Traps for Defense and Fishing by Oakraven
+- Challenging Dynamic Weather
+- Decorative Spawning Loot Opportunities
+- Sustainable Farming and Animal Husbandry by Oakraven
+- and a great deal more...
+	  </Description>
+        <Version>1.0</Version>
+		<RSS/>
+        <Excludes></Excludes>
+        <ReleaseNotes></ReleaseNotes>
+        <Discord>https://discord.gg/vc2XmnNWB8</Discord>
+        <Donate>https://www.paypal.com/paypalme/tallmanbradgameplay</Donate>
+        <DownloadMode>Clone</DownloadMode>
+      <Downloads><Download>https://github.com/Tallman-Brad/Exp1-Wild-West-Mod</Download></Downloads>      
+    </Server>
+  </ServerGroup>
+</Servers>
