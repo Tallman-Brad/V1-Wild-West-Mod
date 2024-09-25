@@ -132,7 +132,7 @@
 <entity_class name="zombieScreamer" extends="zombieTemplateShort">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="#@modfolder:Resources/Meduse.unity3d?Meduse"/>
+	<property name="Mesh" value="#@modfolder:Resources/Meduse.unity3d?Meduse1"/>
 	<property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
 	<property name="SoundRandom" value="zombiefemalescoutroam"/>
 	<property name="SoundAlert" value="zombiefemalescoutalert"/>
