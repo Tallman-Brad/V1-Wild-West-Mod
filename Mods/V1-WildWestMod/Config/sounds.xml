@@ -139,6 +139,13 @@
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> 
 </SoundDataNode>
 
+<!-- Dinkey Donkey -->
+
+  <SoundDataNode name="DinkyDonkey"> <AudioSource name="Sounds/AudioSource_Impact_Large"/>
+	<Noise ID="1" noise="7" time="1.3"/>
+	<AudioClip ClipName="#@modfolder:Resources/DinkyDonkey.unity3d?donkey"/>
+	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/>
+	</SoundDataNode>
 
 <!-- Oak Melee Pots and Pans -->
  
