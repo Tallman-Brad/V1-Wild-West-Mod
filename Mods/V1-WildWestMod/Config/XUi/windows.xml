@@ -104,7 +104,7 @@
 		<texture depth="8" texture="Textures/UI/Compass/overlay-{gamelanguage}" pos="50, -16" width="360" height="27" color="[iconColor]" name="compassTexture3" rect_size="0.25,1" rect_offset="{#compass_rotation / 360 + 0.0625 - 0.125},0" />
 		<texture depth="10" pos="239,0" width="35" height="35" pivot="center" texture="@modfolder:Textures/compass_pointer.png"/>
 		<texture pos="237,-25" depth="1" width="440" height="80" pivot="center" texture="@modfolder:Textures/wwmcompass.png"/>
-		<sprite pos="230,-75" sprite="" color="255,255,255,255" globalopacitymod="1.8">
+		<sprite pos="720,-13" sprite="" color="255,255,255,255" globalopacitymod="1.8">
 			<label depth="2" width="300" height="30" text="{daytitle}: [{daycolor}]{day}[-] {timetitle}: {time}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
 		</sprite>		
 	</window>		
@@ -257,7 +257,7 @@
 				<sprite name="BarContent" depth="2" pivot="center" size="137,102" type="filled" filldirection="horizontal" fill="0" atlas="ItemIconAtlas" sprite="plaqueStam" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_horse_stamina" size="22,22" pos="-50,11" foregroundlayer="true"/>
 				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrentwithmax}" color="[white]" effect="outline" upper_case="true" justify="center" />
-				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="32,32" pos="86,0" pivot="left"/>
+				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="33,33" pos="94,0" pivot="left"/>
 				<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/horse_shoe_border.png"/>				
 			</rect>
 			
