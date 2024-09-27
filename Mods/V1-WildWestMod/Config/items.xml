@@ -1165,13 +1165,13 @@
 		<property name="Repair_amount" value="1000"/>
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Sound_start" value="repair_block"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,glassBulletproofBlockVariantHelper"/>
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT2Tomahawk1">
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="9" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="220,475" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="11" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,800" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkMiner69r"/>
@@ -1245,13 +1245,13 @@
 		<property name="Repair_amount" value="1000"/>
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Sound_start" value="repair_block"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,glassBulletproofBlockVariantHelper"/>
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT2Tomahawk2">
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="9" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="220,475" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="11" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,800" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkMiner69r"/>
