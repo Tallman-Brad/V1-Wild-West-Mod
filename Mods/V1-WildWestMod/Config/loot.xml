@@ -3348,13 +3348,14 @@
 	<item name="modVehicleOffRoadHeadlightsSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
+	<item name="modVehicleSuperChargerSchematic"/>
 </lootgroup>
 
 <!-- *** T1_Vehicle_Mod_Schematics -->
 <lootgroup name="vehicleModSchematics02">
+	<item name="modVehicleOffRoadHeadlightsSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
-	<item name="modVehicleOffRoadHeadlightsSchematic"/>
 	<item name="modVehicleSuperChargerSchematic"/>
 </lootgroup>
 
