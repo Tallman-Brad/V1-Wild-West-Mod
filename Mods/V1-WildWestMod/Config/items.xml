@@ -1129,7 +1129,7 @@
 	<property name="EconomicValue" value="500"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="TraderStageTemplate" value="baseTier0"/>
-	<property name="SellableToTrader" value="false"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
@@ -1209,7 +1209,7 @@
 	<property name="EconomicValue" value="500"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="TraderStageTemplate" value="baseTier0"/>
-	<property name="SellableToTrader" value="false"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
