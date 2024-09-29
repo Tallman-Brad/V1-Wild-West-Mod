@@ -316,7 +316,7 @@
 
 			<passive_effect name="CraftingTier" operation="base_add" level="2,4,6,8,10,60" value="1,2,3,4,5,5" tags="meleeToolRepairT0StoneAxe,meleeToolShovelT0StoneShovel,meleeToolRepairT2Tomahawk1,meleeToolRepairT2Tomahawk2"/>
 			<passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,25,60" value="1,2,3,4,5,5" tags="meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,meleeToolAxeT1IronFireaxe"/>
-			<passive_effect name="CraftingTier" operation="base_add" level="32,39,46,53,60,60" value="1,2,3,4,5,5" tags="meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel,meleeToolAxeT2SteelAxe"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="32,39,46,53,60" value="1,2,3,4,5" tags="meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel,meleeToolAxeT2SteelAxe"/>
 			<!--passive_effect name="CraftingTier" operation="base_add" level="68,76,84,92,100" value="1,2,3,4,5" tags="meleeToolPickT3Auger,meleeToolAxeT3Chainsaw"/-->
 		</effect_group>
 	</crafting_skill>
