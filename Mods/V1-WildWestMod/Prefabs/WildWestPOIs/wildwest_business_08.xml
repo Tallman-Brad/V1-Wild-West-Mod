@@ -11,7 +11,7 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="SleeperVolumeSize" value="7, 4, 6#5, 4, 7#9, 4, 6#9, 7, 15#9, 6, 5" />
   <property name="SleeperVolumeStart" value="14, 9, 12#17, 4, 12#13, 4, 6#2, 0, 8#13, 9, 7" />
-  <property name="SleeperVolumeGroup" value="GroupGhostTown,2,3,GroupLabWorker,2,3,GroupGhostTown,1,2,GroupGhostTown,3,3,GroupGenericZombie,1,2" />
+  <property name="SleeperVolumeGroup" value="GroupGhostTown,2,3,GroupLabWorker,2,3,GroupGenericZombie,2,3,GroupGhostTown,3,4,GroupGenericZombie,1,2" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False" />
   <property name="SleeperIsBossVolume" value="False,False,False,False" />
   <property name="YOffset" value="-3" />
@@ -26,11 +26,11 @@
   <property name="PrefabSize" value="25, 23, 25" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="247478" />
-    <property name="TotalTriangles" value="221937" />
+    <property name="TotalVertices" value="248627" />
+    <property name="TotalTriangles" value="221923" />
     <property class="BlockEntities">
-      <property name="Vertices" value="203050" />
-      <property name="Triangles" value="195040" />
+      <property name="Vertices" value="204199" />
+      <property name="Triangles" value="195026" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="40436" />
@@ -67,7 +67,7 @@
     <property class="challenge_mech_parts">
       <property name="0" value="11, 4, 13" />
     </property>
-    <property class="quest_wood_trees">
+    <property class="challenge_polymers">
       <property name="0" value="4, 3, 20" />
     </property>
     <property class="FetchContainer">
@@ -76,8 +76,10 @@
       <property name="2" value="14, 3, 17" />
     </property>
     <property class="POILight">
-      <property name="0" value="14, 6, 9" />
-      <property name="1" value="20, 6, 10" />
+      <property name="0" value="17, 6, 7" />
+      <property name="1" value="22, 10, 7" />
+      <property name="2" value="14, 6, 9" />
+      <property name="3" value="20, 6, 10" />
     </property>
     <property class="Rally">
       <property name="0" value="23, 3, 16" />

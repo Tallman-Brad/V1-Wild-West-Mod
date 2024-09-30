@@ -9,12 +9,12 @@
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="QuestTags" value="clear, fetch" />
+  <property name="QuestTags" value="clear, fetch, infested" />
   <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="SleeperVolumeSize" value="5, 7, 5#20, 5, 7" />
   <property name="SleeperVolumeStart" value="10, 1, 9#1, 2, 15" />
-  <property name="SleeperVolumeGroup" value="GroupGhostTown,3,5,GroupGhostTown,4,7" />
+  <property name="SleeperVolumeGroup" value="GroupGhostTown,5,6,GroupGhostTown,7,8" />
   <property name="SleeperVolumeGameStageAdjust" value="" />
   <property name="SleeperIsLootVolume" value="False,False" />
   <property name="DistantPOIYOffset" value="0" />
@@ -28,11 +28,11 @@
   <property name="PrefabSize" value="25, 21, 25" />
   <property name="SleeperVolumeTriggeredBy" value=" # " />
   <property class="Stats">
-    <property name="TotalVertices" value="289395" />
-    <property name="TotalTriangles" value="314323" />
+    <property name="TotalVertices" value="280188" />
+    <property name="TotalTriangles" value="312310" />
     <property class="BlockEntities">
-      <property name="Vertices" value="270989" />
-      <property name="Triangles" value="302605" />
+      <property name="Vertices" value="261782" />
+      <property name="Triangles" value="300592" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="15056" />
@@ -60,8 +60,11 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="challenge_stump">
+      <property name="0" value="1, 2, 4" />
+    </property>
     <property class="challenge_cars">
-      <property name="0" value="5, 2, 8" />
+      <property name="0" value="4, 2, 9" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="12, 3, 14" />
@@ -70,16 +73,13 @@
       <property name="0" value="7, 2, 15" />
     </property>
     <property class="challenge_polymers">
-      <property name="0" value="2, 2, 19" />
+      <property name="0" value="21, 2, 4" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="14, 5, 11" />
     </property>
     <property class="Rally">
       <property name="0" value="12, 2, 3" />
-    </property>
-    <property class="quest_wood_trees">
-      <property name="0" value="21, 2, 4" />
     </property>
   </property>
 </prefab>
