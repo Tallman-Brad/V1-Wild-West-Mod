@@ -498,7 +498,7 @@
 		<reward type="Item" id="ammoJunkTurretAP" ischosen="true" isfixed="true" value="1000"/>
 	</quest>
 
-<!-- Kill_Lumberjack_Challenge_Reward -->
+<!-- Kill_Lumberjack_Challenge_Reward --> <!-- Required modern explosive revision to old explosives -->
 	<quest id="quest_reward_lumberjack_zombie_slayer" template="challengegroup_reward_homesteading">
 		<variable name="name" value="zombie_slayer_name_lumberjack"/>
 		<variable name="subtitle" value="zombie_slayer_subtitle_lumberjack"/>
@@ -507,10 +507,10 @@
 		<!-- Challenge Rewards are localized. Update challengeKillRewardExplosives if this list is changed. -->
 		<reward type="Exp" value="10000"/>
 		<reward type="Item" id="thrownAmmoMolotovCocktail" ischosen="true" isfixed="true" value="20"/>
-		<reward type="Item" id="thrownGrenade" ischosen="true" isfixed="true" value="25"/>
-		<reward type="Item" id="thrownGrenadeContact" ischosen="true" isfixed="true" value="25"/>
-		<reward type="Item" id="thrownTimedCharge" ischosen="true" isfixed="true" value="10"/>
-		<reward type="Item" id="mineAirFilter" ischosen="true" isfixed="true" value="10"/>
+		<reward type="Item" id="thrownAmmoPipeBomb" ischosen="true" isfixed="true" value="25"/>
+		<reward type="Item" id="thrownDynamite" ischosen="true" isfixed="true" value="25"/>
+		<reward type="Item" id="thrownTimedDynamite" ischosen="true" isfixed="true" value="10"/>
+		<reward type="Item" id="mineCookingPot" ischosen="true" isfixed="true" value="10"/>
 	</quest>
 
 <!-- Kill_Spider_Challenge_Reward -->
@@ -572,7 +572,7 @@
 		<reward type="Item" id="modArmorIntellect" ischosen="true" isfixed="true" value="1"/>
 	</quest>
 
-<!-- Kill_Cop_Challenge_Reward -->
+<!-- Kill_Cop_Challenge_Reward --> <!-- Required modern solar revision to old battery -->
 	<quest id="quest_reward_cop_zombie_slayer" template="challengegroup_reward_homesteading">
 		<variable name="name" value="zombie_slayer_name_cop"/>
 		<variable name="subtitle" value="zombie_slayer_subtitle_cop"/>
@@ -582,12 +582,12 @@
 		<reward type="Exp" value="10000"/>
 		<reward type="Item" id="toolDewFilter" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="plantedGraceCorn1Schematic" ischosen="true" isfixed="true" value="1"/>
-		<reward type="Item" id="solarCell" ischosen="true" isfixed="true" value="3"/>
+		<reward type="Item" id="blueCrystalBattery" ischosen="true" isfixed="true" value="3"/>
 		<reward type="Item" id="toolForgeCrucible" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="resourceLegendaryParts" ischosen="true" isfixed="true" value="4"/>
 	</quest>
 
-<!-- Kill_Wight_Challenge_Reward -->
+<!-- Kill_Wight_Challenge_Reward --> <!-- Required modern revision to old bundles -->
 	<quest id="quest_reward_wight_zombie_slayer" template="challengegroup_reward_homesteading">
 		<variable name="name" value="zombie_slayer_name_wight"/>
 		<variable name="subtitle" value="zombie_slayer_subtitle_wight"/>
@@ -599,10 +599,10 @@
 		<reward type="Item" id="questRewardLegendarySteelClubCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="questRewardLegendarySteelKnuckleCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="questRewardLegendaryMacheteCraftingBundle" ischosen="true" isfixed="true" value="1"/>
-		<reward type="Item" id="questRewardLegendaryBatonCraftingBundle" ischosen="true" isfixed="true" value="1"/>
+		<reward type="Item" id="questRewardLegendaryRifleCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 	</quest>
 
-<!-- Kill_Demolition_Challenge_Reward -->
+<!-- Kill_Demolition_Challenge_Reward --> <!-- Required modern revision to old bundles -->
 	<quest id="quest_reward_demolition_zombie_slayer" template="challengegroup_reward_homesteading">
 		<variable name="name" value="zombie_slayer_name_demolition"/>
 		<variable name="subtitle" value="zombie_slayer_subtitle_demolition"/>
@@ -612,9 +612,9 @@
 		<reward type="Exp" value="10000"/>
 		<reward type="Item" id="questRewardLegendaryRifleCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="questRewardLegendaryShotgunCraftingBundle" ischosen="true" isfixed="true" value="1"/>
-		<reward type="Item" id="questRewardLegendaryMachineGunCraftingBundle" ischosen="true" isfixed="true" value="1"/>
+		<reward type="Item" id="questRewardLegendarySteelSpearCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 		<reward type="Item" id="questRewardLegendaryHandgunCraftingBundle" ischosen="true" isfixed="true" value="1"/>
-		<reward type="Item" id="questRewardLegendaryRoboticsCraftingBundle" ischosen="true" isfixed="true" value="1"/>
+		<reward type="Item" id="questRewardLegendarySteelToolsCraftingBundle" ischosen="true" isfixed="true" value="1"/>
 	</quest>
 
 <!-- *** CHALLENGES_PAGE_03 -->
