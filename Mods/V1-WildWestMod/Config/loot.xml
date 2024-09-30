@@ -3357,13 +3357,14 @@
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	<item name="modVehicleSuperChargerSchematic"/>
+	<item name="modVehiclePlowSchematic"/>
 </lootgroup>
 
 <!-- *** T2_Vehicle_Mod_Schematics -->
 <lootgroup name="vehicleModSchematics03">
 <!--	<item name="modVehicleExpandedSeatSchematic"/> -->    <!-- #####################-->
 	<item name="modVehicleSuperChargerSchematic"/>
-	<!-- <item name="modVehiclePlowSchematic"/>-->
+	<item name="modVehiclePlowSchematic"/>
 	<item name="modVehicleArmorSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
