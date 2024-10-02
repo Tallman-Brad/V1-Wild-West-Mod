@@ -2048,4 +2048,18 @@
   <decoration type="model" name="deco_wildwest_embercity_01" position="-188,37,-2091" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="deco_wildwest_embercity_01" position="518,61,-2144" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="deco_wildwest_embercity_01" position="364,61,-2145" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_craterfallscity_01" position="-1184,37,-1047" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_craterfallscity_01" position="-2033,37,-965" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_craterfallscity_01" position="-2031,37,-804" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_craterfallscity_01" position="-2014,37,611" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="deco_wildwest_totem_01" position="-1937,60,591" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_woodpecker_01_arramus" position="-2104,37,647" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_sweeney_01_arramus" position="-2002,37,655" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_saloon_01_arramus" position="2391,37,1309" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_saloon_01_arramus" position="-2260,37,1479" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_Schoolhouse_Chaz916Gaming" position="-2524,36,1998" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_business_04" position="2397,37,1279" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_cabin_02" position="-955,37,825" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_watertower" position="-980,37,819" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_watertower" position="-2277,37,1286" rotation="0" y_is_groundlevel="true" />
 </prefabs>
