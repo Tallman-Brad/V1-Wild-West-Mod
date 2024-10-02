@@ -239,6 +239,18 @@
 			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
 		</effect_group>
 	</item_modifier>
+	
+<!-- Winchester Extender Mod -->
+	
+	<item_modifier name="modGunWinchesterMagazineExtender" installable_tags="winchestermagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunWinchesterMagazineExtenderSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
+		</effect_group>
+	</item_modifier>
 
 <!-- arramus - Color additions -->
 

@@ -389,6 +389,7 @@
 			<item name="modGunBowArrowHandleGrip"/> <!-- Wild West Mod -->
 			<item name="modArcheryReload"/> <!-- Wild West Mod -->
 			<item name="modGunRevolverMagazineExtender"/> <!-- Wild West Mod -->
+			<item name="modGunWinchesterMagazineExtender"/> <!-- Wild West Mod -->
 		<!-- *** T3_RANGED_MODS -->
 			<item name="modGunBowPolymerString"/>
 			<item name="modGunScopeLarge"/>

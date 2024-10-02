@@ -2821,6 +2821,7 @@
 	<!-- <item name="modRoboticDroneMedicMod"/> -->
 	<!-- <item name="modRoboticDroneHeadlampMod"/> -->
 	<item name="modGunRevolverMagazineExtender"/>
+	<item name="modGunWinchesterMagazineExtender"/>
 </lootgroup>
 
 <!-- *** T3_Ranged_Mods -->
@@ -3303,6 +3304,7 @@
 	<item name="modMeleeIronBreakerSchematic"/>
 	<item name="modMeleeSerratedBladeSchematic"/>
 	<item name="modGunRevolverMagazineExtenderSchematic"/> <!-- Wild West Mod -->
+	<item name="modGunWinchesterMagazineExtenderSchematic"/> <!-- Wild West Mod -->
 </lootgroup>
 
 <!-- *** T2_Schematics -->
