@@ -2131,13 +2131,15 @@
 		<property name="HandItem" value="meleeHandZombieFemaleFatBarker"/>
 		<property name="SizeScale" value="1.15"/>		
 	
-		<property name="AITask-1" value="BreakBlock"/>
-		<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-		<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-		<property name="AITask-4" value="ApproachSpot"/>
-		<property name="AITask-5" value="Look"/>
-		<property name="AITask-6" value="Wander"/>
-		<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+    <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 
 		<effect_group name="Base Effects">
 			<passive_effect name="HealthMax" operation="base_set" value="1500"/> <!-- 1080 Default -->
@@ -2161,13 +2163,15 @@
 		<property name="HandItem" value="meleeHandZombieFemaleFatBarker"/>
 		<property name="SizeScale" value="1.35"/>		
 	
-		<property name="AITask-1" value="BreakBlock"/>
-		<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-		<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-		<property name="AITask-4" value="ApproachSpot"/>
-		<property name="AITask-5" value="Look"/>
-		<property name="AITask-6" value="Wander"/>
-		<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+    <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>
 
 		<effect_group name="Base Effects">
 			<passive_effect name="HealthMax" operation="base_set" value="2000"/> <!-- 1080 Default -->
@@ -2193,13 +2197,15 @@
 		<property name="ExperienceGain" value="950"/><!-- XP  Feral Wight Gunslinger -->
 		<property name="LootDropProb" value="1"/> <!-- Feral Wight Gunslinger -->
 		
-		<property name="AITask-1" value="BreakBlock"/>
-		<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-		<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-		<property name="AITask-4" value="ApproachSpot"/>
-		<property name="AITask-5" value="Look"/>
-		<property name="AITask-6" value="Wander"/>
-		<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->		
+    <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>	
 
 		<effect_group name="Base Effects">
 			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieWightFeralGunslingerDeco"/>		
@@ -2241,13 +2247,15 @@
 		<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>		
 		<property name="LootDropProb" value="1"/> <!-- Radiated Wight Gunslinger -->		
 		
-		<property name="AITask-1" value="BreakBlock"/>
-		<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
-		<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
-		<property name="AITask-4" value="ApproachSpot"/>
-		<property name="AITask-5" value="Look"/>
-		<property name="AITask-6" value="Wander"/>
-		<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->		
+    <property name="AITask" value="
+    BreakBlock|
+    ApproachDistraction|
+    RangedAttackTarget itemType=1;cooldown=4;duration=5|
+    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+    ApproachSpot|
+    Look|
+    Wander|
+    "/>	
 
 		<effect_group name="Base Effects">
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieWightFeralGunslingerDeco"/>		
@@ -2425,20 +2433,7 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-   <property name="AITask" value="
-    BreakBlock|
-    ApproachDistraction|
-    RangedAttackTarget itemType=1;cooldown=4;duration=5|
-    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
-    ApproachSpot|
-    Look|
-    Wander|
-    "/>
-			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
-			<property name="AITarget-2" value="BlockingTargetTask"/>
-			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityNPC,0,0"/>
-			<property name="AITarget-5" value=""/>			
+		
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="HandItem" value="meleeHandMasterCrispy"/>
@@ -2486,20 +2481,7 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-   <property name="AITask" value="
-    BreakBlock|
-    ApproachDistraction|
-    RangedAttackTarget itemType=1;cooldown=4;duration=5|
-    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
-    ApproachSpot|
-    Look|
-    Wander|
-    "/>
-			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
-			<property name="AITarget-2" value="BlockingTargetTask"/>
-			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityNPC,0,0"/>
-			<property name="AITarget-5" value=""/>			
+		
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="HandItem" value="meleeHandZombieStrongMommaCrispy"/>			
@@ -2547,20 +2529,7 @@
 			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
 			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
 			<property name="WalkType" value="7"/>			
-   <property name="AITask" value="
-    BreakBlock|
-    ApproachDistraction|
-    RangedAttackTarget itemType=1;cooldown=4;duration=5|
-    ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
-    ApproachSpot|
-    Look|
-    Wander|
-    "/>
-			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
-			<property name="AITarget-2" value="BlockingTargetTask"/>
-			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityNPC,0,0"/>
-			<property name="AITarget-5" value=""/>			
+		
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="HandItem" value="meleeHandZombieStrongMommaCrispy"/>			
