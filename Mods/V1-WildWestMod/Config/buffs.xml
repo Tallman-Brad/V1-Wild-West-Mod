@@ -381,8 +381,8 @@
 
 <buff name="buffCraterBearDeco" hidden="true">
             <effect_group>
-                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/bearfx.unity3d?bearfx" local_offset="0,-1.5,0.5" local_rotation="0,0,0" parent_transform="Spine"/>				
-			</effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/bearfx.unity3d?bearfx" local_offset="0,-1.5,0.5" local_rotation="0,0,0" parent_transform="Spine"/>
+            </effect_group>
 </buff>
 
 	</append>
