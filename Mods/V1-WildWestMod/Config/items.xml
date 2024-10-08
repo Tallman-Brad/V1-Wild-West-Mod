@@ -1549,7 +1549,7 @@
 	<property name="Group" value="Ammo/Weapons,Ammo,RegularAmmo"/>
 	
 	<property class="Action0">
-		<property name="Create_item" value="ammoJunkTurretRegular"/>
+		<property name="Create_item" value="ammoTurretRegular"/>
 		<property name="Create_item_count" value="1000"/>
 	</property>
 </item>
@@ -1559,7 +1559,7 @@
 	<property name="TraderStageTemplate" value="ammoTier3"/><!-- ammoBundleJunkTurretAP -->
 	
 	<property class="Action0">
-		<property name="Create_item" value="ammoJunkTurretAP"/>
+		<property name="Create_item" value="ammoTurretAP"/>
 		<property name="Create_item_count" value="1000"/>
 	</property>
 	<property name="CustomIcon" value="ammoTurretAP"/>
