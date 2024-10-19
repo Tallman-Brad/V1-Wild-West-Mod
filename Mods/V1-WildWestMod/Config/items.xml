@@ -4705,8 +4705,8 @@
 				<property name="Delay" value="0"/>
 				<property name="Use_time" value="0"/>
 				<property name="Sound_start" value="open_supply_crate"/>
-				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,foodTallmanBradJerky,medicalFirstAidBandage,drinkJarBoiledWater,qc_eliminateanimals,qc_eliminatecrispyfamily,qc_eliminatezombies,vehicleWWMDinkyDonkeyPlaceable"/>
-				<property name="Create_item_count" value="2-3,1-2,2,2,2,2,1,1,1,1"/>
+				<property name="Create_item" value="meleeWpnBladeT1HuntingKnife,armorRangerHelmet,foodWildWestPineConeJam,foodTallmanBradJerky,medicalFirstAidBandage,drinkJarBoiledWater,qc_eliminateanimals,qc_eliminatecrispyfamily,qc_eliminatezombies,qc_chuckwagondinnerbell01,vehicleWWMDinkyDonkeyPlaceable"/>
+				<property name="Create_item_count" value="2-3,1-2,2,2,2,2,1,1,1,1,1"/>
 			</property>
 		</item>
 		

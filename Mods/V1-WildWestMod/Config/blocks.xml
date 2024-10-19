@@ -2964,7 +2964,7 @@
 	<property name="Material" value="Mbrass"/>
 	<property name="CustomIcon" value="bellquest"/>
 	<property name="Shape" value="ModelEntity"/>
-    <property name="MaxDamage" value="2"/>
+    <property name="MaxDamage" value="1"/>
     <property name="Path" value="solid"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="Model" value="#@modfolder:Resources/BellQuest.unity3d?BellQuestOff"/>
@@ -2986,7 +2986,7 @@
 	<property name="Material" value="Mbrass"/>
 	<property name="CustomIcon" value="bellquest"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="MaxDamage" value="5000"/>
+	<property name="MaxDamage" value="1"/>
     <property name="Path" value="solid"/>	
 	<property name="StabilitySupport" value="false"/>
     <property name="Model" value="#@modfolder:Resources/BellQuest.unity3d?BellQuest"/>
@@ -3005,7 +3005,9 @@
 	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
 	<property name="CanPickup" value="true" param1="cluckingbellsTrap"/>
 	<property class="RepairItems"> <property name="resourceScrapBrass" value="25"/> </property>
-	<drop event="Destroy" name="resourceScrapBrass" count="10"/>
+	<drop event="Destroy" count="0"/> <!-- Removed for downgrade block and event update for screamer revision -->
+	<property name="DowngradeBlock" value="cluckingbellsTrapOn"/>
+	<property name="DowngradeEvent" value="quest_cluckingbellstrapon_explosion_horde"/>
 </block>
 
 	<!-- Oakraven Kerosene Boom Barrel -->

@@ -2776,6 +2776,45 @@
 		<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true"/>
 	</quest>
 	
+	<!-- Adds the "Chuckwagon Dinner Bell Challenge" -->	
+	<!-- Chuckwagon Dinner Bell Craft and Place -->
+		<quest id="quest_chuckwagondinnerbell01">
+		<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it repeatedly to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. The more you hit it, the more will appear. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 2 Skill Points for eliminating 200 Screamer Scouts. This quest continually loops." />
+		<property name="name_key" value="Chuckwagon Dinner Bell"/>
+		<property name="subtitle_key" value="Chuckwagon Dinner Bell"/>
+		<property name="description_key" value="Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it repeatedly to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. The more you hit it, the more will appear. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="cluckingbellsTrap" value="1" phase="1"/>
+
+		<reward type="Exp" value="2500"/>		
+		<reward type="Quest" id="quest_chuckwagondinnerbell02"/>
+	</quest>
+	
+	<!-- Adds the "Zombie Looping" Bounty Quest -->
+	<quest id="quest_chuckwagondinnerbell02">
+	<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 2 Skill Points for eliminating 200 Screamer Scouts. This quest continually loops." />       
+    <property name="name_key" value="Screamer Scouts" />
+	<property name="subtitle_key" value="Screamer Scouts" />
+	<property name="description_key" value="Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated" value="200"/>
+
+	<reward type="Exp" value="5000"/>
+	<reward type="SkillPoints" value="2" chainreward="false"/>
+	<reward type="Quest" id="quest_chuckwagondinnerbell02">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
 	<!-- Adds the "Zombie Looping" Bounty Quest -->
 	<quest id="quest_eliminatezombies25">
 	<property name="offer_key" value="Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25 for 1000 Liberty Coins, 50 for 5000 XP, 75 for 3000 Liberty Coins, 100 for 10000 XP, and 250 for 2 Skill. Start all over again." />       
