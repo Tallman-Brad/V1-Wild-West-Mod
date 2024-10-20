@@ -5052,6 +5052,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="foodRawMeat" count="5"/>
 	</recipe>
 	
+	<recipe name="foodSuperCornMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="foodCropGraceCorn" count="2"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+		</effect_group>
+	</recipe>
+	
 	<recipe name="drinkYuccaJuiceCooler" count="1" craft_area="campfire" tags="perkMasterChef">
 		<ingredient name="foodCropYuccaFruit" count="5"/>
 		<ingredient name="foodCropBlueberries" count="5"/>
