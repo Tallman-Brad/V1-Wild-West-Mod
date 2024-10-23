@@ -124,6 +124,11 @@
     <set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='Meshfile']/@value">#@modfolder:Resources/WestKnifes.unity3d?Knife3</set><!-- Replacing Fire Axe for older variant -->
 	<remove xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='TintColor']"/>
 
+    <!-- Cosh Spitter -->
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='Meshfile']/@value">#@modfolder:Resources/CoshSpitter.unity3d?EletricBat2</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='Material']/@value">Mmetal</set>
+    <remove xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='TintColor']"/>
+
 	<!-- Steel Spear -->
 	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
 	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfPerception,canHaveCosmetic,perkElectrocutioner,stunBaton,spearSkill"/><!-- ,thrownWeapon -->

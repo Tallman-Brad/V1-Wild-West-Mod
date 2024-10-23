@@ -3056,17 +3056,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<!--recipe name="meleeWpnBatonT2StunBaton" count="1" craft_area="workbench" tags="learnable,perkElectrocutioner">
-	<ingredient name="meleeWpnBatonT2StunBatonParts" count="1"/>
+<recipe name="meleeWpnBatonT2StunBaton" count="1" craft_area="workbench" tags="learnable,perkTurrets">
+	<ingredient name="blueCrystalBattery" count="1"/>
 	<ingredient name="resourceForgedIron" count="5"/>
-	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceWood" count="50"/>
 	<ingredient name="resourceElectricParts" count="2"/>
 	<ingredient name="resourceLegendaryParts" count="0"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="meleeWpnBatonT2StunBatonParts,resourceForgedIron,resourceDuctTape,resourceElectricParts"/>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceForgedIron,resourceWood,resourceElectricParts"/>
 		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
 	</effect_group>
-</recipe-->
+</recipe>
 
 <recipe name="meleeToolTorch" count="1">
 	<ingredient name="resourceAnimalFat" count="1"/>
