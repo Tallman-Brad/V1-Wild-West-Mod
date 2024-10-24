@@ -5063,6 +5063,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		</effect_group>
 	</recipe>
 	
+	<recipe name="foodSuperHoneyPopcorn" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodCropGraceCorn" count="2"/>
+		<ingredient name="foodHoneyComb" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+	</recipe>
+	
 	<recipe name="drinkYuccaJuiceCooler" count="1" craft_area="campfire" tags="perkMasterChef">
 		<ingredient name="foodCropYuccaFruit" count="5"/>
 		<ingredient name="foodCropBlueberries" count="5"/>
@@ -5573,7 +5579,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceScrapPolymers" count="80"/>
 </recipe>
 
-<recipe name="ammoJunkTurretRegular" count="1">
+<recipe name="ammoJunkTurretRegular" count="1" craft_area="Ammobench">
 	<ingredient name="resourceScrapIron" count="3"/>
 	<ingredient name="ammoGasCan" count="1"/>	
 </recipe> <!-- Wild West Mod Values -->

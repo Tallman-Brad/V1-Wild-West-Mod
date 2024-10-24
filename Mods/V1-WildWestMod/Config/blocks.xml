@@ -3842,7 +3842,7 @@
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="Ammobench"/>
 	</property>
-	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_ammobench"/>
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
