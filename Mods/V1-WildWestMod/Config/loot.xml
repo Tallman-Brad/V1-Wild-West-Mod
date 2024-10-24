@@ -2561,7 +2561,7 @@
 	<item name="meleeWpnSledgeT0StoneSledgehammer"/>
 	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
 	<item name="meleeWpnBladeT0BoneKnife"/>
-	<item name="meleeWpnBatonT0PipeBaton"/>
+	<!--item name="meleeWpnBatonT0PipeBaton"/-->
 </lootgroup>
 
 <lootgroup name="groupWeaponsT0_Melee" loot_quality_template="QLTemplateT0">
@@ -2570,13 +2570,13 @@
 	<item name="meleeWpnSledgeT0StoneSledgehammer"/>
 	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
 	<item name="meleeWpnBladeT0BoneKnife"/>
-	<item name="meleeWpnBatonT0PipeBaton"/>
+	<!--item name="meleeWpnBatonT0PipeBaton"/-->
 </lootgroup>
 
 <lootgroup name="groupWeaponsT0_MeleeNoStone" loot_quality_template="QLTemplateT0">
 	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
 	<item name="meleeWpnBladeT0BoneKnife"/>
-	<item name="meleeWpnBatonT0PipeBaton"/>
+	<!--item name="meleeWpnBatonT0PipeBaton"/-->
 </lootgroup>
 
 <!-- *** T1_Melee_Weapons -->
