@@ -5012,12 +5012,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	    <ingredient name="foodEgg" count="2"/>		
     </recipe>
 	
-	<recipe name="foodFriedCatfish" count="2" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodBreadingMix" craft_time="8" count="1">
+		<ingredient name="foodWildWestAcornFlour" count="1"/>
+		<ingredient name="foodCornMeal" count="1"/>
+	</recipe>
+	
+	<recipe name="foodFriedCatfish" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 		<ingredient name="resourceCatfish" count="1"/>
-		<ingredient name="foodCropPotato" count="3"/>
-		<ingredient name="resourceAnimalFat" count="2"/>
-		<ingredient name="foodCornMeal" count="5"/>
-		<ingredient name="foodEgg" count="2"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodBreadingMix" count="1"/>
+		<ingredient name="foodEgg" count="1"/>
 	</recipe>
 	
 	<recipe name="foodShamBreadPudding" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
