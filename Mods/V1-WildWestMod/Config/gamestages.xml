@@ -1,5 +1,8 @@
 <wildwestmod>
 
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@num">7777</set> <!-- Jackpot -->
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@maxAlive">256</set> <!-- Default as high GS and bringing more for lower GS party potential -->
+
 	<!-- A little customised but original by JaxTeller718 from JaxTeller718-BiggerWanderingHordes - https://ravenhearst.enjin.com/ -->
 	<!-- +10 for zombies entity hordes and +1 for animals -->
 	
