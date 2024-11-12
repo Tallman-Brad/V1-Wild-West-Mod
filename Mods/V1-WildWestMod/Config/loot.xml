@@ -3188,8 +3188,8 @@
 	<item name="foodSkillMagazine" count="2"/>
 	<item name="seedSkillMagazine" count="2"/>
 	<item name="vehiclesSkillMagazine" count="2"/>
-	<item name="electricianSkillMagazine" count="2"/>
-	<item name="trapsSkillMagazine" count="2"/>
+	<!--item name="electricianSkillMagazine" count="2"/-->
+	<!--item name="trapsSkillMagazine" count="2"/-->
 </lootgroup>
 
 <lootgroup name="groupChallengeRewardSkillMagazinesAll" count="all">
