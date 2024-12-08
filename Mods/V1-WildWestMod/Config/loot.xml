@@ -5285,7 +5285,8 @@
 	<item group="groupFoodUncommon" loot_prob_template="low"/> <!-- New -->
 	<item group="groupFoodRare" loot_prob_template="veryLow"/> <!-- New -->
 	<item group="groupDrinksCommon" loot_prob_template="med"/> <!-- Same -->
-	<item name="drinkCanMegaCrush" count="1" loot_prob_template="low"/> <!-- New -->																				 
+	<item name="drinkCanMegaCrush" count="1" loot_prob_template="low"/> <!-- New -->
+	<item name="resourceAcid" count="1" loot_prob_template="low"/> <!-- New -->	
 </lootgroup>
 
 <lootgroup name="groupBeerCooler" count="all">
