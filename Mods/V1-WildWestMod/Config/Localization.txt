@@ -1156,6 +1156,8 @@ foodEggSandwich,items,Food,,,Egg Sandwich,,,,,,,,,,,,,
 foodEggSandwichDesc,items,Food,,,"The Queen of Hearts, she made some tarts, from chicken eggs, and zombie farts. She makes decent sandwiches too. Clears up mild infection (3%).",,,,,,,,,,,,,
 foodChickenStew,items,Food,,,Chicken Stew,,,,,,,,,,,,,
 foodChickenStewDesc,items,Food,,,"Chicken stew provides a highly nutritious meal.",,,,,,,,,,,,,
+foodRoastChicken,items,Food,,,Roast Chicken,,,,,,,,,,,,,
+foodRoastChickenDesc,items,Food,,,"Roast Chicken provides great sustenance and can put coop reared chickens to good use.",,,,,,,,,,,,,
 foodChickSticks,items,Food,,,Chick Sticks,,,,,,,,,,,,,
 foodChickSticksDesc,items,Food,,,"Chick sticks provide a light snack with curative properties.",,,,,,,,,,,,,
 

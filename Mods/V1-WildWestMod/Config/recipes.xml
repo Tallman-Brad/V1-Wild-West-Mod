@@ -4659,6 +4659,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	
+	<recipe name="foodRoastChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="GrownChicken" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	</recipe>
+	
 	<recipe name="foodChickSticks" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 	<ingredient name="CaughtChick" count="3"/>
 	<ingredient name="foodHoneyComb" count="1"/>

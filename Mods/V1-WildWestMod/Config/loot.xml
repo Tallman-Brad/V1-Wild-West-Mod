@@ -5011,6 +5011,8 @@
 	<item name="foodMeatStew"/>
 	<item name="foodShamChowder"/>
 	<item name="foodHoboStew"/>
+	<item name="foodRoastChicken"/> <!-- Wild West Mod -->
+	<item name="foodShamBreadPudding"/> <!-- Wild West Mod -->
 	<item name="foodChickenStew"/> <!-- Wild West Mod -->
 	<item name="foodcottagebake"/> <!-- Wild West Mod -->
 	<item name="foodRubaboo"/> <!-- Wild West Mod -->
@@ -7595,6 +7597,8 @@
 	<item name="foodMeatStew" loot_prob_template="low"/>
 	<item name="foodShamChowder" loot_prob_template="low"/>
 	<item name="foodHoboStew" loot_prob_template="low"/>
+	<item name="foodRoastChicken" loot_prob_template="low"/> <!-- Wild West Mod -->
+	<item name="foodShamBreadPudding" loot_prob_template="low"/> <!-- Wild West Mod -->
 	<item name="foodChickenStew" loot_prob_template="low"/> <!-- Wild West Mod -->
 	<item name="foodcottagebake" loot_prob_template="low"/> <!-- Wild West Mod -->
 	<item name="foodRubaboo" loot_prob_template="low"/> <!-- Wild West Mod -->
@@ -10259,8 +10263,8 @@
 
 	<lootcontainer name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="foodEgg" count="3,5" prob="1"/>
-		<item name="resourceFeather" count="3,6" prob="0.75"/>
-		<item name="GrownChicken" count="1" prob="0.5"/>
+		<item name="GrownChicken" count="1" prob="1"/>
+		<item name="resourceFeather" count="3,6" prob="1"/>
 	</lootcontainer>
 	
 	<!-- Goldilocks -->

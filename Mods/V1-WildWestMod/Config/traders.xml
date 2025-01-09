@@ -839,6 +839,8 @@
 			<item name="foodCornMeal" count="5,20"/>
 			<item name="foodCropMushrooms" count="4,8"/>
 			<item name="foodHoney" count="1,2"/>
+			<item name="GrownChicken" count="1"/> <!-- Wild West Mod -->
+			<item name="resourceCatfish" count="1"/> <!-- Wild West Mod -->
 		</trader_item_group>
 
 		<!-- *** PREPARED_FOOD -->
@@ -852,6 +854,9 @@
 			<item name="foodEggBoiled" count="1,2"/>
 			<item name="foodBakedPotato" count="1,2"/>
 			<item name="foodBaconAndEggs" count="1,2"/>
+			<item name="foodRoastChicken" count="1,2"/> <!-- Wild West Mod -->
+			<item name="foodWildWestPineConeJamPancakes" count="1,2"/> <!-- Wild West Mod -->
+			<item name="foodShamBreadPudding" count="1,2"/> <!-- Wild West Mod -->
 			<item name="foodVegetableStew" count="1,2"/>
 			<item name="foodFishTacos" count="1,2"/>
 			<item name="foodHoboStew" count="1,2"/>
