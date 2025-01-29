@@ -1105,7 +1105,7 @@
 	</perk>
 
 		<!-- *** FLURRY_OF_PERCEPTION -->
-	<perk name="perkFlurryOfPerception" max_level="3" parent="skillPerceptionCombat" name_key="perkFlurryOfPerceptionName" desc_key="perkFlurryOfPerceptionDesc" icon="ui_game_symbol_knunchuck">
+	<perk name="perkFlurryOfPerception" max_level="3" parent="skillPerceptionCombat" name_key="perkFlurryOfPerceptionName" desc_key="perkFlurryOfPerceptionDesc" icon="ui_game_symbol_spears">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
@@ -1577,7 +1577,7 @@
 	</perk>
 
 		<!-- *** FLURRY_OF_STRENGTH -->
-	<perk name="perkFlurryOfStrength" max_level="3" parent="skillStrengthCombat" name_key="perkFlurryOfStrengthName" desc_key="perkFlurryOfStrengthDesc" icon="ui_game_symbol_knunchuck">
+	<perk name="perkFlurryOfStrength" max_level="3" parent="skillStrengthCombat" name_key="perkFlurryOfStrengthName" desc_key="perkFlurryOfStrengthDesc" icon="ui_game_symbol_sledge">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="4" desc_key="reqStrengthLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
@@ -2443,7 +2443,7 @@
 	</perk>
 
 		<!-- *** FLURRY_OF_AGILITY -->
-	<perk name="perkFlurryOfAgility" max_level="3" parent="skillAgilityCombat" name_key="perkFlurryOfAgilityName" desc_key="perkFlurryOfAgilityDesc" icon="ui_game_symbol_knunchuck">
+	<perk name="perkFlurryOfAgility" max_level="3" parent="skillAgilityCombat" name_key="perkFlurryOfAgilityName" desc_key="perkFlurryOfAgilityDesc" icon="ui_game_symbol_medusablade">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
@@ -2761,7 +2761,7 @@
 	</perk>
 
 		<!-- *** FLURRY_OF_INTELLECT -->
-	<perk name="perkFlurryOfIntellect" max_level="3" parent="skillIntellectCombat" name_key="perkFlurryOfIntellectName" desc_key="perkFlurryOfIntellectDesc" icon="ui_game_symbol_knunchuck">
+	<perk name="perkFlurryOfIntellect" max_level="3" parent="skillIntellectCombat" name_key="perkFlurryOfIntellectName" desc_key="perkFlurryOfIntellectDesc" icon="ui_game_symbol_coshspitter">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
