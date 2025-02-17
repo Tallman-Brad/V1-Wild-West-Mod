@@ -1966,7 +1966,6 @@
   <decoration type="model" name="wildwest_25x50_corn_01_arramus" position="856,37,1142" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_blacksmith_01_arramus" position="1002,37,746" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_Blacksmith(by_Zeebark)" position="1027,37,746" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="wildwest_25x50_corn_01_arramus" position="1306,37,896" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_BankFireDeptLeesGoods_Chaz916Gaming" position="1306,37,863" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_shipping_warehouse_TMB" position="1306,37,838" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_25x50_corn_01_arramus" position="1649,37,-658" rotation="1" y_is_groundlevel="true" />
@@ -2062,4 +2061,12 @@
   <decoration type="model" name="wildwest_cabin_02" position="-955,37,825" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_watertower" position="-980,37,819" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_watertower" position="-2277,37,1286" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="1006,37,992" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="1306,37,896" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="1687,37,-923" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="592,61,-1535" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="-2050,37,-1039" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="-841,37,1104" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="-980,37,2106" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_splint_eastwood_01_arramus" position="-2057,90,-2078" rotation="3" y_is_groundlevel="true" />
 </prefabs>
