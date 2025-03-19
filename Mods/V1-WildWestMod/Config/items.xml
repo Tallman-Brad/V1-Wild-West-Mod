@@ -114,6 +114,7 @@
 	<set xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='Meshfile']/@value">#@modfolder:Resources/steelaxeoak.unity3d?steelaxeoak</set>
 	
 	<!-- New Pump Shotgun Model -->
+    <set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group/passive_effect[@name='MagazineSize']/@value">12</set>
     <set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@class='Action0']/property[@name='Sound_start']/@value">oakfire</set>  <!-- New Pump Shotgun Model -->
     <remove xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='TintColor']"/> <!-- New Pump Shotgun Model tint removal-->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Repair_amount']/@value">500</set><!-- 100 Default -->
@@ -2036,7 +2037,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
-		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,5" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="35.8" tags="perkPummelPete"/> <!-- meleeWpnClubT3SteelClub --> <!-- Default 32.5 -->

@@ -773,6 +773,7 @@ modGunSoundSuppressorSilencerDesc,item_modifiers,mod,,,"A sound suppressor great
 modGunRevolverMagazineExtender,item_modifiers,mod,,,Revolver Speedloader Mod,,,,,,,,,,,,,
 modGunRevolverMagazineExtenderDesc,item_modifiers,mod,,,"Attaching this mod to a revolver doubles ammo capacity. Does not attach to a Pipe Revolver.",,,,,,,,,,,,,
 modGunRevolverMagazineExtenderSchematic,item_modifiers,Mod,,,Revolver Speedloader Mod Schematic,,,,,,,,,,,,,
+modGunShotgunTubeExtenderMagazineDesc,item_modifiers,Mod,,,"Increases magazine capacity for pump shotguns by 4 shells.",,,,,,,,,,,,,
 modGunWinchesterMagazineExtender,item_modifiers,mod,,,Winchester Speedloader Mod,,,,,,,,,,,,,
 modGunWinchesterMagazineExtenderDesc,item_modifiers,mod,,,"The Winchester Speedloader Mod doubles the ammunition capacity of the Winchester Rifle and Legendary Tribe Winchester Rifle before requiring a full reload.",,,,,,,,,,,,,
 modGunWinchesterMagazineExtenderSchematic,item_modifiers,Mod,,,Winchester Speedloader Mod Schematic,,,,,,,,,,,,,
