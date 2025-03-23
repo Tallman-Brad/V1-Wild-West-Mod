@@ -4321,23 +4321,23 @@
 	<item name="questRewardSteelKnuckleCraftingBundle"/>
 	<item name="questRewardMacheteCraftingBundle"/>
 	<item name="questRewardSteelClubCraftingBundle"/>
-	<item name="questRewardBatonCraftingBundle"/>
+	<!--item name="questRewardBatonCraftingBundle"/-->
 	<item name="questRewardSteelSpearCraftingBundle"/>
 	<item name="questRewardSteelSledgehammerCraftingBundle"/>
 	<item name="questRewardSteelToolsCraftingBundle"/>
-	<item name="questRewardMotorToolsCraftingBundle"/>
+	<!--item name="questRewardMotorToolsCraftingBundle"/-->
 </lootgroup>
 
-<!--lootgroup name="groupQuestLegendaryMeleeCrafting">
+<lootgroup name="groupQuestLegendaryMeleeCrafting">
 	<item name="questRewardLegendarySteelKnuckleCraftingBundle"/>
 	<item name="questRewardLegendaryMacheteCraftingBundle"/>
 	<item name="questRewardLegendarySteelClubCraftingBundle"/>
-	<item name="questRewardLegendaryBatonCraftingBundle"/>
+	<!--item name="questRewardLegendaryBatonCraftingBundle"/-->
 	<item name="questRewardLegendarySteelSpearCraftingBundle"/>
 	<item name="questRewardLegendarySteelSledgehammerCraftingBundle"/>
 	<item name="questRewardLegendarySteelToolsCraftingBundle"/>
-	<item name="questRewardLegendaryMotorToolsCraftingBundle"/>
-</lootgroup-->
+	<!--item name="questRewardLegendaryMotorToolsCraftingBundle"/-->
+</lootgroup>
 
 <lootgroup name="groupQuestRangedCrafting">
 	<item name="questRewardBowCraftingBundle"/>
@@ -4354,7 +4354,7 @@
 	<item name="questRewardLegendaryHandgunCraftingBundle"/>
 	<item name="questRewardLegendaryShotgunCraftingBundle"/>
 	<item name="questRewardLegendaryRifleCraftingBundle"/>
-	<item name="questRewardLegendaryMachineGunCraftingBundle"/>
+	<!--item name="questRewardLegendaryMachineGunCraftingBundle"/-->
 	<!--item name="questRewardLegendaryRoboticsCraftingBundle"/-->
 	<!--item name="questRewardLegendaryRocketLauncherCraftingBundle"/-->
 </lootgroup>
