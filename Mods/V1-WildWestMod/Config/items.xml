@@ -2972,7 +2972,7 @@
 
 <item name="drinkYuccaJuiceCooler">
 	<property name="HoldType" value="3"/>
-	<property name="DisplayType" value="foodWater"/>
+	<property name="DisplayType" value="drinkYuccaJuiceCooler"/>
 	<property name="CustomIcon" value="drinkYuccaJuiceCooler"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
