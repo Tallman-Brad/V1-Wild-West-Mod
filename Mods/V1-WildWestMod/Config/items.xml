@@ -428,6 +428,8 @@
 	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">2500</set><!-- x2.5 of default -->
 	<set xpath="/items/item[@name='resourceBulletTip'] /property[@name='Stacknumber']/@value">2500</set><!-- x2.5 of default -->
 	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">200</set><!-- x8 of default -->
+	<set xpath="/items/item[@name='resourceArmorCraftingKit']/property[@name='Stacknumber']/@value">200</set><!-- x8 of default -->
+	<set xpath="/items/item[@name='resourceLegendaryParts']/property[@name='Stacknumber']/@value">200</set><!-- x8 of default -->
 	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">250</set><!-- x5 of default -->
 	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">25</set><!-- x5 of default -->	
 	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">50</set><!-- x50 of default -->	
