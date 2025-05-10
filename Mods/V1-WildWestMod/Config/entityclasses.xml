@@ -1625,7 +1625,7 @@
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
+	<property name="Mesh" value="#@modfolder:Resources/newhares.unity3d?animalSnowHarePrefab"/>
 	<property name="SizeScale" value="1.8"/>	
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
@@ -1668,7 +1668,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="50"/> <!-- regular rabbit 10 -->
+		<passive_effect name="HealthMax" operation="base_set" value="120"/> <!-- regular rabbit 10 -->
 	</effect_group>
 
 	<property name="NavObject" value="animaltracking_rabbit" />
@@ -1684,7 +1684,7 @@
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
+	<property name="Mesh" value="#@modfolder:Resources/newhares.unity3d?animalDesertHarePrefab"/>
 	<property name="SizeScale" value="1.8"/>
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
@@ -1726,7 +1726,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="50"/> <!-- regular rabbit 10 -->
+		<passive_effect name="HealthMax" operation="base_set" value="120"/> <!-- regular rabbit 10 -->
 	</effect_group>
 
 	<property name="NavObject" value="animaltracking_rabbit" />
