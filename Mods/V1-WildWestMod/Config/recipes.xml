@@ -3116,7 +3116,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="meleeWpnKnucklesT0LeatherKnuckles" count="1" tags="perkBrawler">
 	<ingredient name="resourceScrapIron" count="6"/>
-	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceCloth" count="20"/>
 	<ingredient name="resourceLegendaryParts" count="0"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
