@@ -483,6 +483,7 @@ qc_eliminateradiatedgunslingerwightDesc,items,item,,,"Eliminate the Radiated Gun
 zombieWightRadiatedGunslinger,entityclasses,Entity,,,Radiated Gunslinger Wight,,,,,,,,,,,,,
 zombieBusinessManRadiatedGunslinger,entityclasses,Entity,,,Monsignor,,,,,,,,,,,,,
 zombieLumberjackRadiatedAxe,entityclasses,Entity,,,Texas Red,,,,,,,,,,,,,
+zombieSkateboarderUndertakerRadiated,entityclasses,Entity,,,The Undertaker,,,,,,,,,,,,,
 
 qc_eliminateanimals,items,Quest - Challenge,,,"Hunter Achievement Quest",,,,,,,,,,,,,
 qc_eliminateanimalsDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to find and hunt animals over multiple stages. Earn XP, Dukes, and 2 Skill Points upon completion.\n\nThis Quest repeats in an endless loop.",,,,,,,,,,,,,
